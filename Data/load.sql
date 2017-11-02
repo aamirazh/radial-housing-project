@@ -1,0 +1,2 @@
+\COPY Durham_Household_Income(id, id2, geography, income) FROM 'HOUSEHOLD_INCOME_DURHAM_ACS_15_5YR_B19025_with_ann.csv' WITH DELIMITER ',' NULL '' CSV
+\COPY Durham_Race(id, id2, geography, total, white, black_or_african_american, american_indian_or_alaska_native, asian, native_hawaiian_and_other_pacific_islander, other, two_or_more, two_or_more_including_some_other, two_or_more_excluding_some_other_and_three_or_more) FROM 'RACE_DURHAM_ACS_15_5YR_B02001_with_ann.csv' WITH DELIMITER ',' NULL '' CSV
