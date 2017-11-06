@@ -1,0 +1,757 @@
+--------------------------------------------------------------------------------
+Codebook for NHGIS data file 'nhgis0004_ds176_20105_2010_blck_grp'
+--------------------------------------------------------------------------------
+ 
+Contents
+    - Data Summary
+    - Data Dictionary
+    - Citation and Use
+ 
+Additional documentation on NHGIS data sources is available at: 
+    https://www.nhgis.org/documentation/tabular-data 
+ 
+--------------------------------------------------------------------------------
+Data Summary
+--------------------------------------------------------------------------------
+ 
+Year:             2006-2010
+Geographic level: Block Group (by State--County--Census Tract)
+Dataset:          2010 American Community Survey: 5-Year Data [2006-2010, Block Groups & Larger Areas]
+   NHGIS code:    2006_2010_ACS5a
+   NHGIS ID:      ds176
+Breakdown(s):     Geographic Subarea:
+                     Total area (00)
+Data type(s):     (E) Estimates
+                  (M) Margins of error
+ 
+Tables:
+ 
+1. Race
+   Universe:    Total population
+   Source code: B02001
+   NHGIS code:  JMB
+ 
+2. Geographical Mobility in the Past Year for Current Residence--Metropolitan Statistical Area Level in the United States
+   Universe:    Population 1 year and over living in a Metropolitan Statistical Area in the United States
+   Source code: C07201
+   NHGIS code:  JML
+ 
+3. Means of Transportation to Work by Travel Time to Work
+   Universe:    Workers 16 years and over who did not work at home
+   Source code: C08134
+   NHGIS code:  JMX
+ 
+4. Sex by Educational Attainment for the Population 25 Years and Over
+   Universe:    Population 25 years and over
+   Source code: B15002
+   NHGIS code:  JN9
+ 
+5. Age by Language Spoken at Home by Ability to Speak English for the Population 5 Years and Over
+   Universe:    Population 5 years and over
+   Source code: B16004
+   NHGIS code:  JOB
+ 
+6. Ratio of Income to Poverty Level in the Past 12 Months
+   Universe:    Population for whom poverty status is determined
+   Source code: C17002
+   NHGIS code:  JOC
+ 
+7. Public Assistance Income in the Past 12 Months for Households
+   Universe:    Households
+   Source code: B19057
+   NHGIS code:  JPB
+ 
+8. Per Capita Income in the Past 12 Months (in 2010 Inflation-Adjusted Dollars)
+   Universe:    Total population
+   Source code: B19301
+   NHGIS code:  JQB
+ 
+9. Sex by Work Status in the Past 12 Months by Usual Hours Worked per Week in the Past 12 Months by Weeks Worked in the Past 12 Months for the Population 16 to 64 Years
+   Universe:    Population 16 to 64 years
+   Source code: B23022
+   NHGIS code:  JQ4
+ 
+10. Imputation of Citizenship Status
+    Universe:    Total population
+    Source code: B99051
+    NHGIS code:  JT2
+ 
+--------------------------------------------------------------------------------
+Data Dictionary
+--------------------------------------------------------------------------------
+ 
+Context Fields 
+        GISJOIN:     GIS Join Match Code
+        YEAR:        Data File Year
+        REGIONA:     Region Code
+        DIVISIONA:   Division Code
+        STATE:       State Name
+        STATEA:      State Code
+        COUNTY:      County Name
+        COUNTYA:     County Code
+        COUSUBA:     County Subdivision Code
+        PLACEA:      Place Code
+        TRACTA:      Census Tract Code
+        BLKGRPA:     Block Group Code
+        CONCITA:     Consolidated City Code
+        AIANHHA:     American Indian Area/Alaska Native Area/Hawaiian Home Land Code
+        RES_ONLYA:   American Indian Area/Alaska Native Area (Reservation or Statistical Entity Only) Code
+        TRUSTA:      American Indian Reservation with Trust Lands; trust lands only Code
+        AITSCEA:     Tribal Subdivision/Remainder Code
+        ANRCA:       Alaska Native Regional Corporation Code
+        CBSAA:       Metropolitan Statistical Area/Micropolitan Statistical Area Code
+        CSAA:        Combined Statistical Area Code
+        METDIVA:     Metropolitan Division Code
+        NECTAA:      New England City and Town Area Code
+        CNECTAA:     Combined New England City and Town Area Code
+        NECTADIVA:   New England City and Town Area Division Code
+        UAA:         Urban Area Code
+        CDCURRA:     Congressional District (111th Congress) Code
+        SLDUA:       State Legislative District (Upper Chamber) Code
+        SLDLA:       State Legislative District (Lower Chamber) Code
+        SUBMCDA:     Subminor Civil Division Code
+        SDELMA:      School District (Elementary)/Remainder Code
+        SDSECA:      School District (Secondary)/Remainder Code
+        SDUNIA:      School District (Unified)/Remainder Code
+        PUMA5A:      Public Use Microdata Sample Area (PUMA) Code
+        BTTRA:       Tribal Census Tract Code
+        BTBGA:       Tribal Block Group Code
+ 
+Data Type (E):
+    Estimates
+ 
+        NAME_E:      Area Name
+ 
+    Table 1:     Race
+    Universe:    Total population
+    Source code: B02001
+    NHGIS code:  JMB
+        JMBE001:     Total
+        JMBE002:     White alone
+        JMBE003:     Black or African American alone
+        JMBE004:     American Indian and Alaska Native alone
+        JMBE005:     Asian alone
+        JMBE006:     Native Hawaiian and Other Pacific Islander alone
+        JMBE007:     Some other race alone
+        JMBE008:     Two or more races
+        JMBE009:     Two or more races: Two races including Some other race
+        JMBE010:     Two or more races: Two races excluding Some other race, and three or more races
+ 
+    Table 2:     Geographical Mobility in the Past Year for Current Residence--Metropolitan Statistical Area Level in the United States
+    Universe:    Population 1 year and over living in a Metropolitan Statistical Area in the United States
+    Source code: C07201
+    NHGIS code:  JML
+        JMLE001:     Total
+        JMLE002:     Same house 1 year ago
+        JMLE003:     Different house in United States 1 year ago
+        JMLE004:     Different house in United States 1 year ago: Same Metropolitan Statistical Area
+        JMLE005:     Different house in United States 1 year ago: Same Metropolitan Statistical Area: Moved from principal city
+        JMLE006:     Different house in United States 1 year ago: Same Metropolitan Statistical Area: Moved from remainder of Metropolitan Statistical Area
+        JMLE007:     Different house in United States 1 year ago: Different Metropolitan Statistical Area
+        JMLE008:     Different house in United States 1 year ago: Different Metropolitan Statistical Area: Moved from principal city
+        JMLE009:     Different house in United States 1 year ago: Different Metropolitan Statistical Area: Moved from remainder of Metropolitan Statistical Area
+        JMLE010:     Different house in United States 1 year ago: Micropolitan Statistical Area
+        JMLE011:     Different house in United States 1 year ago: Not in a Metropolitan or Micropolitan Statistical Area 1 year ago
+        JMLE012:     Abroad 1 year ago
+ 
+    Table 3:     Means of Transportation to Work by Travel Time to Work
+    Universe:    Workers 16 years and over who did not work at home
+    Source code: C08134
+    NHGIS code:  JMX
+        JMXE001:     Total
+        JMXE002:     Less than 10 minutes
+        JMXE003:     10 to 14 minutes
+        JMXE004:     15 to 19 minutes
+        JMXE005:     20 to 24 minutes
+        JMXE006:     25 to 29 minutes
+        JMXE007:     30 to 34 minutes
+        JMXE008:     35 to 44 minutes
+        JMXE009:     45 to 59 minutes
+        JMXE010:     60 or more minutes
+        JMXE011:     Car, truck, or van - drove alone
+        JMXE012:     Car, truck, or van - drove alone: Less than 10 minutes
+        JMXE013:     Car, truck, or van - drove alone: 10 to 14 minutes
+        JMXE014:     Car, truck, or van - drove alone: 15 to 19 minutes
+        JMXE015:     Car, truck, or van - drove alone: 20 to 24 minutes
+        JMXE016:     Car, truck, or van - drove alone: 25 to 29 minutes
+        JMXE017:     Car, truck, or van - drove alone: 30 to 34 minutes
+        JMXE018:     Car, truck, or van - drove alone: 35 to 44 minutes
+        JMXE019:     Car, truck, or van - drove alone: 45 to 59 minutes
+        JMXE020:     Car, truck, or van - drove alone: 60 or more minutes
+        JMXE021:     Car, truck, or van - carpooled
+        JMXE022:     Car, truck, or van - carpooled: Less than 10 minutes
+        JMXE023:     Car, truck, or van - carpooled: 10 to 14 minutes
+        JMXE024:     Car, truck, or van - carpooled: 15 to 19 minutes
+        JMXE025:     Car, truck, or van - carpooled: 20 to 24 minutes
+        JMXE026:     Car, truck, or van - carpooled: 25 to 29 minutes
+        JMXE027:     Car, truck, or van - carpooled: 30 to 34 minutes
+        JMXE028:     Car, truck, or van - carpooled: 35 to 44 minutes
+        JMXE029:     Car, truck, or van - carpooled: 45 to 59 minutes
+        JMXE030:     Car, truck, or van - carpooled: 60 or more minutes
+        JMXE031:     Public transportation (excluding taxicab)
+        JMXE032:     Public transportation (excluding taxicab): Less than 10 minutes
+        JMXE033:     Public transportation (excluding taxicab): 10 to 14 minutes
+        JMXE034:     Public transportation (excluding taxicab): 15 to 19 minutes
+        JMXE035:     Public transportation (excluding taxicab): 20 to 24 minutes
+        JMXE036:     Public transportation (excluding taxicab): 25 to 29 minutes
+        JMXE037:     Public transportation (excluding taxicab): 30 to 34 minutes
+        JMXE038:     Public transportation (excluding taxicab): 35 to 44 minutes
+        JMXE039:     Public transportation (excluding taxicab): 45 to 59 minutes
+        JMXE040:     Public transportation (excluding taxicab): 60 or more minutes
+        JMXE041:     Taxicab, motorcycle, bicycle, walked, or other means
+        JMXE042:     Taxicab, motorcycle, bicycle, walked, or other means: Less than 10 minutes
+        JMXE043:     Taxicab, motorcycle, bicycle, walked, or other means: 10 to 14 minutes
+        JMXE044:     Taxicab, motorcycle, bicycle, walked, or other means: 15 to 19 minutes
+        JMXE045:     Taxicab, motorcycle, bicycle, walked, or other means: 20 to 24 minutes
+        JMXE046:     Taxicab, motorcycle, bicycle, walked, or other means: 25 to 29 minutes
+        JMXE047:     Taxicab, motorcycle, bicycle, walked, or other means: 30 to 34 minutes
+        JMXE048:     Taxicab, motorcycle, bicycle, walked, or other means: 35 to 44 minutes
+        JMXE049:     Taxicab, motorcycle, bicycle, walked, or other means: 45 to 59 minutes
+        JMXE050:     Taxicab, motorcycle, bicycle, walked, or other means: 60 or more minutes
+ 
+    Table 4:     Sex by Educational Attainment for the Population 25 Years and Over
+    Universe:    Population 25 years and over
+    Source code: B15002
+    NHGIS code:  JN9
+        JN9E001:     Total
+        JN9E002:     Male
+        JN9E003:     Male: No schooling completed
+        JN9E004:     Male: Nursery to 4th grade
+        JN9E005:     Male: 5th and 6th grade
+        JN9E006:     Male: 7th and 8th grade
+        JN9E007:     Male: 9th grade
+        JN9E008:     Male: 10th grade
+        JN9E009:     Male: 11th grade
+        JN9E010:     Male: 12th grade, no diploma
+        JN9E011:     Male: High school graduate, GED, or alternative
+        JN9E012:     Male: Some college, less than 1 year
+        JN9E013:     Male: Some college, 1 or more years, no degree
+        JN9E014:     Male: Associate's degree
+        JN9E015:     Male: Bachelor's degree
+        JN9E016:     Male: Master's degree
+        JN9E017:     Male: Professional school degree
+        JN9E018:     Male: Doctorate degree
+        JN9E019:     Female
+        JN9E020:     Female: No schooling completed
+        JN9E021:     Female: Nursery to 4th grade
+        JN9E022:     Female: 5th and 6th grade
+        JN9E023:     Female: 7th and 8th grade
+        JN9E024:     Female: 9th grade
+        JN9E025:     Female: 10th grade
+        JN9E026:     Female: 11th grade
+        JN9E027:     Female: 12th grade, no diploma
+        JN9E028:     Female: High school graduate, GED, or alternative
+        JN9E029:     Female: Some college, less than 1 year
+        JN9E030:     Female: Some college, 1 or more years, no degree
+        JN9E031:     Female: Associate's degree
+        JN9E032:     Female: Bachelor's degree
+        JN9E033:     Female: Master's degree
+        JN9E034:     Female: Professional school degree
+        JN9E035:     Female: Doctorate degree
+ 
+    Table 5:     Age by Language Spoken at Home by Ability to Speak English for the Population 5 Years and Over
+    Universe:    Population 5 years and over
+    Source code: B16004
+    NHGIS code:  JOB
+        JOBE001:     Total
+        JOBE002:     5 to 17 years
+        JOBE003:     5 to 17 years: Speak only English
+        JOBE004:     5 to 17 years: Speak Spanish
+        JOBE005:     5 to 17 years: Speak Spanish: Speak English 'very well'
+        JOBE006:     5 to 17 years: Speak Spanish: Speak English 'well'
+        JOBE007:     5 to 17 years: Speak Spanish: Speak English 'not well'
+        JOBE008:     5 to 17 years: Speak Spanish: Speak English 'not at all'
+        JOBE009:     5 to 17 years: Speak other Indo-European languages
+        JOBE010:     5 to 17 years: Speak other Indo-European languages: Speak English 'very well'
+        JOBE011:     5 to 17 years: Speak other Indo-European languages: Speak English 'well'
+        JOBE012:     5 to 17 years: Speak other Indo-European languages: Speak English 'not well'
+        JOBE013:     5 to 17 years: Speak other Indo-European languages: Speak English 'not at all'
+        JOBE014:     5 to 17 years: Speak Asian and Pacific Island languages
+        JOBE015:     5 to 17 years: Speak Asian and Pacific Island languages: Speak English 'very well'
+        JOBE016:     5 to 17 years: Speak Asian and Pacific Island languages: Speak English 'well'
+        JOBE017:     5 to 17 years: Speak Asian and Pacific Island languages: Speak English 'not well'
+        JOBE018:     5 to 17 years: Speak Asian and Pacific Island languages: Speak English 'not at all'
+        JOBE019:     5 to 17 years: Speak other languages
+        JOBE020:     5 to 17 years: Speak other languages: Speak English 'very well'
+        JOBE021:     5 to 17 years: Speak other languages: Speak English 'well'
+        JOBE022:     5 to 17 years: Speak other languages: Speak English 'not well'
+        JOBE023:     5 to 17 years: Speak other languages: Speak English 'not at all'
+        JOBE024:     18 to 64 years
+        JOBE025:     18 to 64 years: Speak only English
+        JOBE026:     18 to 64 years: Speak Spanish
+        JOBE027:     18 to 64 years: Speak Spanish: Speak English 'very well'
+        JOBE028:     18 to 64 years: Speak Spanish: Speak English 'well'
+        JOBE029:     18 to 64 years: Speak Spanish: Speak English 'not well'
+        JOBE030:     18 to 64 years: Speak Spanish: Speak English 'not at all'
+        JOBE031:     18 to 64 years: Speak other Indo-European languages
+        JOBE032:     18 to 64 years: Speak other Indo-European languages: Speak English 'very well'
+        JOBE033:     18 to 64 years: Speak other Indo-European languages: Speak English 'well'
+        JOBE034:     18 to 64 years: Speak other Indo-European languages: Speak English 'not well'
+        JOBE035:     18 to 64 years: Speak other Indo-European languages: Speak English 'not at all'
+        JOBE036:     18 to 64 years: Speak Asian and Pacific Island languages
+        JOBE037:     18 to 64 years: Speak Asian and Pacific Island languages: Speak English 'very well'
+        JOBE038:     18 to 64 years: Speak Asian and Pacific Island languages: Speak English 'well'
+        JOBE039:     18 to 64 years: Speak Asian and Pacific Island languages: Speak English 'not well'
+        JOBE040:     18 to 64 years: Speak Asian and Pacific Island languages: Speak English 'not at all'
+        JOBE041:     18 to 64 years: Speak other languages
+        JOBE042:     18 to 64 years: Speak other languages: Speak English 'very well'
+        JOBE043:     18 to 64 years: Speak other languages: Speak English 'well'
+        JOBE044:     18 to 64 years: Speak other languages: Speak English 'not well'
+        JOBE045:     18 to 64 years: Speak other languages: Speak English 'not at all'
+        JOBE046:     65 years and over
+        JOBE047:     65 years and over: Speak only English
+        JOBE048:     65 years and over: Speak Spanish
+        JOBE049:     65 years and over: Speak Spanish: Speak English 'very well'
+        JOBE050:     65 years and over: Speak Spanish: Speak English 'well'
+        JOBE051:     65 years and over: Speak Spanish: Speak English 'not well'
+        JOBE052:     65 years and over: Speak Spanish: Speak English 'not at all'
+        JOBE053:     65 years and over: Speak other Indo-European languages
+        JOBE054:     65 years and over: Speak other Indo-European languages: Speak English 'very well'
+        JOBE055:     65 years and over: Speak other Indo-European languages: Speak English 'well'
+        JOBE056:     65 years and over: Speak other Indo-European languages: Speak English 'not well'
+        JOBE057:     65 years and over: Speak other Indo-European languages: Speak English 'not at all'
+        JOBE058:     65 years and over: Speak Asian and Pacific Island languages
+        JOBE059:     65 years and over: Speak Asian and Pacific Island languages: Speak English 'very well'
+        JOBE060:     65 years and over: Speak Asian and Pacific Island languages: Speak English 'well'
+        JOBE061:     65 years and over: Speak Asian and Pacific Island languages: Speak English 'not well'
+        JOBE062:     65 years and over: Speak Asian and Pacific Island languages: Speak English 'not at all'
+        JOBE063:     65 years and over: Speak other languages
+        JOBE064:     65 years and over: Speak other languages: Speak English 'very well'
+        JOBE065:     65 years and over: Speak other languages: Speak English 'well'
+        JOBE066:     65 years and over: Speak other languages: Speak English 'not well'
+        JOBE067:     65 years and over: Speak other languages: Speak English 'not at all'
+ 
+    Table 6:     Ratio of Income to Poverty Level in the Past 12 Months
+    Universe:    Population for whom poverty status is determined
+    Source code: C17002
+    NHGIS code:  JOC
+        JOCE001:     Total
+        JOCE002:     Under .50
+        JOCE003:     .50 to .99
+        JOCE004:     1.00 to 1.24
+        JOCE005:     1.25 to 1.49
+        JOCE006:     1.50 to 1.84
+        JOCE007:     1.85 to 1.99
+        JOCE008:     2.00 and over
+ 
+    Table 7:     Public Assistance Income in the Past 12 Months for Households
+    Universe:    Households
+    Source code: B19057
+    NHGIS code:  JPB
+        JPBE001:     Total
+        JPBE002:     With public assistance income
+        JPBE003:     No public assistance income
+ 
+    Table 8:     Per Capita Income in the Past 12 Months (in 2010 Inflation-Adjusted Dollars)
+    Universe:    Total population
+    Source code: B19301
+    NHGIS code:  JQB
+        JQBE001:     Per capita income in the past 12 months (in 2010 inflation-adjusted dollars)
+ 
+    Table 9:     Sex by Work Status in the Past 12 Months by Usual Hours Worked per Week in the Past 12 Months by Weeks Worked in the Past 12 Months for the Population 16 to 64 Years
+    Universe:    Population 16 to 64 years
+    Source code: B23022
+    NHGIS code:  JQ4
+        JQ4E001:     Total
+        JQ4E002:     Male
+        JQ4E003:     Male: Worked in the past 12 months
+        JQ4E004:     Male: Worked in the past 12 months: Usually worked 35 or more hours per week
+        JQ4E005:     Male: Worked in the past 12 months: Usually worked 35 or more hours per week: 50 to 52 weeks
+        JQ4E006:     Male: Worked in the past 12 months: Usually worked 35 or more hours per week: 48 and 49 weeks
+        JQ4E007:     Male: Worked in the past 12 months: Usually worked 35 or more hours per week: 40 to 47 weeks
+        JQ4E008:     Male: Worked in the past 12 months: Usually worked 35 or more hours per week: 27 to 39 weeks
+        JQ4E009:     Male: Worked in the past 12 months: Usually worked 35 or more hours per week: 14 to 26 weeks
+        JQ4E010:     Male: Worked in the past 12 months: Usually worked 35 or more hours per week: 1 to 13 weeks
+        JQ4E011:     Male: Worked in the past 12 months: Usually worked 15 to 34 hours per week
+        JQ4E012:     Male: Worked in the past 12 months: Usually worked 15 to 34 hours per week: 50 to 52 weeks
+        JQ4E013:     Male: Worked in the past 12 months: Usually worked 15 to 34 hours per week: 48 and 49 weeks
+        JQ4E014:     Male: Worked in the past 12 months: Usually worked 15 to 34 hours per week: 40 to 47 weeks
+        JQ4E015:     Male: Worked in the past 12 months: Usually worked 15 to 34 hours per week: 27 to 39 weeks
+        JQ4E016:     Male: Worked in the past 12 months: Usually worked 15 to 34 hours per week: 14 to 26 weeks
+        JQ4E017:     Male: Worked in the past 12 months: Usually worked 15 to 34 hours per week: 1 to 13 weeks
+        JQ4E018:     Male: Worked in the past 12 months: Usually worked 1 to 14 hours per week
+        JQ4E019:     Male: Worked in the past 12 months: Usually worked 1 to 14 hours per week: 50 to 52 weeks
+        JQ4E020:     Male: Worked in the past 12 months: Usually worked 1 to 14 hours per week: 48 and 49 weeks
+        JQ4E021:     Male: Worked in the past 12 months: Usually worked 1 to 14 hours per week: 40 to 47 weeks
+        JQ4E022:     Male: Worked in the past 12 months: Usually worked 1 to 14 hours per week: 27 to 39 weeks
+        JQ4E023:     Male: Worked in the past 12 months: Usually worked 1 to 14 hours per week: 14 to 26 weeks
+        JQ4E024:     Male: Worked in the past 12 months: Usually worked 1 to 14 hours per week: 1 to 13 weeks
+        JQ4E025:     Male: Did not work in the past 12 months
+        JQ4E026:     Female
+        JQ4E027:     Female: Worked in the past 12 months
+        JQ4E028:     Female: Worked in the past 12 months: Usually worked 35 or more hours per week
+        JQ4E029:     Female: Worked in the past 12 months: Usually worked 35 or more hours per week: 50 to 52 weeks
+        JQ4E030:     Female: Worked in the past 12 months: Usually worked 35 or more hours per week: 48 and 49 weeks
+        JQ4E031:     Female: Worked in the past 12 months: Usually worked 35 or more hours per week: 40 to 47 weeks
+        JQ4E032:     Female: Worked in the past 12 months: Usually worked 35 or more hours per week: 27 to 39 weeks
+        JQ4E033:     Female: Worked in the past 12 months: Usually worked 35 or more hours per week: 14 to 26 weeks
+        JQ4E034:     Female: Worked in the past 12 months: Usually worked 35 or more hours per week: 1 to 13 weeks
+        JQ4E035:     Female: Worked in the past 12 months: Usually worked 15 to 34 hours per week
+        JQ4E036:     Female: Worked in the past 12 months: Usually worked 15 to 34 hours per week: 50 to 52 weeks
+        JQ4E037:     Female: Worked in the past 12 months: Usually worked 15 to 34 hours per week: 48 and 49 weeks
+        JQ4E038:     Female: Worked in the past 12 months: Usually worked 15 to 34 hours per week: 40 to 47 weeks
+        JQ4E039:     Female: Worked in the past 12 months: Usually worked 15 to 34 hours per week: 27 to 39 weeks
+        JQ4E040:     Female: Worked in the past 12 months: Usually worked 15 to 34 hours per week: 14 to 26 weeks
+        JQ4E041:     Female: Worked in the past 12 months: Usually worked 15 to 34 hours per week: 1 to 13 weeks
+        JQ4E042:     Female: Worked in the past 12 months: Usually worked 1 to 14 hours per week
+        JQ4E043:     Female: Worked in the past 12 months: Usually worked 1 to 14 hours per week: 50 to 52 weeks
+        JQ4E044:     Female: Worked in the past 12 months: Usually worked 1 to 14 hours per week: 48 and 49 weeks
+        JQ4E045:     Female: Worked in the past 12 months: Usually worked 1 to 14 hours per week: 40 to 47 weeks
+        JQ4E046:     Female: Worked in the past 12 months: Usually worked 1 to 14 hours per week: 27 to 39 weeks
+        JQ4E047:     Female: Worked in the past 12 months: Usually worked 1 to 14 hours per week: 14 to 26 weeks
+        JQ4E048:     Female: Worked in the past 12 months: Usually worked 1 to 14 hours per week: 1 to 13 weeks
+        JQ4E049:     Female: Did not work in the past 12 months
+ 
+    Table 10:    Imputation of Citizenship Status
+    Universe:    Total population
+    Source code: B99051
+    NHGIS code:  JT2
+        JT2E001:     Total
+        JT2E002:     Native
+        JT2E003:     Native: Imputed
+        JT2E004:     Native: Not imputed
+        JT2E005:     Foreign born
+        JT2E006:     Foreign born: Imputed
+        JT2E007:     Foreign born: Not imputed
+ 
+Data Type (M):
+    Margins of error
+ 
+        NAME_M:      Area Name
+ 
+    Table 1:     Race
+    Universe:    Total population
+    Source code: B02001
+    NHGIS code:  JMB
+        JMBM001:     Total
+        JMBM002:     White alone
+        JMBM003:     Black or African American alone
+        JMBM004:     American Indian and Alaska Native alone
+        JMBM005:     Asian alone
+        JMBM006:     Native Hawaiian and Other Pacific Islander alone
+        JMBM007:     Some other race alone
+        JMBM008:     Two or more races
+        JMBM009:     Two or more races: Two races including Some other race
+        JMBM010:     Two or more races: Two races excluding Some other race, and three or more races
+ 
+    Table 2:     Geographical Mobility in the Past Year for Current Residence--Metropolitan Statistical Area Level in the United States
+    Universe:    Population 1 year and over living in a Metropolitan Statistical Area in the United States
+    Source code: C07201
+    NHGIS code:  JML
+        JMLM001:     Total
+        JMLM002:     Same house 1 year ago
+        JMLM003:     Different house in United States 1 year ago
+        JMLM004:     Different house in United States 1 year ago: Same Metropolitan Statistical Area
+        JMLM005:     Different house in United States 1 year ago: Same Metropolitan Statistical Area: Moved from principal city
+        JMLM006:     Different house in United States 1 year ago: Same Metropolitan Statistical Area: Moved from remainder of Metropolitan Statistical Area
+        JMLM007:     Different house in United States 1 year ago: Different Metropolitan Statistical Area
+        JMLM008:     Different house in United States 1 year ago: Different Metropolitan Statistical Area: Moved from principal city
+        JMLM009:     Different house in United States 1 year ago: Different Metropolitan Statistical Area: Moved from remainder of Metropolitan Statistical Area
+        JMLM010:     Different house in United States 1 year ago: Micropolitan Statistical Area
+        JMLM011:     Different house in United States 1 year ago: Not in a Metropolitan or Micropolitan Statistical Area 1 year ago
+        JMLM012:     Abroad 1 year ago
+ 
+    Table 3:     Means of Transportation to Work by Travel Time to Work
+    Universe:    Workers 16 years and over who did not work at home
+    Source code: C08134
+    NHGIS code:  JMX
+        JMXM001:     Total
+        JMXM002:     Less than 10 minutes
+        JMXM003:     10 to 14 minutes
+        JMXM004:     15 to 19 minutes
+        JMXM005:     20 to 24 minutes
+        JMXM006:     25 to 29 minutes
+        JMXM007:     30 to 34 minutes
+        JMXM008:     35 to 44 minutes
+        JMXM009:     45 to 59 minutes
+        JMXM010:     60 or more minutes
+        JMXM011:     Car, truck, or van - drove alone
+        JMXM012:     Car, truck, or van - drove alone: Less than 10 minutes
+        JMXM013:     Car, truck, or van - drove alone: 10 to 14 minutes
+        JMXM014:     Car, truck, or van - drove alone: 15 to 19 minutes
+        JMXM015:     Car, truck, or van - drove alone: 20 to 24 minutes
+        JMXM016:     Car, truck, or van - drove alone: 25 to 29 minutes
+        JMXM017:     Car, truck, or van - drove alone: 30 to 34 minutes
+        JMXM018:     Car, truck, or van - drove alone: 35 to 44 minutes
+        JMXM019:     Car, truck, or van - drove alone: 45 to 59 minutes
+        JMXM020:     Car, truck, or van - drove alone: 60 or more minutes
+        JMXM021:     Car, truck, or van - carpooled
+        JMXM022:     Car, truck, or van - carpooled: Less than 10 minutes
+        JMXM023:     Car, truck, or van - carpooled: 10 to 14 minutes
+        JMXM024:     Car, truck, or van - carpooled: 15 to 19 minutes
+        JMXM025:     Car, truck, or van - carpooled: 20 to 24 minutes
+        JMXM026:     Car, truck, or van - carpooled: 25 to 29 minutes
+        JMXM027:     Car, truck, or van - carpooled: 30 to 34 minutes
+        JMXM028:     Car, truck, or van - carpooled: 35 to 44 minutes
+        JMXM029:     Car, truck, or van - carpooled: 45 to 59 minutes
+        JMXM030:     Car, truck, or van - carpooled: 60 or more minutes
+        JMXM031:     Public transportation (excluding taxicab)
+        JMXM032:     Public transportation (excluding taxicab): Less than 10 minutes
+        JMXM033:     Public transportation (excluding taxicab): 10 to 14 minutes
+        JMXM034:     Public transportation (excluding taxicab): 15 to 19 minutes
+        JMXM035:     Public transportation (excluding taxicab): 20 to 24 minutes
+        JMXM036:     Public transportation (excluding taxicab): 25 to 29 minutes
+        JMXM037:     Public transportation (excluding taxicab): 30 to 34 minutes
+        JMXM038:     Public transportation (excluding taxicab): 35 to 44 minutes
+        JMXM039:     Public transportation (excluding taxicab): 45 to 59 minutes
+        JMXM040:     Public transportation (excluding taxicab): 60 or more minutes
+        JMXM041:     Taxicab, motorcycle, bicycle, walked, or other means
+        JMXM042:     Taxicab, motorcycle, bicycle, walked, or other means: Less than 10 minutes
+        JMXM043:     Taxicab, motorcycle, bicycle, walked, or other means: 10 to 14 minutes
+        JMXM044:     Taxicab, motorcycle, bicycle, walked, or other means: 15 to 19 minutes
+        JMXM045:     Taxicab, motorcycle, bicycle, walked, or other means: 20 to 24 minutes
+        JMXM046:     Taxicab, motorcycle, bicycle, walked, or other means: 25 to 29 minutes
+        JMXM047:     Taxicab, motorcycle, bicycle, walked, or other means: 30 to 34 minutes
+        JMXM048:     Taxicab, motorcycle, bicycle, walked, or other means: 35 to 44 minutes
+        JMXM049:     Taxicab, motorcycle, bicycle, walked, or other means: 45 to 59 minutes
+        JMXM050:     Taxicab, motorcycle, bicycle, walked, or other means: 60 or more minutes
+ 
+    Table 4:     Sex by Educational Attainment for the Population 25 Years and Over
+    Universe:    Population 25 years and over
+    Source code: B15002
+    NHGIS code:  JN9
+        JN9M001:     Total
+        JN9M002:     Male
+        JN9M003:     Male: No schooling completed
+        JN9M004:     Male: Nursery to 4th grade
+        JN9M005:     Male: 5th and 6th grade
+        JN9M006:     Male: 7th and 8th grade
+        JN9M007:     Male: 9th grade
+        JN9M008:     Male: 10th grade
+        JN9M009:     Male: 11th grade
+        JN9M010:     Male: 12th grade, no diploma
+        JN9M011:     Male: High school graduate, GED, or alternative
+        JN9M012:     Male: Some college, less than 1 year
+        JN9M013:     Male: Some college, 1 or more years, no degree
+        JN9M014:     Male: Associate's degree
+        JN9M015:     Male: Bachelor's degree
+        JN9M016:     Male: Master's degree
+        JN9M017:     Male: Professional school degree
+        JN9M018:     Male: Doctorate degree
+        JN9M019:     Female
+        JN9M020:     Female: No schooling completed
+        JN9M021:     Female: Nursery to 4th grade
+        JN9M022:     Female: 5th and 6th grade
+        JN9M023:     Female: 7th and 8th grade
+        JN9M024:     Female: 9th grade
+        JN9M025:     Female: 10th grade
+        JN9M026:     Female: 11th grade
+        JN9M027:     Female: 12th grade, no diploma
+        JN9M028:     Female: High school graduate, GED, or alternative
+        JN9M029:     Female: Some college, less than 1 year
+        JN9M030:     Female: Some college, 1 or more years, no degree
+        JN9M031:     Female: Associate's degree
+        JN9M032:     Female: Bachelor's degree
+        JN9M033:     Female: Master's degree
+        JN9M034:     Female: Professional school degree
+        JN9M035:     Female: Doctorate degree
+ 
+    Table 5:     Age by Language Spoken at Home by Ability to Speak English for the Population 5 Years and Over
+    Universe:    Population 5 years and over
+    Source code: B16004
+    NHGIS code:  JOB
+        JOBM001:     Total
+        JOBM002:     5 to 17 years
+        JOBM003:     5 to 17 years: Speak only English
+        JOBM004:     5 to 17 years: Speak Spanish
+        JOBM005:     5 to 17 years: Speak Spanish: Speak English 'very well'
+        JOBM006:     5 to 17 years: Speak Spanish: Speak English 'well'
+        JOBM007:     5 to 17 years: Speak Spanish: Speak English 'not well'
+        JOBM008:     5 to 17 years: Speak Spanish: Speak English 'not at all'
+        JOBM009:     5 to 17 years: Speak other Indo-European languages
+        JOBM010:     5 to 17 years: Speak other Indo-European languages: Speak English 'very well'
+        JOBM011:     5 to 17 years: Speak other Indo-European languages: Speak English 'well'
+        JOBM012:     5 to 17 years: Speak other Indo-European languages: Speak English 'not well'
+        JOBM013:     5 to 17 years: Speak other Indo-European languages: Speak English 'not at all'
+        JOBM014:     5 to 17 years: Speak Asian and Pacific Island languages
+        JOBM015:     5 to 17 years: Speak Asian and Pacific Island languages: Speak English 'very well'
+        JOBM016:     5 to 17 years: Speak Asian and Pacific Island languages: Speak English 'well'
+        JOBM017:     5 to 17 years: Speak Asian and Pacific Island languages: Speak English 'not well'
+        JOBM018:     5 to 17 years: Speak Asian and Pacific Island languages: Speak English 'not at all'
+        JOBM019:     5 to 17 years: Speak other languages
+        JOBM020:     5 to 17 years: Speak other languages: Speak English 'very well'
+        JOBM021:     5 to 17 years: Speak other languages: Speak English 'well'
+        JOBM022:     5 to 17 years: Speak other languages: Speak English 'not well'
+        JOBM023:     5 to 17 years: Speak other languages: Speak English 'not at all'
+        JOBM024:     18 to 64 years
+        JOBM025:     18 to 64 years: Speak only English
+        JOBM026:     18 to 64 years: Speak Spanish
+        JOBM027:     18 to 64 years: Speak Spanish: Speak English 'very well'
+        JOBM028:     18 to 64 years: Speak Spanish: Speak English 'well'
+        JOBM029:     18 to 64 years: Speak Spanish: Speak English 'not well'
+        JOBM030:     18 to 64 years: Speak Spanish: Speak English 'not at all'
+        JOBM031:     18 to 64 years: Speak other Indo-European languages
+        JOBM032:     18 to 64 years: Speak other Indo-European languages: Speak English 'very well'
+        JOBM033:     18 to 64 years: Speak other Indo-European languages: Speak English 'well'
+        JOBM034:     18 to 64 years: Speak other Indo-European languages: Speak English 'not well'
+        JOBM035:     18 to 64 years: Speak other Indo-European languages: Speak English 'not at all'
+        JOBM036:     18 to 64 years: Speak Asian and Pacific Island languages
+        JOBM037:     18 to 64 years: Speak Asian and Pacific Island languages: Speak English 'very well'
+        JOBM038:     18 to 64 years: Speak Asian and Pacific Island languages: Speak English 'well'
+        JOBM039:     18 to 64 years: Speak Asian and Pacific Island languages: Speak English 'not well'
+        JOBM040:     18 to 64 years: Speak Asian and Pacific Island languages: Speak English 'not at all'
+        JOBM041:     18 to 64 years: Speak other languages
+        JOBM042:     18 to 64 years: Speak other languages: Speak English 'very well'
+        JOBM043:     18 to 64 years: Speak other languages: Speak English 'well'
+        JOBM044:     18 to 64 years: Speak other languages: Speak English 'not well'
+        JOBM045:     18 to 64 years: Speak other languages: Speak English 'not at all'
+        JOBM046:     65 years and over
+        JOBM047:     65 years and over: Speak only English
+        JOBM048:     65 years and over: Speak Spanish
+        JOBM049:     65 years and over: Speak Spanish: Speak English 'very well'
+        JOBM050:     65 years and over: Speak Spanish: Speak English 'well'
+        JOBM051:     65 years and over: Speak Spanish: Speak English 'not well'
+        JOBM052:     65 years and over: Speak Spanish: Speak English 'not at all'
+        JOBM053:     65 years and over: Speak other Indo-European languages
+        JOBM054:     65 years and over: Speak other Indo-European languages: Speak English 'very well'
+        JOBM055:     65 years and over: Speak other Indo-European languages: Speak English 'well'
+        JOBM056:     65 years and over: Speak other Indo-European languages: Speak English 'not well'
+        JOBM057:     65 years and over: Speak other Indo-European languages: Speak English 'not at all'
+        JOBM058:     65 years and over: Speak Asian and Pacific Island languages
+        JOBM059:     65 years and over: Speak Asian and Pacific Island languages: Speak English 'very well'
+        JOBM060:     65 years and over: Speak Asian and Pacific Island languages: Speak English 'well'
+        JOBM061:     65 years and over: Speak Asian and Pacific Island languages: Speak English 'not well'
+        JOBM062:     65 years and over: Speak Asian and Pacific Island languages: Speak English 'not at all'
+        JOBM063:     65 years and over: Speak other languages
+        JOBM064:     65 years and over: Speak other languages: Speak English 'very well'
+        JOBM065:     65 years and over: Speak other languages: Speak English 'well'
+        JOBM066:     65 years and over: Speak other languages: Speak English 'not well'
+        JOBM067:     65 years and over: Speak other languages: Speak English 'not at all'
+ 
+    Table 6:     Ratio of Income to Poverty Level in the Past 12 Months
+    Universe:    Population for whom poverty status is determined
+    Source code: C17002
+    NHGIS code:  JOC
+        JOCM001:     Total
+        JOCM002:     Under .50
+        JOCM003:     .50 to .99
+        JOCM004:     1.00 to 1.24
+        JOCM005:     1.25 to 1.49
+        JOCM006:     1.50 to 1.84
+        JOCM007:     1.85 to 1.99
+        JOCM008:     2.00 and over
+ 
+    Table 7:     Public Assistance Income in the Past 12 Months for Households
+    Universe:    Households
+    Source code: B19057
+    NHGIS code:  JPB
+        JPBM001:     Total
+        JPBM002:     With public assistance income
+        JPBM003:     No public assistance income
+ 
+    Table 8:     Per Capita Income in the Past 12 Months (in 2010 Inflation-Adjusted Dollars)
+    Universe:    Total population
+    Source code: B19301
+    NHGIS code:  JQB
+        JQBM001:     Per capita income in the past 12 months (in 2010 inflation-adjusted dollars)
+ 
+    Table 9:     Sex by Work Status in the Past 12 Months by Usual Hours Worked per Week in the Past 12 Months by Weeks Worked in the Past 12 Months for the Population 16 to 64 Years
+    Universe:    Population 16 to 64 years
+    Source code: B23022
+    NHGIS code:  JQ4
+        JQ4M001:     Total
+        JQ4M002:     Male
+        JQ4M003:     Male: Worked in the past 12 months
+        JQ4M004:     Male: Worked in the past 12 months: Usually worked 35 or more hours per week
+        JQ4M005:     Male: Worked in the past 12 months: Usually worked 35 or more hours per week: 50 to 52 weeks
+        JQ4M006:     Male: Worked in the past 12 months: Usually worked 35 or more hours per week: 48 and 49 weeks
+        JQ4M007:     Male: Worked in the past 12 months: Usually worked 35 or more hours per week: 40 to 47 weeks
+        JQ4M008:     Male: Worked in the past 12 months: Usually worked 35 or more hours per week: 27 to 39 weeks
+        JQ4M009:     Male: Worked in the past 12 months: Usually worked 35 or more hours per week: 14 to 26 weeks
+        JQ4M010:     Male: Worked in the past 12 months: Usually worked 35 or more hours per week: 1 to 13 weeks
+        JQ4M011:     Male: Worked in the past 12 months: Usually worked 15 to 34 hours per week
+        JQ4M012:     Male: Worked in the past 12 months: Usually worked 15 to 34 hours per week: 50 to 52 weeks
+        JQ4M013:     Male: Worked in the past 12 months: Usually worked 15 to 34 hours per week: 48 and 49 weeks
+        JQ4M014:     Male: Worked in the past 12 months: Usually worked 15 to 34 hours per week: 40 to 47 weeks
+        JQ4M015:     Male: Worked in the past 12 months: Usually worked 15 to 34 hours per week: 27 to 39 weeks
+        JQ4M016:     Male: Worked in the past 12 months: Usually worked 15 to 34 hours per week: 14 to 26 weeks
+        JQ4M017:     Male: Worked in the past 12 months: Usually worked 15 to 34 hours per week: 1 to 13 weeks
+        JQ4M018:     Male: Worked in the past 12 months: Usually worked 1 to 14 hours per week
+        JQ4M019:     Male: Worked in the past 12 months: Usually worked 1 to 14 hours per week: 50 to 52 weeks
+        JQ4M020:     Male: Worked in the past 12 months: Usually worked 1 to 14 hours per week: 48 and 49 weeks
+        JQ4M021:     Male: Worked in the past 12 months: Usually worked 1 to 14 hours per week: 40 to 47 weeks
+        JQ4M022:     Male: Worked in the past 12 months: Usually worked 1 to 14 hours per week: 27 to 39 weeks
+        JQ4M023:     Male: Worked in the past 12 months: Usually worked 1 to 14 hours per week: 14 to 26 weeks
+        JQ4M024:     Male: Worked in the past 12 months: Usually worked 1 to 14 hours per week: 1 to 13 weeks
+        JQ4M025:     Male: Did not work in the past 12 months
+        JQ4M026:     Female
+        JQ4M027:     Female: Worked in the past 12 months
+        JQ4M028:     Female: Worked in the past 12 months: Usually worked 35 or more hours per week
+        JQ4M029:     Female: Worked in the past 12 months: Usually worked 35 or more hours per week: 50 to 52 weeks
+        JQ4M030:     Female: Worked in the past 12 months: Usually worked 35 or more hours per week: 48 and 49 weeks
+        JQ4M031:     Female: Worked in the past 12 months: Usually worked 35 or more hours per week: 40 to 47 weeks
+        JQ4M032:     Female: Worked in the past 12 months: Usually worked 35 or more hours per week: 27 to 39 weeks
+        JQ4M033:     Female: Worked in the past 12 months: Usually worked 35 or more hours per week: 14 to 26 weeks
+        JQ4M034:     Female: Worked in the past 12 months: Usually worked 35 or more hours per week: 1 to 13 weeks
+        JQ4M035:     Female: Worked in the past 12 months: Usually worked 15 to 34 hours per week
+        JQ4M036:     Female: Worked in the past 12 months: Usually worked 15 to 34 hours per week: 50 to 52 weeks
+        JQ4M037:     Female: Worked in the past 12 months: Usually worked 15 to 34 hours per week: 48 and 49 weeks
+        JQ4M038:     Female: Worked in the past 12 months: Usually worked 15 to 34 hours per week: 40 to 47 weeks
+        JQ4M039:     Female: Worked in the past 12 months: Usually worked 15 to 34 hours per week: 27 to 39 weeks
+        JQ4M040:     Female: Worked in the past 12 months: Usually worked 15 to 34 hours per week: 14 to 26 weeks
+        JQ4M041:     Female: Worked in the past 12 months: Usually worked 15 to 34 hours per week: 1 to 13 weeks
+        JQ4M042:     Female: Worked in the past 12 months: Usually worked 1 to 14 hours per week
+        JQ4M043:     Female: Worked in the past 12 months: Usually worked 1 to 14 hours per week: 50 to 52 weeks
+        JQ4M044:     Female: Worked in the past 12 months: Usually worked 1 to 14 hours per week: 48 and 49 weeks
+        JQ4M045:     Female: Worked in the past 12 months: Usually worked 1 to 14 hours per week: 40 to 47 weeks
+        JQ4M046:     Female: Worked in the past 12 months: Usually worked 1 to 14 hours per week: 27 to 39 weeks
+        JQ4M047:     Female: Worked in the past 12 months: Usually worked 1 to 14 hours per week: 14 to 26 weeks
+        JQ4M048:     Female: Worked in the past 12 months: Usually worked 1 to 14 hours per week: 1 to 13 weeks
+        JQ4M049:     Female: Did not work in the past 12 months
+ 
+    Table 10:    Imputation of Citizenship Status
+    Universe:    Total population
+    Source code: B99051
+    NHGIS code:  JT2
+        JT2M001:     Total
+        JT2M002:     Native
+        JT2M003:     Native: Imputed
+        JT2M004:     Native: Not imputed
+        JT2M005:     Foreign born
+        JT2M006:     Foreign born: Imputed
+        JT2M007:     Foreign born: Not imputed
+ 
+--------------------------------------------------------------------------------
+Citation and Use of NHGIS Data
+--------------------------------------------------------------------------------
+ 
+All persons are granted a limited license to use this documentation and the
+accompanying data, subject to the following conditions:
+
+* Publications and research reports employing NHGIS data (either tabular or GIS)
+  must cite it appropriately. The citation should include the following:
+
+    Steven Manson, Jonathan Schroeder, David Van Riper, and Steven Ruggles. 
+    IPUMS National Historical Geographic Information System: Version 12.0 [Database]. 
+    Minneapolis: University of Minnesota. 2017. 
+    http://doi.org/10.18128/D050.V12.0
+
+* Publications and research reports employing school attendance areas data
+  (either tabular or GIS) must cite it appropriately. The citation should
+  include the following:
+
+    The College of William and Mary and the Minnesota Population Center.
+    School Attendance Boundary Information System (SABINS): Version 1.0.
+    Minneapolis, MN: University of Minnesota 2011.
+
+* For policy briefs or articles in the popular press, we recommend that you cite the use of NHGIS data as follows:
+
+    IPUMS NHGIS, University of Minnesota, www.nhgis.org.
+
+* If possible, citations involving school attendance areas should also include
+  the URL for the SABINS site:
+
+    http://www.sabinsdata.org/.
+
+In addition, we request that users send us a copy of any publications, research
+reports, or educational material making use of the data or documentation.
+Printed matter should be sent to:
+
+    NHGIS
+    Minnesota Population Center
+    University of Minnesota
+    50 Willey Hall
+    225 19th Ave S
+    Minneapolis, MN 55455
+
+Send electronic material to: nhgis@umn.edu
