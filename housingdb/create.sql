@@ -1,4 +1,4 @@
-CREATE TABLE sex_by_age(GIS_id VARCHAR NOT NULL PRIMARY KEY,
+CREATE TABLE sex_by_age(gis_id VARCHAR NOT NULL PRIMARY KEY,
 	region_code INT,
 	state VARCHAR,
 	state_code INT,
@@ -15,7 +15,7 @@ CREATE TABLE sex_by_age(GIS_id VARCHAR NOT NULL PRIMARY KEY,
 	f_40to44 int, f_45to49 int, f_50to54 int, f_55to59 int, f_60to61 int, f_62to64 int, f_65to66 int, f_67to69 int, f_70to74 int, f_75to79 int, f_80to84 int, f_85plus int
 	);
 
-CREATE TABLE household_type(GIS_id VARCHAR NOT NULL PRIMARY KEY,
+CREATE TABLE household_type(gis_id VARCHAR NOT NULL PRIMARY KEY,
 	region_code INT,
 	state VARCHAR,
 	state_code INT,
@@ -34,7 +34,7 @@ CREATE TABLE household_type(GIS_id VARCHAR NOT NULL PRIMARY KEY,
 	nonfamily_householder_notlivingalone int
 	);
 
-CREATE TABLE race(GIS_id VARCHAR NOT NULL PRIMARY KEY,
+CREATE TABLE race(gis_id VARCHAR NOT NULL PRIMARY KEY,
 	region_code INT,
 	state VARCHAR,
 	state_code INT,
@@ -54,7 +54,7 @@ CREATE TABLE race(GIS_id VARCHAR NOT NULL PRIMARY KEY,
 	two_or_more_excluding_someotherrace INT
 );
 
-CREATE TABLE geographical_mobility_in_last_year(GIS_id VARCHAR NOT NULL PRIMARY KEY,
+CREATE TABLE geographical_mobility_in_last_year(gis_id VARCHAR NOT NULL PRIMARY KEY,
 	region_code INT,
 	state VARCHAR,
 	state_code INT,
@@ -76,7 +76,7 @@ CREATE TABLE geographical_mobility_in_last_year(GIS_id VARCHAR NOT NULL PRIMARY 
 	abroad INT
 );
 
-CREATE TABLE transpo_travel_time_to_work(GIS_id VARCHAR NOT NULL PRIMARY KEY,
+CREATE TABLE transpo_travel_time_to_work(gis_id VARCHAR NOT NULL PRIMARY KEY,
 	region_code INT,
 	state VARCHAR,
 	state_code INT,
@@ -136,7 +136,7 @@ CREATE TABLE transpo_travel_time_to_work(GIS_id VARCHAR NOT NULL PRIMARY KEY,
 	taxi_moto_bike_walk_60plus int
 );
 
-CREATE TABLE sex_by_edu_attainment_25plus(GIS_id VARCHAR NOT NULL PRIMARY KEY,
+CREATE TABLE sex_by_edu_attainment_25plus(gis_id VARCHAR NOT NULL PRIMARY KEY,
 	region_code INT,
 	state VARCHAR,
 	state_code INT,
@@ -181,7 +181,7 @@ CREATE TABLE sex_by_edu_attainment_25plus(GIS_id VARCHAR NOT NULL PRIMARY KEY,
 	f_doctorate int
 );
 
-CREATE TABLE age_by_language_by_english_ability(GIS_id VARCHAR NOT NULL PRIMARY KEY,
+CREATE TABLE age_by_language_by_english_ability(gis_id VARCHAR NOT NULL PRIMARY KEY,
 	region_code INT,
 	state VARCHAR,
 	state_code INT,
@@ -258,7 +258,7 @@ CREATE TABLE age_by_language_by_english_ability(GIS_id VARCHAR NOT NULL PRIMARY 
 	_65plus_other_english_notatall int
 );
 
-CREATE TABLE income_povertylvl_ratio(GIS_id VARCHAR NOT NULL PRIMARY KEY,
+CREATE TABLE income_povertylvl_ratio(gis_id VARCHAR NOT NULL PRIMARY KEY,
 	region_code INT,
 	state VARCHAR,
 	state_code INT,
@@ -276,7 +276,7 @@ CREATE TABLE income_povertylvl_ratio(GIS_id VARCHAR NOT NULL PRIMARY KEY,
 	_2andover int
 );
 
-CREATE TABLE public_assistance_income_households(GIS_id VARCHAR NOT NULL PRIMARY KEY,
+CREATE TABLE public_assistance_income_households(gis_id VARCHAR NOT NULL PRIMARY KEY,
 	region_code INT,
 	state VARCHAR,
 	state_code INT,
@@ -289,7 +289,7 @@ CREATE TABLE public_assistance_income_households(GIS_id VARCHAR NOT NULL PRIMARY
 	no_public_assitsance int
 );
 
-CREATE TABLE per_capita_income_2010dollars(GIS_id VARCHAR NOT NULL PRIMARY KEY,
+CREATE TABLE per_capita_income_2010dollars(gis_id VARCHAR NOT NULL PRIMARY KEY,
 	region_code INT,
 	state VARCHAR,
 	state_code INT,
@@ -300,7 +300,7 @@ CREATE TABLE per_capita_income_2010dollars(GIS_id VARCHAR NOT NULL PRIMARY KEY,
 	per_capita_income_past_year int
 );
 
-CREATE TABLE sex_by_workstatus_by_hoursperweek_by_weeksperyear(GIS_id VARCHAR NOT NULL PRIMARY KEY,
+CREATE TABLE sex_by_workstatus_by_hoursperweek_by_weeksperyear(gis_id VARCHAR NOT NULL PRIMARY KEY,
 	region_code INT,
 	state VARCHAR,
 	state_code INT,
@@ -359,7 +359,7 @@ CREATE TABLE sex_by_workstatus_by_hoursperweek_by_weeksperyear(GIS_id VARCHAR NO
 	f_didnotwork int
 );
 
-CREATE TABLE imputation_citizen_status (GIS_id VARCHAR NOT NULL PRIMARY KEY,
+CREATE TABLE imputation_citizen_status (gis_id VARCHAR NOT NULL PRIMARY KEY,
 	region_code INT,
 	state VARCHAR,
 	state_code INT,
