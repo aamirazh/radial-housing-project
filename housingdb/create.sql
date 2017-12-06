@@ -69,7 +69,7 @@ CREATE TABLE geographical_mobility_in_last_year(GIS_id VARCHAR NOT NULL PRIMARY 
 	diff_house_same_metro_movedfromprincipality int,
 	diff_house_same_metro_movedfromother int,
 	diff_house_diff_metro int,
-	diff_house_diff_metro_movedfromprincipalcity int,
+	diff_house_diff_metro_movedfromprincipality int,
 	diff_house_diff_metro_movedfromother int,
 	diff_house_micropolitan_area int,
 	diff_house_not_metro_or_micro int,
