@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css"
+   integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ=="
+   crossorigin=""/>
+    
+    
+    <script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js"
+   integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log=="
+   crossorigin=""></script>
+   
+    
+    <script src="./Leaflet-1.0.3/leaflet.js"></script>
+    <script src="jquery-2.1.1.min.js"></script> 
+
+   <style>
+    #mapid{ height: 1000px }
+      
+    </style>
+
+   
+</head>
+    
+    
+<body>
+    <center>
+    <div id="mapid"></div>
+    
+    <script type="" src="states.js"></script>
+    <script>
+    
+    var mymap = L.map('mapid').setView([32.8283, -98.5795], 5);
+        
+     
+        L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
+    attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
+    maxZoom: 18,
+    id: 'mapbox.streets',
+    accessToken: 'pk.eyJ1IjoiZGFuaXNoMjg3IiwiYSI6ImNqYXp1cjVocDFrZmYyd3FrcjRqM3FraGoifQ.IePtGUZnj3IS6GCdVLLzIg'
+}).addTo(mymap);
+    
+    
+//L.marker([39.7392, -104.9903]);
+
+	//L.circle([39.7392, -104.9903], 100000, {
+	//	color: 'red',
+	//	fillColor: '#f03',
+	//	fillOpacity: 0.5,
+   //     riseOnHover: true
+//}).addTo(mymap).bindPopup("I am a circle.");
+      
+        
+        
+        
+    L.geoJson(statesData).addTo(map);
+        
+    function getColor(d) {
+    return d > 1000 ? '#800026' :
+           d > 500  ? '#BD0026' :
+           d > 200  ? '#E31A1C' :
+           d > 100  ? '#FC4E2A' :
+           d > 50   ? '#FD8D3C' :
+           d > 20   ? '#FEB24C' :
+           d > 10   ? '#FED976' :
+                      '#FFEDA0';
+}  
+        
+    
+        function style(feature) {
+    return {
+        fillColor: getColor(feature.properties.density),
+        weight: 2,
+        opacity: 1,
+        color: 'white',
+        dashArray: '3',
+        fillOpacity: 0.7
+    };
+}
+
+L.geoJson(statesData, {style: style}).addTo(map);
+        
+        
+        function highlightFeature(e) {
+    var layer = e.target;
+
+    layer.setStyle({
+        weight: 5,
+        color: '#666',
+        dashArray: '',
+        fillOpacity: 0.7
+    });
+
+    if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) {
+        layer.bringToFront();
+    }
+}
+    </script>
+    </center>
+    
+</body>
+
+
+</html>
+
+
