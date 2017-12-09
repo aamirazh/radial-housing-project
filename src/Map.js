@@ -1,28 +1,45 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
-import './App.css';
+import './Map.css';
+import { Map, Marker, Popup, TileLayer } from 'react-leaflet'
 
+// const position = [51.505, -0.09]
 
+class Map1 extends Component {
 
-class Map extends Component {
+  constructor() {
+  super();
+  this.state = {
+    lat: 51.505,
+    lng: -0.09,
+    zoom: 13,
+  };
+  }
+
   render () {
+
+    const position = [this.state.lat, this.state.lng];
     return (
-      <div>
+      <div className = "leaflet-container">
         <header>
-          <link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css"
-     integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ=="
-     crossorigin=""/>
-         <script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js"
-      integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log=="
-      crossorigin=""></script>
-          <h1>Hi</h1>
 
         </header>
-        hi
-        <div id="mapid"></div>
+        <Map center={position} zoom={this.state.zoom}>
+        <TileLayer
+          attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+          url='http://{s}.tile.osm.org/{z}/{x}/{y}.png'
+        />
+          <Marker position={position}>
+            <Popup>
+              <span>
+                A pretty CSS3 popup.<br />Easily customizable.
+              </span>
+            </Popup>
+          </Marker>
+        </Map>
       </div>
     );
   }
 }
 
-export default Map;
+export default Map1;
