@@ -31,7 +31,7 @@
     <script type="" src="states.js"></script>
     <script>
     
-    var mymap = L.map('mapid').setView([32.8283, -98.5795], 5);
+    var mymap = L.map('mapid').setView([32.8283, -98.5795], 4.28);
         
      
         L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
@@ -52,50 +52,117 @@
 //}).addTo(mymap).bindPopup("I am a circle.");
       
         
+     var popup = new L.Popup();  
+      
+    L.geoJson(statesData).addTo(mymap);
+        
+     L.geoJson(statesData).addTo(mymap);   
         
         
-    L.geoJson(statesData).addTo(map);
-        
-    function getColor(d) {
-    return d > 1000 ? '#800026' :
-           d > 500  ? '#BD0026' :
-           d > 200  ? '#E31A1C' :
-           d > 100  ? '#FC4E2A' :
-           d > 50   ? '#FD8D3C' :
-           d > 20   ? '#FEB24C' :
-           d > 10   ? '#FED976' :
-                      '#FFEDA0';
-}  
-        
-    
+   function getColor(d) {
+    return d > 1000 ? '#0a3313' :
+           d > 500  ? '#196f2c' :
+           d > 200  ? '#22903a' :
+           d > 100  ? '#02ce2e' :
+           d > 50   ? '#6da97a' :
+           d > 20   ? '#85e39a' :
+           d > 10   ? '#b4dfbd' :
+                      '#ddf9fd';
+}
+
         function style(feature) {
     return {
         fillColor: getColor(feature.properties.density),
         weight: 2,
         opacity: 1,
-        color: 'white',
+        color: 'black',
         dashArray: '3',
-        fillOpacity: 0.7
+        fillOpacity: 0.65
     };
 }
-
-L.geoJson(statesData, {style: style}).addTo(map);
+        L.geoJson(statesData, {style: style}).addTo(mymap);
         
-        
+       
         function highlightFeature(e) {
+          
     var layer = e.target;
-
     layer.setStyle({
         weight: 5,
-        color: '#666',
+        color: 'white',
         dashArray: '',
         fillOpacity: 0.7
     });
-
     if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) {
         layer.bringToFront();
+
     }
 }
+        
+        function resetHighlight(e) {
+    geojson.resetStyle(e.target);
+}
+ 
+        function zoomToFeature(e) {
+    map.fitBounds(e.target.getBounds());
+}
+        function getName(feature){
+            var n = (feature.properties.name);
+        }
+        
+        
+        function onEachFeature(feature, layer) {
+            layer.on('click', function(e){
+                var ourPopup = e.target.feature.properties.name;
+                layer.bindPopup(ourPopup).openPopup(e.latlng);
+            });
+    layer.on({
+        mouseover: highlightFeature,
+        mouseout: resetHighlight,
+        click: zoomToFeature
+    });
+}
+        
+        
+        
+        geojson = L.geoJson(statesData, {
+        style: style,
+        onEachFeature: onEachFeature
+        }).addTo(mymap);
+        
+
+
+
+  //  omnivore.csv('per_capita.csv').addTo(map);
+        
+        
+    
+        
+        
+        
+        
+        
+       var usLayer = L.mapbox.featureLayer()
+    .loadURL('/mapbox.js/assets/data/us.geojson')
+    .addTo(map)
+    .on('ready', loadData);
+        
+        var points = omnivore.csv('per_capita.csv', {
+    icon: L.mapbox.marker.icon({
+        'marker-symbol': 'airport',
+        'marker-color': '59245f'
+    })
+}).on('ready', function() {
+    map.fitBounds(points.getBounds());
+    var markers = L.markerClusterGroup({
+        showCoverageOnHover: false,
+        maxClusterRadius: 50
+    });
+    markers.addLayer(points);
+    map.addLayer(markers);
+    points.eachLayer(eachLayer);
+});
+        
+        
     </script>
     </center>
     
