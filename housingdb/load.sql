@@ -10,3 +10,4 @@
 \COPY per_capita_income_2010dollars FROM 'per_capita_income_2010dollars.csv' WITH DELIMITER ',' NULL '' CSV
 \COPY sex_by_workstatus_by_hoursperweek_by_weeksperyear FROM 'sex_by_workstatus_by_hoursperweek_by_weeksperyear.csv' WITH DELIMITER ',' NULL '' CSV
 \COPY imputation_citizen_status FROM 'imputation_citizen_status.csv' WITH DELIMITER ',' NULL '' CSV
+\COPY tract_data FROM 'tract_data.csv' WITH DELIMITER ',' NULL '' CSV
