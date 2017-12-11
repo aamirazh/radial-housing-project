@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css"
+   integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ=="
+   crossorigin=""/>
+    <link rel="stylesheet" href="./Leaflet.markercluster-1.0.5/MarkerCluster.css"/> 
+    
+    
+    <script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js"
+   integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log=="
+   crossorigin=""></script>
+   
+    
+    <script src="./Leaflet-1.0.3/leaflet.js"></script>
+    <script src="jquery-2.1.1.min.js"></script> 
+    
+     
+     <script src="./Leaflet.markercluster-1.0.5/leaflet.markercluster.js"></script> 
+
+
+   <style>
+    #mapid{ height: 500px }
+      
+    </style>
+
+   
+</head>
+    
+    
+<body>
+    <center>
+    <div id="mapid"></div>
+    
+    <script type="" src="states.js"></script>
+    <script type="" src="city.js"></script>
+        <script type="" src="location.js"></script>
+    <script>
+    
+    var mymap = L.map('mapid').setView([39.8283, -95.5795],4.4);
+        
+     
+        L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
+    attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
+    maxZoom: 5.5,
+    id: 'mapbox.streets',
+    accessToken: 'pk.eyJ1IjoiZGFuaXNoMjg3IiwiYSI6ImNqYXp1cjVocDFrZmYyd3FrcjRqM3FraGoifQ.IePtGUZnj3IS6GCdVLLzIg'
+}).addTo(mymap);
+    
+       
+    
+//L.marker([39.7392, -104.9903]);
+
+	//L.circle([39.7392, -104.9903], 100000, {
+	//	color: 'red',
+	//	fillColor: '#f03',
+	//	fillOpacity: 0.5,
+   //     riseOnHover: true
+//}).addTo(mymap).bindPopup("I am a circle.");
+      
+        
+     var popup = new L.Popup();  
+      // control that shows state info on hover
+	var info = L.control();
+
+	
+        
+        
+        
+        
+        
+      //  var myLayer = L.geoJson().addTo(map);
+      
+       // L.geoJson( cityData).addTo(mymap);
+   
+        //myLayer.addData(statesData);
+        
+        
+        
+        
+ 
+        
+        
+   function getColor(d) {
+    return d > 1000 ? '#0a3313' :
+           d > 500  ? '#196f2c' :
+           d > 200  ? '#22903a' :
+           d > 100  ? '#02ce2e' :
+           d > 50   ? '#6da97a' :
+           d > 20   ? '#85e39a' :
+           d > 10   ? '#b4dfbd' :
+                      '#ddf9fd';
+}
+        
+    function style(feature) {
+        return {
+        fillColor: getColor(feature.properties.density),
+        weight: 2,
+        opacity: 1,
+        color: 'black',
+        fillOpacity: .8,
+    };
+}
+        
+        
+        
+        
+        
+        
+       // L.geoJson(statesData, {style: style}).addTo(mymap);
+        
+        
+     //   myLayer.addData(statesData, {style: style});
+    
+        
+        
+    function highlightFeature(e) { 
+        var layer = e.target;
+        layer.setStyle({
+        weight: 5,
+        color: 'white',
+        dashArray: '',
+        fillColor: 'white',
+        fillOpacity: .8,
+        });
+       // if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge)   {
+         //   layer.bringToFront();
+          
+    //    }
+}
+        
+        function resetHighlight(e) {
+            geojson.resetStyle(e.target);
+}
+ 
+        function zoomToFeature(e) {
+    mymap.flyToBounds(e.target.getBounds());
+}
+       
+        
+        
+        
+  
+     //   function onEachFeature(feature, layer) {
+       //     layer.on('click', function(e){
+            //    var ourPopup = e.target.feature.properties.name;
+       //       
+         //       layer.bindPopup(ourPopup).openPopup(e.latlng);
+       //     });
+        //layer.on({
+       //     mouseover: highlightFeature,
+       //     mouseout: resetHighlight,
+       //     click: zoomToFeature
+  //  });
+//}
+        
+        
+        
+        var  pt2= {
+        radius: 2,
+        fillColor: "red",
+        color: "#000",
+        weight: 1,
+        opacity: 1,
+        fillOpacity: 1
+};
+        
+        var geojsonMarkerOptions = {
+        radius: 6,
+        fillColor: "white",
+        color: "#000",
+        weight: 1,
+        opacity: 1,
+        fillOpacity: 0.8
+};
+     
+        
+        function onEachFeature(feature, layer) {
+          //  layer.on('click', function(e){
+          //      var ourPopup = e.target.feature.properties.name;
+              
+           //     layer.bindPopup(ourPopup).openPopup(e.latlng);
+          //  });
+            
+    layer.on({
+        mouseover: highlightFeature,
+        mouseout: resetHighlight,
+        click: zoomToFeature
+    });
+}
+       
+            geojson = L.geoJson(statesData, {style: style, onEachFeature: onEachFeature}).addTo(mymap);
+        
+          
+        
+        var n = L.geoJson(cityData, {
+        pointToLayer: function (feature, latlng) {
+            var name = feature.properties.city;
+            var marker = L.circleMarker(latlng, geojsonMarkerOptions);
+            marker.bindPopup(name);
+            return marker;
+    }
+          
+            
+}).addTo(mymap);
+        
+        var n = L.geoJson(cityData, {
+        pointToLayer: function (feature, latlng) {
+        return L.circleMarker(latlng, pt2);
+    }
+}).addTo(mymap);
+        
+        
+       
+        
+     //   var last = L.geoJson(locationData).addTo(mymap);
+        
+        
+        
+     // L.control.layers(geojson, n).addTo(mymap);
+        
+      //  L.geoJson(h).addTo(mymap);
+        
+    
+    </script>
+    </center>
+    
+</body>
+
+
+</html>
+
+
