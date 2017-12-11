@@ -444,7 +444,18 @@ class imputation_citizen_status(db.Model):
     foreign_born = db.Column('foreign_born', db.Integer())
     foreign_born_imputed = db.Column('foreign_born_imputed', db.Integer())
     foreign_born_not_imputed = db.Column('foreign_born_not_imputed', db.Integer())
-    
+   
+class tract_data(db.Model):
+    __tablename__ = 'tract_data'
+    state_abbrev = db.Column('state_abbrev', db.String())
+    geoid = db.Column('geoid', db.String(), primary_key=True)
+    population = db.Column('population', db.Integer())
+    hu = db.Column('hu', db.Integer())
+    aland_sqmi=db.Column('aland_sqmi', db.Float())
+    awater_sqmi=db.Column('awater_sqmi', db.Float())
+    latitude = db.Column('latitude', db.Float())
+    longitude = db.Column('longitude', db.Float())    
+
     
 
 
