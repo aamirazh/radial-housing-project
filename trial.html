@@ -1,48 +1,47 @@
 <!DOCTYPE html>
 <html>
-
+    
 <head>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css"
    integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ=="
    crossorigin=""/>
-
-    <script type="script.js"></script>
-
+    
+    
     <script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js"
    integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log=="
    crossorigin=""></script>
-
-
+   
+    
     <script src="./Leaflet-1.0.3/leaflet.js"></script>
-    <script src="jquery-2.1.1.min.js"></script>
+    <script src="jquery-2.1.1.min.js"></script> 
 
    <style>
     #mapid{ height: 1000px }
-
+      
     </style>
 
-
+   
 </head>
-
-
+    
+    
 <body>
     <center>
     <div id="mapid"></div>
-
+    
     <script type="" src="states.js"></script>
     <script>
-
-    var mymap = L.map('mapid').setView([32.8283, -98.5795], 4.28);
-
-
+    
+    var mymap = L.map('mapid').setView([32.8283, -95.5795], 4.5);
+        
+     
         L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
     attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
     maxZoom: 18,
     id: 'mapbox.streets',
     accessToken: 'pk.eyJ1IjoiZGFuaXNoMjg3IiwiYSI6ImNqYXp1cjVocDFrZmYyd3FrcjRqM3FraGoifQ.IePtGUZnj3IS6GCdVLLzIg'
 }).addTo(mymap);
-
-
+    
+    
 //L.marker([39.7392, -104.9903]);
 
 	//L.circle([39.7392, -104.9903], 100000, {
@@ -51,15 +50,14 @@
 	//	fillOpacity: 0.5,
    //     riseOnHover: true
 //}).addTo(mymap).bindPopup("I am a circle.");
-
-
-     var popup = new L.Popup();
-
+      
+        
+     var popup = new L.Popup();  
+      
     L.geoJson(statesData).addTo(mymap);
-
-     L.geoJson(statesData).addTo(mymap);
-
-
+   
+        
+        
    function getColor(d) {
     return d > 1000 ? '#0a3313' :
            d > 500  ? '#196f2c' :
@@ -77,43 +75,47 @@
         weight: 2,
         opacity: 1,
         color: 'black',
-        dashArray: '3',
+        
         fillOpacity: 0.65
     };
 }
         L.geoJson(statesData, {style: style}).addTo(mymap);
-
-
+        
+        
+ 
+        
+        
         function highlightFeature(e) {
-
+          
     var layer = e.target;
     layer.setStyle({
         weight: 5,
         color: 'white',
         dashArray: '',
-        fillOpacity: 0.7
+        fillColor: 'white'
     });
     if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) {
         layer.bringToFront();
 
     }
 }
-
+        
         function resetHighlight(e) {
     geojson.resetStyle(e.target);
 }
-
+ 
         function zoomToFeature(e) {
     map.fitBounds(e.target.getBounds());
 }
         function getName(feature){
             var n = (feature.properties.name);
         }
-
-
+        
+        
         function onEachFeature(feature, layer) {
             layer.on('click', function(e){
                 var ourPopup = e.target.feature.properties.name;
+              
                 layer.bindPopup(ourPopup).openPopup(e.latlng);
             });
     layer.on({
@@ -122,52 +124,28 @@
         click: zoomToFeature
     });
 }
-
-
-
+        
+        
+        
         geojson = L.geoJson(statesData, {
         style: style,
         onEachFeature: onEachFeature
         }).addTo(mymap);
+        
 
 
+        var geoJson = { type: 'FeatureCollection', features: jsonFeatures };
 
-
-  //  omnivore.csv('per_capita.csv').addTo(map);
-
-
-
-
-
-
-
-
-       var usLayer = L.mapbox.featureLayer()
-    .loadURL('/mapbox.js/assets/data/us.geojson')
-    .addTo(map)
-    .on('ready', loadData);
-
-        var points = omnivore.csv('per_capita.csv', {
-    icon: L.mapbox.marker.icon({
-        'marker-symbol': 'airport',
-        'marker-color': '59245f'
-    })
-}).on('ready', function() {
-    map.fitBounds(points.getBounds());
-    var markers = L.markerClusterGroup({
-        showCoverageOnHover: false,
-        maxClusterRadius: 50
-    });
-    markers.addLayer(points);
-    map.addLayer(markers);
-    points.eachLayer(eachLayer);
-});
-
-
+        L.geoJson(geoJson).addTo(map);
+        
+      
+        
     </script>
     </center>
-
+    
 </body>
 
 
 </html>
+
+
