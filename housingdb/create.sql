@@ -375,3 +375,12 @@ CREATE TABLE imputation_citizen_status (gis_id VARCHAR NOT NULL PRIMARY KEY,
 	foreign_born_imputed int,
 	foreign_born_not_imputed int
 );
+
+CREATE TABLE tract_data(state_abbrev VARCHAR,
+	geoid VARCHAR NOT NULL PRIMARY KEY,
+	population int,
+	hu int,
+	aland_sqmi decimal,
+	awater_sqmi decimal,
+	latitude decimal,
+	longitude decimal)
