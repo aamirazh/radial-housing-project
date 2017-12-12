@@ -9,34 +9,12 @@ from geopy.distance import vincenty
 
 
 
-def get_blkgrps(latitude, longitude):
-    result = cg.coordinates(x=longitude, y=latitude)
-    county = result.get("Counties")[0].get("NAME")
-    state = result.get("States")[0].get("NAME")
-    ids = {}
-    rows = db.session.query(models.race)\
-    .filter(models.race.state==state, models.race.county==county).all()
-    for row in rows:
-        #gis_id = row.gis_id
-        #tract_id = row.tract[-6:-1]
-        ids[row.gis_id]={        
-           'gis_id' : row.gis_id,
-           'tract_id': row.census_tract,
-           'county_code': row.county_code,
-           'state_id':row.state_code
-        }
-    return ids
 
 app = Flask(__name__)
 app.secret_key = 's3cr3t'
 app.config.from_object('config')
 db = SQLAlchemy(app, session_options={'autocommit': False})
 
-@app.route('/')
-def default():
-    return("hello")
-
-@app.route('/coord-blkgrp/<latitude>/<longitude>')
 def get_blkgrps(latitude, longitude):
     result = cg.coordinates(x=longitude, y=latitude)
     county = result.get("Counties")[0].get("NAME")
@@ -46,15 +24,18 @@ def get_blkgrps(latitude, longitude):
     rows = db.session.query(models.race.gis_id)\
     .filter(models.race.state==state, models.race.county==county).all()
     for row in rows:
-       conv_id = row.gis_id[1:3]+row.gis_id[4:7]+ row.gis_id[8:14]
-       gisid.add(conv_id),
-       row2 = db.session.query(models.tract_data)\
-       .filter(models.tract_data.geoid==conv_id).first()
-       tract_coord[conv_id] = {
-            'gis_id':row.gis_id,
-            'long': row2.longitude,
-            'lat': row2.latitude,
-       }
+        conv_id = row.gis_id[1:3]+row.gis_id[4:7]+ row.gis_id[8:14]
+        gisid.add(conv_id),
+        row2 = db.session.query(models.tract_data)\
+        .filter(models.tract_data.geoid==conv_id).first()
+        if conv_id not in tract_coord:
+           tract_coord[conv_id] = {
+                'gis_id':[row.gis_id],
+                'long': row2.longitude,
+                'lat': row2.latitude,
+           }
+        else:
+            tract_coord.get(conv_id).get('gis_id').append(row.gis_id)
     distances = {
     'underFive' : [],
     'fiveToTen' : [],
@@ -67,15 +48,64 @@ def get_blkgrps(latitude, longitude):
         point2 = (tract_coord.get(entry).get('lat'), float(tract_coord.get(entry).get('long')))
         distance = vincenty(point1, point2).miles
         if distance<5:
-            distances['underFive'].append(tract_coord.get(entry).get('gis_id'))
+            for listElem in tract_coord.get(entry).get('gis_id'):
+                distances['underFive'].append(listElem)
         elif distance <10:
-            distances['fiveToTen'].append(tract_coord.get(entry).get('gis_id'))
+            for listElem in tract_coord.get(entry).get('gis_id'):
+                distances['fiveToTen'].append(listElem)
+            #distances['fiveToTen'].append(tract_coord.get(entry).get('gis_id'))
         elif distance <20:
-            distances['tenToTwenty'].append(tract_coord.get(entry).get('gis_id'))
+            for listElem in tract_coord.get(entry).get('gis_id'):
+                distances['tenToTwenty'].append(listElem)
+            #distances['tenToTwenty'].append(tract_coord.get(entry).get('gis_id'))
         else:
-            distances['overTwenty'].append(tract_coord.get(entry).get('gis_id'))
+            for listElem in tract_coord.get(entry).get('gis_id'):
+                distances['overTwenty'].append(listElem)
+            #distances['overTwenty'].append(tract_coord.get(entry).get('gis_id'))
     
-    return jsonify(distances)
+    return distances
+
+@app.route('/')
+def default():
+    return("hello")
+
+@app.route('/<distance>/<latitude>/<longitude>')
+def get_data(distance, latitude, longitude):
+    distances = get_blkgrps(latitude, longitude)
+    #data is dictionary of dictionaries of relevant information
+    data = {
+    'race':{
+    'total':0,
+    'white':0,
+    'black':0,
+    'asian':0,
+    'native_american':0,
+    'pacific_islander':0,
+    'mixed':0
+    },
+    'perCapIncome':{}
+    }
+    idList = distances.get(distance)
+    for gis_id in idList:
+        row = db.session.query(func.sum(models.race.total).label('total'), func.sum(models.race.white_alone).label('white'),\
+        func.sum(models.race.black_africanamerican_alone).label('black'),\
+        func.sum(models.race.americanindian_alaskanative_alone).label('native_american'),\
+        func.sum(models.race.asian_alone).label('asian'),\
+        func.sum(models.race.nativehawaiian_otherpacificislander_alone).label('pacific_islander'),\
+        func.sum(models.race.someotherrace_alone).label('other'),\
+        func.sum(models.race.two_or_more).label('mixed'))\
+        .filter(models.race.gis_id==gis_id).first()
+
+        data.get('race')['total'] += row.total
+        data.get('race')['white'] += row.white
+        data.get('race')['black'] += row.black
+        data.get('race')['asian'] += row.asian
+        data.get('race')['native_american'] += row.native_american
+        data.get('race')['pacific_islander'] += row.pacific_islander
+        data.get('race')['mixed'] += row.mixed
+
+
+    return jsonify(data)
 
 @app.route('/race/<state>/<county>')
 def get_race_info(state, county):
