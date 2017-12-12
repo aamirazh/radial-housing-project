@@ -21,7 +21,7 @@
 
 
    <style>
-    #mapid{ height: 500px }
+    #mapid{ height: 500px}
       
     </style>
 
@@ -43,7 +43,7 @@
      
         L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
     attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
-    maxZoom: 5.5,
+    maxZoom: 18,
     id: 'mapbox.streets',
     accessToken: 'pk.eyJ1IjoiZGFuaXNoMjg3IiwiYSI6ImNqYXp1cjVocDFrZmYyd3FrcjRqM3FraGoifQ.IePtGUZnj3IS6GCdVLLzIg'
 }).addTo(mymap);
@@ -166,7 +166,7 @@
         fillOpacity: 1
 };
         
-        var geojsonMarkerOptions = {
+        var marker1 = {
         radius: 6,
         fillColor: "white",
         color: "#000",
@@ -197,7 +197,7 @@
         var n = L.geoJson(cityData, {
         pointToLayer: function (feature, latlng) {
             var name = feature.properties.city;
-            var marker = L.circleMarker(latlng, geojsonMarkerOptions);
+            var marker = L.circleMarker(latlng, marker1);
             marker.bindPopup(name);
             return marker;
     }
@@ -205,11 +205,11 @@
             
 }).addTo(mymap);
         
-        var n = L.geoJson(cityData, {
-        pointToLayer: function (feature, latlng) {
-        return L.circleMarker(latlng, pt2);
-    }
-}).addTo(mymap);
+      //  var n = L.geoJson(cityData, {
+   //     pointToLayer: function (feature, latlng) {
+  //      return L.circleMarker(latlng, pt2);
+ //   }
+//}).addTo(mymap);
         
         
        
