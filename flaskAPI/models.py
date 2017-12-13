@@ -77,9 +77,9 @@ class household_type(db.Model):
     family_other_family = db.Column('family_other_family', db.Integer())
     family_other_malehouseholder_nowife = db.Column('family_other_malehouseholder_nowife', db.Integer())
     family_other_femalehouseholder_nohusband = db.Column('family_other_femalehouseholder_nohusband', db.Integer())
-    nonfamily_households = db.Column('nofamily_households', db.Integer())
-    nonfamily_households_livingalone = db.Column('nonfamily_households_livingalone', db.Integer())
-    nonfamily_households_notlivingalone = db.Column('nonfamily_households_notlivingalone', db.Integer())
+    nonfamily_households = db.Column('nonfamily_households', db.Integer())
+    nonfamily_households_livingalone = db.Column('nonfamily_householder_livingalone', db.Integer())
+    nonfamily_households_notlivingalone = db.Column('nonfamily_householder_notlivingalone', db.Integer())
 
 
 class geographical_mobility_in_last_year(db.Model):
@@ -333,7 +333,7 @@ class AgeLanguageEnglish(db.Model):
     _65plus_other_english_notwell = db.Column("_65plus_other_english_notwell", db.Integer)
     _65plus_other_english_notatall = db.Column("_65plus_other_english_notatall", db.Integer)
    
-class PublicAssistIncomeHouseholds(db.Model):
+class PublicAssistanceIncomeHouseholds(db.Model):
     __tablename__ = 'public_assistance_income_households'
     gis_id = db.Column("gis_id", db.String(), primary_key = True)
     region_code = db.Column("region_code", db.Integer)
@@ -345,7 +345,7 @@ class PublicAssistIncomeHouseholds(db.Model):
     block_group = db.Column("block_group", db.Integer)
     total = db.Column("total", db.Integer)  
     with_public_assistance = db.Column("with_public_assistance", db.Integer)
-    no_public_assitsance = db.Column("no_public_assitsance", db.Integer)
+    no_public_assistance = db.Column("no_public_assitsance", db.Integer)
     
 class PerCapitaIncome2010Dollars(db.Model):
     __tablename__ = 'per_capita_income_2010dollars'
@@ -356,8 +356,8 @@ class PerCapitaIncome2010Dollars(db.Model):
     county = db.Column("county", db.String())
     county_code = db.Column("county_code", db.Integer)
     census_tract = db.Column("census_tract", db.Integer)
-    block_group = db.Column("block_group", db.Integer)
-    per_capita_income_past_year = db.Column("per_capita_income_past_year", db.Integer)
+    block_group = db.Column("block_group", db.Integer())
+    per_capita_income_past_year = db.Column("per_capita_income_past_year", db.Integer())
 
 #Rayan
 class sex_by_workstatus_by_hoursperweek_by_weeksperyear(db.Model):
@@ -444,7 +444,7 @@ class imputation_citizen_status(db.Model):
     foreign_born = db.Column('foreign_born', db.Integer())
     foreign_born_imputed = db.Column('foreign_born_imputed', db.Integer())
     foreign_born_not_imputed = db.Column('foreign_born_not_imputed', db.Integer())
-   
+    
 class tract_data(db.Model):
     __tablename__ = 'tract_data'
     state_abbrev = db.Column('state_abbrev', db.String())
@@ -455,8 +455,5 @@ class tract_data(db.Model):
     awater_sqmi=db.Column('awater_sqmi', db.Float())
     latitude = db.Column('latitude', db.Float())
     longitude = db.Column('longitude', db.Float())    
-
-    
-
 
 
