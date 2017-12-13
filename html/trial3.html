@@ -31,6 +31,32 @@
 
 
 <body>
+
+    <script type="text/javascript">
+        console.log("Going to call getJSON");
+            $.ajax({
+                url:"http://localhost:5000/underFive/35.8032/-78.5661",
+                crossDomain:true,
+                type: 'get',
+                dataType: "jsonp",
+                jsonpCallback: 'apiCallback',
+                success: function(json) {
+                    console.log("worked");
+                    console.log(json);
+                },
+                error : function(e) {
+                    console.log("error..");
+                    console.log(e);
+                }
+        })
+            // $.getJSON("http://127.0.0.1:5000/underFive/35.8032/-78.5661", function(data) {
+            //     console.log("dgdsgs");
+            //     console.log(data);
+            //     console.log("haaaoaeoeo");
+            // });
+        console.log("Successfully called.");
+    </script>
+
     <div class="container">
         <div class="row">
             <div class="col-md-8">HELLO</div>
@@ -46,18 +72,12 @@
                 </div>
             </div>
             <div class="col-md-4">
+                <!-- <button onload="makeUL()"></button> -->
                 <script type="" src="../js/city-list.js"></script>
-                <button onclick="display()"></button>
                 <ul id="myUL">
-                  <li><a href="#">Adele</a></li>
-                  <li><a href="#">Agnes</a></li>
-
-                  <li><a href="#">Billy</a></li>
-                  <li><a href="#">Bob</a></li>
-
-                  <li><a href="#">Calvin</a></li>
-                  <li><a href="#">Christina</a></li>
-                  <li><a href="#">Cindy</a></li>
+                    <script type="text/javascript">
+                        makeUL();
+                    </script>
                 </ul>
             </div>
         </div>

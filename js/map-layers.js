@@ -52,7 +52,7 @@ function zoomToFeature(e) {
 }
 
 
-var  pt2= {
+var pt2= {
     radius: 2,
     fillColor: "red",
     color: "#000",
@@ -80,8 +80,6 @@ function onEachFeature(feature, layer) {
 }
 
 geojson = L.geoJson(statesData, {style: style, onEachFeature: onEachFeature}).addTo(mymap);
-
-
 
 var n = L.geoJson(cityData, {
     pointToLayer: function (feature, latlng) {
