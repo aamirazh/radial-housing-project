@@ -1,5 +1,4 @@
-var csv = `
-New York,New York
+var csv = `New York,New York
 Los Angeles,California
 Chicago,Illinois
 Houston,Texas
