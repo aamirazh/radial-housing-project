@@ -1010,7 +1010,6 @@ function display() {
     for (var i = 0; i < data.length; i++) {
         var content = '';
         content += data[i][0] + "&nbsp ";
-
         a = li[i].getElementsByTagName("a")[0];
         a.innerHTML = content;
     }
