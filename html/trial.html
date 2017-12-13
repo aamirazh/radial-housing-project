@@ -17,7 +17,6 @@
 
    <style>
     #mapid{ height: 1000px }
-
     </style>
 
 
@@ -31,22 +30,16 @@
 
     <script type="" src="states.js"></script>
     <script>
-
     url = "";
     // httpGet(url, apiCallback);
     apiCallback("test!!!!");
-
     var mymap = L.map('mapid').setView([32.8283, -95.5795], 4.5);
-
-
         L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
     attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
     maxZoom: 18,
     id: 'mapbox.streets',
     accessToken: 'pk.eyJ1IjoiZGFuaXNoMjg3IiwiYSI6ImNqYXp1cjVocDFrZmYyd3FrcjRqM3FraGoifQ.IePtGUZnj3IS6GCdVLLzIg'
 }).addTo(mymap);
-
-
 //L.marker([39.7392, -104.9903]);
 	//L.circle([39.7392, -104.9903], 100000, {
 	//	color: 'red',
@@ -72,18 +65,11 @@
         weight: 2,
         opacity: 1,
         color: 'black',
-
         fillOpacity: 0.65
     };
 }
         L.geoJson(statesData, {style: style}).addTo(mymap);
-
-
-
-
-
         function highlightFeature(e) {
-
     var layer = e.target;
     layer.setStyle({
         weight: 5,
@@ -95,18 +81,15 @@
         layer.bringToFront();
     }
 }
-
         function resetHighlight(e) {
     geojson.resetStyle(e.target);
 }
-
         function zoomToFeature(e) {
     map.fitBounds(e.target.getBounds());
 }
         function getName(feature){
             var n = (feature.properties.name);
         }
-
         function httpGet(apiUrl, callback)
         {
             var xmlHttp = new XMLHttpRequest();

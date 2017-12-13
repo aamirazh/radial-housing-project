@@ -5,6 +5,6 @@ function httpGet(apiUrl, callback)
         if (xmlHttp.readyState == 4 && xmlHttp.status == 200)
             callback(xmlHttp.responseText);
     }
-    xmlHttp.open("GET", apiURl, true); 
+    xmlHttp.open("GET", apiURl, true);
     xmlHttp.send(null);
 }
