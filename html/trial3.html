@@ -8,39 +8,47 @@
     crossorigin=""/>
     <link rel="stylesheet" href="./Leaflet.markercluster-1.0.5/MarkerCluster.css"/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../css/style.css">
     <script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js"
     integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log=="
     crossorigin=""></script>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+    <script src="../js/jquery-csv.js"></script>
 
 
     <script src="./Leaflet-1.0.3/leaflet.js"></script>
     <script src="jquery-2.1.1.min.js"></script>
     <script src="./Leaflet.markercluster-1.0.5/leaflet.markercluster.js"></script>
 
-    <script src="search.js"></script>
-    <script type="" src="states.js"></script>
-    <script type="" src="city.js"></script>
-    <script type="" src="location.js"></script>
+    <script src="../js/search.js"></script>
+    <script type="" src="../js/states.js"></script>
+    <script type="" src="../js/city.js"></script>
+    <script type="" src="../js/location.js"></script>
+
 </head>
 
 
 <body>
-  <div class="container">
-    <div class="row">
-        <div class="col-md-8">HELLO</div>
-        <div class="col-md-4">
-            <input type="text" id="myInput" onkeyup="search()" placeholder="Search for names..">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">HELLO</div>
+            <div class="col-md-4">
+                <input type="text" id="myInput" onkeyup="search()" placeholder="Search for names..">
+            </div>
         </div>
-    </div>
 
-    <div class="row">
-        <div class="col-md-8">
-          <div id="mapid"></div>
-            <script type="text/javascript" src="map-layers.js"></script>
-          </div>
-          <div class="col-md-4">
-              <ul id="myUL">
+        <div class="row">
+            <div class="col-md-8">
+                <div id="mapid">
+                    <script type="text/javascript" src="../js/map-layers.js"></script>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <script type="" src="../js/city-list.js"></script>
+                <button onclick="display()"></button>
+                <ul id="myUL">
                   <li><a href="#">Adele</a></li>
                   <li><a href="#">Agnes</a></li>
 
@@ -50,10 +58,13 @@
                   <li><a href="#">Calvin</a></li>
                   <li><a href="#">Christina</a></li>
                   <li><a href="#">Cindy</a></li>
-              </ul>
-          </div>
+                </ul>
+            </div>
         </div>
-    </div>
+        <div class="row">
+            <p id="demo"></p>
+        </div>
+     </div>
 </body>
 
 

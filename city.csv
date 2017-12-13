@@ -1,0 +1,1001 @@
+latitude,longitude,altitude,geometry,city,growth_10-13,population,state
+40.7127837,-74.0059413,,Point,New York,4.8%,8405837,New York
+34.0522342,-118.2436849,,Point,Los Angeles,4.8%,3884307,California
+41.8781136,-87.6297982,,Point,Chicago,-6.1%,2718782,Illinois
+29.7604267,-95.3698028,,Point,Houston,11.0%,2195914,Texas
+39.9525839,-75.1652215,,Point,Philadelphia,2.6%,1553165,Pennsylvania
+33.4483771,-112.0740373,,Point,Phoenix,14.0%,1513367,Arizona
+29.4241219,-98.49362819999999,,Point,San Antonio,21.0%,1409019,Texas
+32.715738,-117.1610838,,Point,San Diego,10.5%,1355896,California
+32.7766642,-96.79698789999999,,Point,Dallas,5.6%,1257676,Texas
+37.3382082,-121.8863286,,Point,San Jose,10.5%,998537,California
+30.267153,-97.7430608,,Point,Austin,31.7%,885400,Texas
+39.768403,-86.158068,,Point,Indianapolis,7.8%,843393,Indiana
+30.3321838,-81.65565099999999,,Point,Jacksonville,14.3%,842583,Florida
+37.7749295,-122.4194155,,Point,San Francisco,7.7%,837442,California
+39.9611755,-82.99879419999999,,Point,Columbus,14.8%,822553,Ohio
+35.2270869,-80.8431267,,Point,Charlotte,39.1%,792862,North Carolina
+32.7554883,-97.3307658,,Point,Fort Worth,45.1%,792727,Texas
+42.331427,-83.0457538,,Point,Detroit,-27.1%,688701,Michigan
+31.7775757,-106.4424559,,Point,El Paso,19.4%,674433,Texas
+35.1495343,-90.0489801,,Point,Memphis,-5.3%,653450,Tennessee
+47.6062095,-122.3320708,,Point,Seattle,15.6%,652405,Washington
+39.7392358,-104.990251,,Point,Denver,16.7%,649495,Colorado
+38.9071923,-77.0368707,,Point,Washington,13.0%,646449,District of Columbia
+42.3600825,-71.0588801,,Point,Boston,9.4%,645966,Massachusetts
+36.1626638,-86.7816016,,Point,Nashville-Davidson,16.2%,634464,Tennessee
+39.2903848,-76.6121893,,Point,Baltimore,-4.0%,622104,Maryland
+35.4675602,-97.5164276,,Point,Oklahoma City,20.2%,610613,Oklahoma
+38.2526647,-85.7584557,,Point,Louisville/Jefferson County,10.0%,609893,Kentucky
+45.5230622,-122.6764816,,Point,Portland,15.0%,609456,Oregon
+36.1699412,-115.1398296,,Point,Las Vegas,24.5%,603488,Nevada
+43.0389025,-87.9064736,,Point,Milwaukee,0.3%,599164,Wisconsin
+35.0853336,-106.6055534,,Point,Albuquerque,23.5%,556495,New Mexico
+32.2217429,-110.926479,,Point,Tucson,7.5%,526116,Arizona
+36.7468422,-119.7725868,,Point,Fresno,18.3%,509924,California
+38.5815719,-121.4943996,,Point,Sacramento,17.2%,479686,California
+33.7700504,-118.1937395,,Point,Long Beach,1.5%,469428,California
+39.0997265,-94.5785667,,Point,Kansas City,5.5%,467007,Missouri
+33.4151843,-111.8314724,,Point,Mesa,13.5%,457587,Arizona
+36.8529263,-75.97798499999999,,Point,Virginia Beach,5.1%,448479,Virginia
+33.7489954,-84.3879824,,Point,Atlanta,6.2%,447841,Georgia
+38.8338816,-104.8213634,,Point,Colorado Springs,21.4%,439886,Colorado
+41.2523634,-95.99798829999999,,Point,Omaha,5.9%,434353,Nebraska
+35.7795897,-78.6381787,,Point,Raleigh,48.7%,431746,North Carolina
+25.7616798,-80.1917902,,Point,Miami,14.9%,417650,Florida
+37.8043637,-122.2711137,,Point,Oakland,1.3%,406253,California
+44.977753,-93.2650108,,Point,Minneapolis,4.5%,400070,Minnesota
+36.1539816,-95.99277500000001,,Point,Tulsa,1.3%,398121,Oklahoma
+41.49932,-81.6943605,,Point,Cleveland,-18.1%,390113,Ohio
+37.688889,-97.336111,,Point,Wichita,9.7%,386552,Kansas
+32.735687,-97.10806559999999,,Point,Arlington,13.3%,379577,Texas
+29.95106579999999,-90.0715323,,Point,New Orleans,-21.6%,378715,Louisiana
+35.3732921,-119.0187125,,Point,Bakersfield,48.4%,363630,California
+27.950575,-82.4571776,,Point,Tampa,16.0%,352957,Florida
+21.3069444,-157.8583333,,Point,Honolulu,-6.2%,347884,Hawaii
+39.7294319,-104.8319195,,Point,Aurora,24.4%,345803,Colorado
+33.8352932,-117.9145036,,Point,Anaheim,4.7%,345012,California
+33.7455731,-117.8678338,,Point,Santa Ana,-1.2%,334227,California
+38.6270025,-90.19940419999999,,Point,St. Louis,-8.2%,318416,Missouri
+33.9533487,-117.3961564,,Point,Riverside,22.5%,316619,California
+27.8005828,-97.39638099999999,,Point,Corpus Christi,14.1%,316381,Texas
+38.0405837,-84.5037164,,Point,Lexington-Fayette,18.0%,308428,Kentucky
+40.44062479999999,-79.9958864,,Point,Pittsburgh,-8.3%,305841,Pennsylvania
+61.2180556,-149.9002778,,Point,Anchorage,15.4%,300950,Alaska
+37.9577016,-121.2907796,,Point,Stockton,21.8%,298118,California
+39.1031182,-84.5120196,,Point,Cincinnati,-10.1%,297517,Ohio
+44.9537029,-93.0899578,,Point,St. Paul,2.8%,294873,Minnesota
+41.6639383,-83.55521200000001,,Point,Toledo,-10.0%,282313,Ohio
+36.0726354,-79.7919754,,Point,Greensboro,22.3%,279639,North Carolina
+40.735657,-74.1723667,,Point,Newark,2.1%,278427,New Jersey
+33.0198431,-96.6988856,,Point,Plano,22.4%,274409,Texas
+36.0395247,-114.9817213,,Point,Henderson,51.0%,270811,Nevada
+40.8257625,-96.6851982,,Point,Lincoln,18.0%,268738,Nebraska
+42.88644679999999,-78.8783689,,Point,Buffalo,-11.3%,258959,New York
+40.72815749999999,-74.0776417,,Point,Jersey City,7.2%,257342,New Jersey
+32.6400541,-117.0841955,,Point,Chula Vista,46.2%,256780,California
+41.079273,-85.1393513,,Point,Fort Wayne,1.0%,256496,Indiana
+28.5383355,-81.3792365,,Point,Orlando,31.2%,255483,Florida
+27.773056,-82.64,,Point,St. Petersburg,0.3%,249688,Florida
+33.3061605,-111.8412502,,Point,Chandler,38.7%,249146,Arizona
+27.5305671,-99.48032409999999,,Point,Laredo,38.2%,248142,Texas
+36.8507689,-76.28587259999999,,Point,Norfolk,5.0%,246139,Virginia
+35.9940329,-78.898619,,Point,Durham,29.9%,245475,North Carolina
+43.0730517,-89.4012302,,Point,Madison,15.8%,243344,Wisconsin
+33.5778631,-101.8551665,,Point,Lubbock,19.6%,239538,Texas
+33.6839473,-117.7946942,,Point,Irvine,61.3%,236716,California
+36.09985959999999,-80.244216,,Point,Winston-Salem,16.9%,236441,North Carolina
+33.5386523,-112.1859866,,Point,Glendale,5.7%,234632,Arizona
+32.912624,-96.63888329999999,,Point,Garland,8.5%,234566,Texas
+25.8575963,-80.2781057,,Point,Hialeah,3.2%,233394,Florida
+39.5296329,-119.8138027,,Point,Reno,26.8%,233294,Nevada
+36.7682088,-76.2874927,,Point,Chesapeake,15.1%,230571,Virginia
+33.3528264,-111.789027,,Point,Gilbert,96.0%,229972,Arizona
+30.4582829,-91.1403196,,Point,Baton Rouge,0.4%,229426,Louisiana
+32.8140177,-96.9488945,,Point,Irving,19.1%,228653,Texas
+33.4941704,-111.9260519,,Point,Scottsdale,11.0%,226918,Arizona
+36.1988592,-115.1175013,,Point,North Las Vegas,92.2%,226877,Nevada
+37.5482697,-121.9885719,,Point,Fremont,10.0%,224922,California
+43.6187102,-116.2146068,,Point,Boise City,9.5%,214237,Idaho
+37.5407246,-77.4360481,,Point,Richmond,8.2%,214114,Virginia
+34.1083449,-117.2897652,,Point,San Bernardino,13.0%,213708,California
+33.5206608,-86.80248999999999,,Point,Birmingham,-12.3%,212113,Alabama
+47.6587802,-117.4260466,,Point,Spokane,7.0%,210721,Washington
+43.16103,-77.6109219,,Point,Rochester,-4.1%,210358,New York
+41.6005448,-93.6091064,,Point,Des Moines,3.9%,207510,Iowa
+37.63909719999999,-120.9968782,,Point,Modesto,7.7%,204933,California
+35.0526641,-78.87835849999999,,Point,Fayetteville,2.4%,204408,North Carolina
+47.2528768,-122.4442906,,Point,Tacoma,4.9%,203446,Washington
+34.1975048,-119.1770516,,Point,Oxnard,18.2%,203007,California
+34.0922335,-117.435048,,Point,Fontana,38.3%,203003,California
+32.4609764,-84.9877094,,Point,Columbus,8.7%,202824,Georgia
+32.3668052,-86.2999689,,Point,Montgomery,-0.1%,201332,Alabama
+33.9424658,-117.2296717,,Point,Moreno Valley,40.4%,201175,California
+32.5251516,-93.7501789,,Point,Shreveport,-0.1%,200327,Louisiana
+41.7605849,-88.32007150000001,,Point,Aurora,38.4%,199963,Illinois
+40.9312099,-73.89874689999999,,Point,Yonkers,1.8%,199766,New York
+41.0814447,-81.51900529999999,,Point,Akron,-8.6%,198100,Ohio
+33.660297,-117.9992265,,Point,Huntington Beach,3.9%,197575,California
+34.7464809,-92.28959479999999,,Point,Little Rock,7.6%,197357,Arkansas
+33.4734978,-82.0105148,,Point,Augusta-Richmond County,1.1%,197350,Georgia
+35.2219971,-101.8312969,,Point,Amarillo,12.8%,196429,Texas
+34.1425078,-118.255075,,Point,Glendale,0.3%,196021,California
+30.6953657,-88.0398912,,Point,Mobile,-1.9%,194899,Alabama
+42.9633599,-85.6680863,,Point,Grand Rapids,-2.8%,192294,Michigan
+40.7607793,-111.8910474,,Point,Salt Lake City,5.1%,191180,Utah
+30.4382559,-84.28073289999999,,Point,Tallahassee,21.8%,186411,Florida
+34.7303688,-86.5861037,,Point,Huntsville,16.3%,186254,Alabama
+32.7459645,-96.99778459999999,,Point,Grand Prairie,43.1%,183372,Texas
+35.9606384,-83.9207392,,Point,Knoxville,3.9%,183270,Tennessee
+42.2625932,-71.8022934,,Point,Worcester,5.8%,182544,Massachusetts
+37.0870821,-76.4730122,,Point,Newport News,0.9%,182020,Virginia
+25.9017472,-97.4974838,,Point,Brownsville,26.8%,181860,Texas
+38.9822282,-94.6707917,,Point,Overland Park,19.4%,181260,Kansas
+34.3916641,-118.542586,,Point,Santa Clarita,15.3%,179590,California
+41.8239891,-71.4128343,,Point,Providence,2.3%,177994,Rhode Island
+33.7739053,-117.9414477,,Point,Garden Grove,5.8%,175140,California
+35.0456297,-85.3096801,,Point,Chattanooga,10.5%,173366,Tennessee
+33.1958696,-117.3794834,,Point,Oceanside,6.6%,172794,California
+32.2987573,-90.1848103,,Point,Jackson,-6.8%,172638,Mississippi
+26.1224386,-80.13731740000001,,Point,Fort Lauderdale,0.7%,172389,Florida
+38.440429,-122.7140548,,Point,Santa Rosa,15.2%,171990,California
+34.10639889999999,-117.5931084,,Point,Rancho Cucamonga,32.7%,171386,California
+27.2730492,-80.3582261,,Point,Port St. Lucie,91.7%,171016,Florida
+33.4255104,-111.9400054,,Point,Tempe,5.8%,168228,Arizona
+34.0633443,-117.6508876,,Point,Ontario,5.5%,167500,California
+45.6387281,-122.6614861,,Point,Vancouver,14.2%,167405,Washington
+26.5628537,-81.9495331,,Point,Cape Coral,60.4%,165831,Florida
+43.5445959,-96.73110340000001,,Point,Sioux Falls,31.1%,164676,South Dakota
+37.2089572,-93.29229889999999,,Point,Springfield,7.8%,164122,Missouri
+33.5805955,-112.2373779,,Point,Peoria,46.5%,162592,Arizona
+26.007765,-80.2962555,,Point,Pembroke Pines,17.4%,162329,Florida
+38.4087993,-121.3716178,,Point,Elk Grove,97.1%,161007,California
+44.9428975,-123.0350963,,Point,Salem,16.4%,160614,Oregon
+34.6867846,-118.1541632,,Point,Lancaster,33.8%,159523,California
+33.8752935,-117.5664384,,Point,Corona,23.6%,159503,California
+44.0520691,-123.0867536,,Point,Eugene,14.4%,159190,Oregon
+34.5794343,-118.1164613,,Point,Palmdale,33.7%,157161,California
+36.6777372,-121.6555013,,Point,Salinas,8.4%,155662,California
+42.1014831,-72.589811,,Point,Springfield,1.1%,153703,Massachusetts
+29.6910625,-95.2091006,,Point,Pasadena,7.5%,152735,Texas
+40.5852602,-105.084423,,Point,Fort Collins,26.6%,152061,Colorado
+37.6688205,-122.0807964,,Point,Hayward,7.5%,151574,California
+34.055103,-117.7499909,,Point,Pomona,2.1%,151348,California
+35.79154,-78.7811169,,Point,Cary,55.1%,151088,North Carolina
+42.2711311,-89.0939952,,Point,Rockford,-1.0%,150251,Illinois
+38.8048355,-77.0469214,,Point,Alexandria,15.0%,148892,Virginia
+33.1192068,-117.086421,,Point,Escondido,10.7%,148738,California
+33.1972465,-96.6397822,,Point,McKinney,165.3%,148559,Texas
+39.114053,-94.6274636,,Point,Kansas City,1.1%,148483,Kansas
+41.525031,-88.0817251,,Point,Joliet,36.5%,147806,Illinois
+37.36883,-122.0363496,,Point,Sunnyvale,11.9%,147559,California
+33.8358492,-118.3406288,,Point,Torrance,6.6%,147478,California
+41.1865478,-73.19517669999999,,Point,Bridgeport,5.4%,147216,Connecticut
+39.7047095,-105.0813734,,Point,Lakewood,1.9%,147214,Colorado
+26.0112014,-80.1494901,,Point,Hollywood,4.8%,146526,Florida
+40.9167654,-74.17181099999999,,Point,Paterson,-2.2%,145948,New Jersey
+41.7508391,-88.1535352,,Point,Naperville,12.0%,144864,Illinois
+43.0481221,-76.14742439999999,,Point,Syracuse,-0.9%,144669,New York
+32.76679550000001,-96.5991593,,Point,Mesquite,14.7%,143484,Texas
+39.7589478,-84.1916069,,Point,Dayton,-13.5%,143355,Ohio
+32.0835407,-81.09983419999999,,Point,Savannah,7.5%,142772,Georgia
+36.5297706,-87.3594528,,Point,Clarksville,36.9%,142357,Tennessee
+33.7877944,-117.8531119,,Point,Orange,7.7%,139969,California
+34.1477849,-118.1445155,,Point,Pasadena,3.8%,139731,California
+33.8703596,-117.9242966,,Point,Fullerton,9.8%,138981,California
+31.1171194,-97.72779589999999,,Point,Killeen,52.1%,137147,Texas
+33.1506744,-96.82361159999999,,Point,Frisco,287.7%,136791,Texas
+37.0298687,-76.34522179999999,,Point,Hampton,-6.6%,136699,Virginia
+26.2034071,-98.23001239999999,,Point,McAllen,27.6%,136639,Texas
+42.5144566,-83.01465259999999,,Point,Warren,-2.3%,134873,Michigan
+47.610377,-122.2006786,,Point,Bellevue,19.1%,133992,Washington
+40.6916132,-112.0010501,,Point,West Valley City,22.2%,133579,Utah
+34.0007104,-81.0348144,,Point,Columbia,11.7%,133358,South Carolina
+38.8813958,-94.81912849999999,,Point,Olathe,40.4%,131885,Kansas
+42.5803122,-83.0302033,,Point,Sterling Heights,5.2%,131224,Michigan
+41.308274,-72.9278835,,Point,New Haven,5.5%,130660,Connecticut
+25.9860762,-80.30356019999999,,Point,Miramar,74.7%,130288,Florida
+31.549333,-97.1466695,,Point,Waco,12.5%,129030,Texas
+34.1705609,-118.8375937,,Point,Thousand Oaks,9.5%,128731,California
+41.9778795,-91.6656232,,Point,Cedar Rapids,5.4%,128429,Iowa
+32.7764749,-79.93105120000001,,Point,Charleston,29.2%,127999,South Carolina
+36.3302284,-119.2920585,,Point,Visalia,33.6%,127763,California
+39.0558235,-95.68901849999999,,Point,Topeka,3.4%,127679,Kansas
+40.6639916,-74.2107006,,Point,Elizabeth,5.5%,127558,New Jersey
+29.6516344,-82.32482619999999,,Point,Gainesville,12.8%,127488,Florida
+39.8680412,-104.9719243,,Point,Thornton,52.9%,127359,Colorado
+38.7521235,-121.2880059,,Point,Roseville,56.2%,127035,California
+32.9756415,-96.8899636,,Point,Carrollton,14.9%,126700,Texas
+26.271192,-80.2706044,,Point,Coral Springs,5.7%,126604,Florida
+41.0534302,-73.5387341,,Point,Stamford,7.6%,126456,Connecticut
+34.2694474,-118.781482,,Point,Simi Valley,12.6%,126181,California
+37.9779776,-122.0310733,,Point,Concord,2.9%,125880,California
+41.76371109999999,-72.6850932,,Point,Hartford,0.6%,125017,Connecticut
+47.3809335,-122.2348431,,Point,Kent,54.3%,124435,Washington
+30.2240897,-92.0198427,,Point,Lafayette,11.0%,124276,Louisiana
+31.9973456,-102.0779146,,Point,Midland,30.4%,123933,Texas
+33.6292337,-112.3679279,,Point,Surprise,281.9%,123546,Arizona
+33.2148412,-97.13306829999999,,Point,Denton,47.1%,123099,Texas
+34.5362184,-117.2927641,,Point,Victorville,87.6%,121096,California
+37.9715592,-87.5710898,,Point,Evansville,-0.8%,120310,Indiana
+37.3541079,-121.9552356,,Point,Santa Clara,17.4%,120245,California
+32.4487364,-99.73314390000002,,Point,Abilene,3.6%,120099,Texas
+33.9519347,-83.357567,,Point,Athens-Clarke County,19.0%,119980,Georgia
+38.1040864,-122.2566367,,Point,Vallejo,1.2%,118837,California
+40.6084305,-75.4901833,,Point,Allentown,11.2%,118577,Pennsylvania
+35.2225668,-97.4394777,,Point,Norman,22.0%,118197,Oklahoma
+30.080174,-94.1265562,,Point,Beaumont,3.7%,117796,Texas
+39.0911161,-94.41550679999999,,Point,Independence,3.2%,117240,Missouri
+35.8456213,-86.39027,,Point,Murfreesboro,65.1%,117044,Tennessee
+42.2808256,-83.7430378,,Point,Ann Arbor,2.0%,117025,Michigan
+39.78172130000001,-89.6501481,,Point,Springfield,4.2%,117006,Illinois
+37.8715926,-122.272747,,Point,Berkeley,13.3%,116768,California
+40.6936488,-89.5889864,,Point,Peoria,3.0%,116513,Illinois
+40.2338438,-111.6585337,,Point,Provo,10.0%,116288,Utah
+34.0686206,-118.0275667,,Point,El Monte,-0.4%,115708,California
+38.9517053,-92.3340724,,Point,Columbia,34.0%,115276,Missouri
+42.732535,-84.5555347,,Point,Lansing,-4.4%,113972,Michigan
+46.8771863,-96.7898034,,Point,Fargo,24.9%,113658,North Dakota
+33.9401088,-118.1331593,,Point,Downey,5.3%,113242,California
+33.6411316,-117.9186689,,Point,Costa Mesa,2.4%,112174,California
+34.2257255,-77.9447102,,Point,Wilmington,24.8%,112067,North Carolina
+39.8027644,-105.0874842,,Point,Arvada,9.2%,111707,Colorado
+33.9616801,-118.3531311,,Point,Inglewood,-1.0%,111542,California
+25.9420377,-80.2456045,,Point,Miami Gardens,10.5%,111378,Florida
+33.1580933,-117.3505939,,Point,Carlsbad,39.7%,110972,California
+39.8366528,-105.0372046,,Point,Westminster,9.4%,110945,Colorado
+44.0121221,-92.4801989,,Point,Rochester,23.9%,110742,Minnesota
+31.8456816,-102.3676431,,Point,Odessa,22.3%,110720,Texas
+42.9956397,-71.4547891,,Point,Manchester,2.9%,110378,New Hampshire
+42.0354084,-88.2825668,,Point,Elgin,16.0%,110145,Illinois
+40.6096698,-111.9391031,,Point,West Jordan,38.4%,110077,Utah
+30.5082551,-97.678896,,Point,Round Rock,81.0%,109821,Texas
+27.9658533,-82.8001026,,Point,Clearwater,0.1%,109703,Florida
+41.5581525,-73.0514965,,Point,Waterbury,2.2%,109676,Connecticut
+45.5001357,-122.4302013,,Point,Gresham,20.7%,109397,Oregon
+38.24935809999999,-122.0399663,,Point,Fairfield,12.8%,109320,California
+45.7832856,-108.5006904,,Point,Billings,18.6%,109059,Montana
+42.6334247,-71.31617179999999,,Point,Lowell,3.4%,108861,Massachusetts
+34.274646,-119.2290316,,Point,San Buenaventura (Ventura),7.4%,108817,California
+38.2544472,-104.6091409,,Point,Pueblo,5.9%,108249,Colorado
+35.9556923,-80.0053176,,Point,High Point,24.3%,107741,North Carolina
+34.0686208,-117.9389526,,Point,West Covina,2.3%,107740,California
+37.9357576,-122.3477486,,Point,Richmond,7.9%,107571,California
+33.5539143,-117.2139232,,Point,Murrieta,107.4%,107479,California
+42.3736158,-71.10973349999999,,Point,Cambridge,5.5%,107289,Massachusetts
+38.0049214,-121.805789,,Point,Antioch,16.9%,107100,California
+33.4936391,-117.1483648,,Point,Temecula,55.4%,106780,California
+33.9022367,-118.081733,,Point,Norwalk,1.9%,106589,California
+39.5807452,-104.8771726,,Point,Centennial,3.5%,106114,Colorado
+47.9789848,-122.2020794,,Point,Everett,9.4%,105370,Washington
+28.0344621,-80.5886646,,Point,Palm Bay,31.7%,104898,Florida
+33.9137085,-98.4933873,,Point,Wichita Falls,0.7%,104898,Texas
+44.51915899999999,-88.019826,,Point,Green Bay,1.9%,104779,Wisconsin
+37.6879241,-122.4702079,,Point,Daly City,1.0%,104739,California
+34.1808392,-118.3089661,,Point,Burbank,4.2%,104709,California
+32.9483335,-96.7298519,,Point,Richardson,13.2%,104475,Texas
+26.2378597,-80.1247667,,Point,Pompano Beach,4.0%,104410,Florida
+32.8546197,-79.9748103,,Point,North Charleston,27.4%,104054,South Carolina
+36.060949,-95.7974526,,Point,Broken Arrow,28.2%,103500,Oklahoma
+40.0149856,-105.2705456,,Point,Boulder,9.0%,103166,Colorado
+26.7153424,-80.0533746,,Point,West Palm Beach,23.5%,102436,Florida
+34.9530337,-120.4357191,,Point,Santa Maria,30.9%,102216,California
+32.7947731,-116.9625269,,Point,El Cajon,7.4%,102211,California
+41.5236437,-90.5776367,,Point,Davenport,3.9%,102157,Iowa
+34.1064001,-117.3703235,,Point,Rialto,9.8%,101910,California
+32.3199396,-106.7636538,,Point,Las Cruces,37.6%,101324,New Mexico
+37.5629917,-122.3255254,,Point,San Mateo,9.0%,101128,California
+33.046233,-96.994174,,Point,Lewisville,28.9%,101074,Texas
+41.6763545,-86.25198979999999,,Point,South Bend,-6.8%,100886,Indiana
+28.0394654,-81.9498042,,Point,Lakeland,18.3%,100710,Florida
+42.12922409999999,-80.085059,,Point,Erie,-2.8%,100671,Pennsylvania
+32.3512601,-95.30106239999999,,Point,Tyler,18.6%,100223,Texas
+29.5635666,-95.2860474,,Point,Pearland,117.2%,100065,Texas
+30.627977,-96.3344068,,Point,College Station,45.2%,100050,Texas
+42.5847425,-87.82118539999999,,Point,Kenosha,9.5%,99889,Wisconsin
+33.9304352,-84.3733147,,Point,Sandy Springs,17.4%,99770,Georgia
+36.8252277,-119.7029194,,Point,Clovis,42.6%,99769,California
+43.0125274,-83.6874562,,Point,Flint,-20.0%,99763,Michigan
+37.2709704,-79.9414266,,Point,Roanoke,3.8%,98465,Virginia
+42.6525793,-73.7562317,,Point,Albany,4.1%,98424,New York
+33.9971974,-117.4854802,,Point,Jurupa Valley,,98030,California
+33.8958492,-118.2200712,,Point,Compton,4.5%,97877,California
+31.4637723,-100.4370375,,Point,San Angelo,10.2%,97492,Texas
+45.5228939,-122.989827,,Point,Hillsboro,36.4%,97368,Oregon
+34.6035669,-98.39592909999999,,Point,Lawton,4.9%,97151,Oklahoma
+47.48287759999999,-122.2170661,,Point,Renton,88.4%,97003,Washington
+33.2000368,-117.2425355,,Point,Vista,7.7%,96929,California
+26.0764783,-80.25211569999999,,Point,Davie,17.7%,96830,Florida
+40.4233142,-104.7091322,,Point,Greeley,23.1%,96539,Colorado
+33.6000232,-117.6719953,,Point,Mission Viejo,2.9%,96346,California
+36.8354258,-76.2982742,,Point,Portsmouth,-4.2%,96205,Virginia
+42.3222599,-83.17631449999999,,Point,Dearborn,-2.0%,95884,Michigan
+33.954737,-118.2120161,,Point,South Gate,-0.8%,95677,California
+33.2098407,-87.56917349999999,,Point,Tuscaloosa,21.1%,95334,Alabama
+42.36837,-83.35270969999999,,Point,Livonia,-5.4%,95208,Michigan
+41.6362152,-70.93420499999999,,Point,New Bedford,1.2%,95078,Massachusetts
+38.3565773,-121.9877444,,Point,Vacaville,5.4%,94275,California
+42.0834335,-71.0183787,,Point,Brockton,-0.3%,94089,Massachusetts
+34.0232431,-84.3615555,,Point,Roswell,15.2%,94034,Georgia
+45.48706199999999,-122.8037102,,Point,Beaverton,17.0%,93542,Oregon
+42.2528772,-71.0022705,,Point,Quincy,5.8%,93494,Massachusetts
+39.5349112,-119.7526886,,Point,Sparks,39.4%,93282,Nevada
+46.6020711,-120.5058987,,Point,Yakima,11.7%,93257,Washington
+38.9108408,-94.3821724,,Point,Lee's Summit,31.2%,93184,Missouri
+47.3223221,-122.3126222,,Point,Federal Way,8.8%,92734,Washington
+33.8316745,-118.281693,,Point,Carson,2.9%,92599,California
+34.0194543,-118.4911912,,Point,Santa Monica,9.6%,92472,California
+34.4263886,-117.3008784,,Point,Hesperia,46.1%,92147,California
+33.1031744,-96.67055030000002,,Point,Allen,104.0%,92020,Texas
+35.2327544,-106.6630437,,Point,Rio Rancho,74.4%,91956,New Mexico
+32.6926512,-114.6276916,,Point,Yuma,16.2%,91923,Arizona
+33.7513419,-117.9939921,,Point,Westminster,3.9%,91739,California
+40.2968979,-111.6946475,,Point,Orem,8.5%,91648,Utah
+42.46676300000001,-70.9494938,,Point,Lynn,2.6%,91589,Massachusetts
+40.5865396,-122.3916754,,Point,Redding,11.9%,91119,California
+47.6732281,-117.2393748,,Point,Spokane Valley,12.6%,91113,Washington
+25.790654,-80.1300455,,Point,Miami Beach,3.3%,91026,Florida
+29.5074538,-95.0949303,,Point,League City,98.3%,90983,Texas
+38.9716689,-95.2352501,,Point,Lawrence,12.7%,90811,Kansas
+34.4208305,-119.6981901,,Point,Santa Barbara,0.9%,90412,California
+26.1275862,-80.23310359999999,,Point,Plantation,8.6%,90268,Florida
+40.5649781,-111.8389726,,Point,Sandy,1.3%,90231,Utah
+26.1669711,-80.25659499999999,,Point,Sunrise,4.6%,90116,Florida
+32.8406946,-83.6324022,,Point,Macon,-7.3%,89981,Georgia
+40.1672068,-105.1019275,,Point,Longmont,24.4%,89919,Colorado
+26.3683064,-80.1289321,,Point,Boca Raton,7.5%,89407,Florida
+33.1433723,-117.1661449,,Point,San Marcos,60.0%,89387,California
+35.612661,-77.3663538,,Point,Greenville,41.9%,89130,North Carolina
+42.3636331,-87.84479379999999,,Point,Waukegan,0.5%,88826,Illinois
+41.7014912,-71.1550451,,Point,Fall River,-3.7%,88697,Massachusetts
+39.7284944,-121.8374777,,Point,Chico,14.2%,88077,California
+42.3370413,-71.20922139999999,,Point,Newton,4.9%,87971,Massachusetts
+37.7249296,-122.1560768,,Point,San Leandro,10.3%,87965,California
+40.3356483,-75.9268747,,Point,Reading,8.0%,87893,Pennsylvania
+41.11774399999999,-73.4081575,,Point,Norwalk,5.6%,87776,Connecticut
+35.3859242,-94.39854749999999,,Point,Fort Smith,8.6%,87650,Arkansas
+33.6189101,-117.9289469,,Point,Newport Beach,10.4%,87273,California
+35.5950581,-82.5514869,,Point,Asheville,19.6%,87236,North Carolina
+42.7653662,-71.46756599999999,,Point,Nashua,0.4%,87137,New Hampshire
+35.6528323,-97.47809540000002,,Point,Edmond,26.9%,87004,Oklahoma
+33.9791793,-118.032844,,Point,Whittier,3.3%,86635,California
+43.5407172,-116.5634624,,Point,Nampa,57.9%,86518,Idaho
+44.840798,-93.2982799,,Point,Bloomington,1.3%,86319,Minnesota
+28.9005446,-81.26367379999999,,Point,Deltona,23.1%,86290,Florida
+33.9164032,-118.3525748,,Point,Hawthorne,2.3%,86199,California
+46.78667189999999,-92.1004852,,Point,Duluth,-0.1%,86128,Minnesota
+39.978371,-86.1180435,,Point,Carmel,60.4%,85927,Indiana
+36.7282054,-76.5835621,,Point,Suffolk,33.5%,85728,Virginia
+40.8584328,-74.16375529999999,,Point,Clifton,7.9%,85390,New Jersey
+38.7071247,-121.2810611,,Point,Citrus Heights,-0.1%,85285,California
+37.6818745,-121.7680088,,Point,Livermore,15.1%,85156,California
+37.7396513,-121.4252227,,Point,Tracy,45.9%,84691,California
+34.095287,-118.1270146,,Point,Alhambra,-0.7%,84577,California
+47.6814875,-122.2087353,,Point,Kirkland,87.5%,84430,Washington
+40.2170534,-74.7429384,,Point,Trenton,-1.2%,84349,New Jersey
+41.223,-111.9738304,,Point,Ogden,8.6%,84249,Utah
+33.4053867,-86.8113781,,Point,Hoover,32.7%,84126,Alabama
+41.8455877,-87.7539448,,Point,Cicero,-1.6%,84103,Illinois
+39.9567548,-86.01335,,Point,Fishers,114.8%,83891,Indiana
+29.6196787,-95.6349463,,Point,Sugar Land,29.1%,83860,Texas
+41.394817,-73.4540111,,Point,Danbury,11.4%,83684,Connecticut
+43.6121087,-116.3915131,,Point,Meridian,127.6%,83596,Idaho
+33.7205771,-116.2155619,,Point,Indio,66.0%,83539,California
+35.4087517,-80.579511,,Point,Concord,47.4%,83506,North Carolina
+33.6971468,-117.185294,,Point,Menifee,95.0%,83447,California
+40.1164204,-88.2433829,,Point,Champaign,18.3%,83424,Illinois
+33.8675143,-117.9981181,,Point,Buena Park,6.1%,82882,California
+42.6064095,-83.1497751,,Point,Troy,2.2%,82821,Michigan
+38.8106075,-90.69984769999999,,Point,O'Fallon,62.6%,82809,Missouri
+34.0289259,-84.198579,,Point,Johns Creek,36.5%,82788,Georgia
+48.74908,-122.4781473,,Point,Bellingham,21.8%,82631,Washington
+42.32420399999999,-83.400211,,Point,Westland,-4.7%,82578,Michigan
+39.165325,-86.52638569999999,,Point,Bloomington,16.1%,82575,Indiana
+42.4999942,-96.40030689999999,,Point,Sioux City,-2.9%,82459,Iowa
+41.7001009,-71.4161671,,Point,Warwick,-4.6%,81971,Rhode Island
+33.7475203,-116.9719684,,Point,Hemet,37.6%,81750,California
+32.5007037,-94.74048909999999,,Point,Longview,11.6%,81443,Texas
+42.4989936,-83.3677168,,Point,Farmington Hills,-0.9%,81295,Michigan
+44.0581728,-121.3153096,,Point,Bend,54.3%,81236,Oregon
+33.8536269,-118.1339563,,Point,Lakewood,2.1%,81121,California
+37.3021632,-120.4829677,,Point,Merced,25.4%,81102,California
+26.2159066,-98.32529319999999,,Point,Mission,74.5%,81050,Texas
+34.0122346,-117.688944,,Point,Chino,15.6%,80988,California
+37.48521520000001,-122.2363548,,Point,Redwood City,7.1%,80872,California
+26.3017374,-98.1633432,,Point,Edinburg,65.1%,80836,Texas
+41.7798226,-71.4372796,,Point,Cranston,1.4%,80566,Rhode Island
+41.4047742,-81.7229086,,Point,Parma,-5.9%,80429,Ohio
+40.9114882,-73.7823549,,Point,New Rochelle,9.9%,79446,New York
+33.6469661,-117.689218,,Point,Lake Forest,4.2%,79312,California
+38.2975381,-122.286865,,Point,Napa,8.4%,79068,California
+41.5833688,-87.5000412,,Point,Hammond,-4.6%,78967,Indiana
+36.0625795,-94.1574263,,Point,Fayetteville,32.9%,78960,Arkansas
+40.4842027,-88.99368729999999,,Point,Bloomington,20.1%,78902,Illinois
+33.4355977,-112.3496021,,Point,Avondale,111.5%,78822,Arizona
+42.3875968,-71.0994968,,Point,Somerville,1.6%,78804,Massachusetts
+29.5844524,-81.20786989999999,,Point,Palm Coast,137.2%,78740,Florida
+30.6743643,-96.3699632,,Point,Bryan,19.3%,78709,Texas
+41.5933696,-87.3464271,,Point,Gary,-23.4%,78450,Indiana
+27.9094665,-82.7873244,,Point,Largo,5.1%,78409,Florida
+45.0941315,-93.3563405,,Point,Brooklyn Park,16.0%,78373,Minnesota
+33.7458511,-117.826166,,Point,Tustin,15.6%,78327,California
+42.7261309,-87.78285230000002,,Point,Racine,-4.4%,78199,Wisconsin
+26.3184123,-80.09976569999999,,Point,Deerfield Beach,4.8%,78041,Florida
+37.4137536,-79.14224639999999,,Point,Lynchburg,19.5%,78014,Virginia
+37.3860517,-122.0838511,,Point,Mountain View,10.1%,77846,California
+42.3265152,-122.8755949,,Point,Medford,17.1%,77677,Oregon
+42.7070354,-71.1631137,,Point,Lawrence,7.5%,77657,Massachusetts
+33.8816818,-118.1170117,,Point,Bellflower,6.3%,77593,California
+28.0836269,-80.60810889999999,,Point,Melbourne,5.9%,77508,Florida
+39.7674578,-94.84668099999999,,Point,St. Joseph,4.1%,77147,Missouri
+39.9259463,-75.1196199,,Point,Camden,-3.6%,76903,New Jersey
+37.0965278,-113.5684164,,Point,St. George,53.1%,76817,Utah
+46.2112458,-119.1372338,,Point,Kennewick,29.1%,76762,Washington
+34.0852868,-117.9608978,,Point,Baldwin Park,0.8%,76635,California
+33.9898188,-117.7325848,,Point,Chino Hills,13.6%,76572,California
+37.7652065,-122.2416355,,Point,Alameda,5.4%,76419,California
+31.5785074,-84.15574099999999,,Point,Albany,-0.6%,76185,Georgia
+42.0883603,-87.98062650000001,,Point,Arlington Heights,-0.6%,75994,Illinois
+41.408969,-75.66241219999999,,Point,Scranton,0.0%,75806,Pennsylvania
+42.0450722,-87.68769689999999,,Point,Evanston,1.9%,75570,Illinois
+42.2917069,-85.5872286,,Point,Kalamazoo,-1.9%,75548,Michigan
+29.7355047,-94.97742740000001,,Point,Baytown,13.1%,75418,Texas
+34.09751,-117.6483876,,Point,Upland,9.5%,75413,California
+36.18674420000001,-94.1288141,,Point,Springdale,57.1%,75229,Arkansas
+40.6259316,-75.37045789999999,,Point,Bethlehem,5.2%,75018,Pennsylvania
+42.0333607,-88.0834059,,Point,Schaumburg,-0.5%,74907,Illinois
+32.8323225,-79.82842579999999,,Point,Mount Pleasant,53.2%,74885,South Carolina
+47.30732279999999,-122.2284532,,Point,Auburn,34.9%,74860,Washington
+39.8403147,-88.9548001,,Point,Decatur,-8.7%,74710,Illinois
+37.7799273,-121.9780153,,Point,San Ramon,65.8%,74513,California
+37.6624312,-121.8746789,,Point,Pleasanton,15.2%,74110,California
+42.9133602,-85.7053085,,Point,Wyoming,6.5%,74100,Michigan
+30.2265949,-93.2173758,,Point,Lake Charles,3.0%,74024,Louisiana
+45.0105194,-93.4555093,,Point,Plymouth,12.0%,73987,Minnesota
+41.69864159999999,-88.0683955,,Point,Bolingbrook,29.7%,73936,Illinois
+26.1947962,-98.1836216,,Point,Pharr,55.7%,73790,Texas
+44.2619309,-88.41538469999999,,Point,Appleton,4.5%,73596,Wisconsin
+35.262082,-81.18730049999999,,Point,Gastonia,8.2%,73209,North Carolina
+38.6779591,-121.1760583,,Point,Folsom,38.6%,73098,California
+42.4733688,-83.2218731,,Point,Southfield,-6.7%,73006,Michigan
+42.65836609999999,-83.1499322,,Point,Rochester Hills,5.7%,72952,Michigan
+41.6612104,-72.7795419,,Point,New Britain,1.9%,72939,Connecticut
+33.4353394,-112.3576567,,Point,Goodyear,271.0%,72864,Arizona
+40.79894729999999,-81.378447,,Point,Canton,-10.3%,72535,Ohio
+32.6130007,-83.624201,,Point,Warner Robins,45.7%,72531,Georgia
+37.5933918,-122.0438298,,Point,Union City,7.4%,72528,California
+33.7825194,-117.2286478,,Point,Perris,98.7%,72326,California
+37.7974273,-121.2160526,,Point,Manteca,42.7%,71948,California
+41.6611277,-91.5301683,,Point,Iowa City,13.8%,71591,Iowa
+35.84229670000001,-90.704279,,Point,Jonesboro,28.3%,71551,Arkansas
+39.7390721,-75.5397878,,Point,Wilmington,-1.6%,71525,Delaware
+33.930293,-118.2114603,,Point,Lynwood,2.0%,71371,California
+40.3977612,-105.0749801,,Point,Loveland,37.4%,71334,Colorado
+41.878711,-71.38255579999999,,Point,Pawtucket,-2.5%,71172,Rhode Island
+26.5317866,-80.0905465,,Point,Boynton Beach,17.3%,71097,Florida
+43.0116784,-88.2314813,,Point,Waukesha,8.0%,71016,Wisconsin
+30.3674198,-89.0928155,,Point,Gulfport,-0.6%,71012,Mississippi
+34.5008311,-117.1858759,,Point,Apple Valley,29.9%,70924,California
+40.8567662,-74.1284764,,Point,Passaic,4.3%,70868,New Jersey
+44.0805434,-103.2310149,,Point,Rapid City,17.9%,70812,South Dakota
+41.0602216,-111.9710529,,Point,Layton,20.2%,70790,Utah
+40.4167022,-86.87528689999999,,Point,Lafayette,14.5%,70373,Indiana
+37.4946568,-120.8465941,,Point,Turlock,23.5%,70365,California
+40.1933767,-85.3863599,,Point,Muncie,-0.7%,70316,Indiana
+31.0982344,-97.342782,,Point,Temple,27.1%,70190,Texas
+29.6185669,-95.5377215,,Point,Missouri City,31.1%,70185,Texas
+34.0555693,-117.1825381,,Point,Redlands,9.4%,69999,California
+35.6869752,-105.937799,,Point,Santa Fe,10.5%,69976,New Mexico
+26.1403635,-80.2133808,,Point,Lauderhill,4.2%,69813,Florida
+37.4323341,-121.8995741,,Point,Milpitas,11.0%,69783,California
+42.1103041,-88.03424000000001,,Point,Palatine,4.5%,69350,Illinois
+46.87871759999999,-113.996586,,Point,Missoula,19.7%,69122,Montana
+34.9248667,-81.02507840000001,,Point,Rock Hill,36.0%,69103,South Carolina
+34.7540524,-77.4302414,,Point,Jacksonville,5.0%,69079,North Carolina
+35.9250637,-86.8688899,,Point,Franklin,48.5%,68886,Tennessee
+35.1982836,-111.651302,,Point,Flagstaff,29.3%,68667,Arizona
+33.0145673,-97.0969552,,Point,Flower Mound,32.5%,68609,Texas
+26.1003654,-80.3997748,,Point,Weston,34.5%,68388,Florida
+42.492786,-92.34257749999999,,Point,Waterloo,-0.5%,68366,Iowa
+40.6975898,-74.26316349999999,,Point,Union City,1.7%,68247,New Jersey
+40.9125992,-73.8370786,,Point,Mount Vernon,-0.2%,68224,New York
+26.640628,-81.8723084,,Point,Fort Myers,31.2%,68190,Florida
+31.2232313,-85.3904888,,Point,Dothan,16.6%,68001,Alabama
+38.5890723,-121.302728,,Point,Rancho Cordova,26.4%,67911,California
+33.8491816,-118.3884078,,Point,Redondo Beach,6.7%,67815,California
+35.6145169,-88.81394689999999,,Point,Jackson,12.9%,67685,Tennessee
+46.2395793,-119.1005657,,Point,Pasco,98.5%,67599,Washington
+38.7881062,-90.4974359,,Point,St. Charles,11.3%,67569,Missouri
+44.811349,-91.4984941,,Point,Eau Claire,8.7%,67545,Wisconsin
+32.8342952,-97.2289029,,Point,North Richland Hills,20.2%,67317,Texas
+46.8083268,-100.7837392,,Point,Bismarck,20.1%,67034,North Dakota
+33.8886259,-117.8131125,,Point,Yorba Linda,13.4%,67032,California
+29.9940924,-90.2417434,,Point,Kenner,-4.8%,66975,Louisiana
+37.9100783,-122.0651819,,Point,Walnut Creek,3.5%,66900,California
+39.41426879999999,-77.4105409,,Point,Frederick,25.9%,66893,Maryland
+44.0247062,-88.5426136,,Point,Oshkosh,5.3%,66778,Wisconsin
+38.0279762,-121.8846806,,Point,Pittsburg,16.6%,66695,California
+37.4418834,-122.1430195,,Point,Palo Alto,13.7%,66642,California
+32.5159852,-93.7321228,,Point,Bossier City,17.4%,66333,Louisiana
+43.66147100000001,-70.2553259,,Point,Portland,3.2%,66318,Maine
+45.5579451,-94.16324039999999,,Point,St. Cloud,10.9%,66297,Minnesota
+38.5449065,-121.7405167,,Point,Davis,11.9%,66205,California
+37.654656,-122.4077498,,Point,South San Francisco,9.1%,66174,California
+34.2163937,-119.0376023,,Point,Camarillo,14.9%,66086,California
+34.769536,-92.2670941,,Point,North Little Rock,9.0%,66075,Arkansas
+42.8142432,-73.9395687,,Point,Schenectady,6.7%,65902,New York
+39.1434406,-77.2013705,,Point,Gaithersburg,24.2%,65690,Maryland
+26.1906306,-97.69610259999999,,Point,Harlingen,11.6%,65665,Texas
+44.9238552,-92.9593797,,Point,Woodbury,39.8%,65656,Minnesota
+44.8041322,-93.1668858,,Point,Eagan,2.6%,65453,Minnesota
+39.1404477,-121.6169108,,Point,Yuba City,27.9%,65416,California
+45.0724642,-93.4557877,,Point,Maple Grove,27.3%,65415,Minnesota
+41.0997803,-80.6495194,,Point,Youngstown,-20.2%,65184,Ohio
+42.0324025,-87.7416246,,Point,Skokie,2.8%,65176,Illinois
+28.2919557,-81.40757099999999,,Point,Kissimmee,32.6%,65173,Florida
+36.3134397,-82.3534727,,Point,Johnson City,16.2%,65123,Tennessee
+28.8052674,-97.0035982,,Point,Victoria,7.5%,65098,Texas
+33.4269728,-117.6119925,,Point,San Clemente,28.6%,65040,California
+40.6687141,-74.1143091,,Point,Bayonne,5.1%,65028,New Jersey
+33.5225261,-117.7075526,,Point,Laguna Niguel,2.8%,64652,California
+40.767323,-74.2048677,,Point,East Orange,-7.4%,64544,New Jersey
+39.02284849999999,-94.7151865,,Point,Shawnee,32.2%,64323,Kansas
+25.4687224,-80.4775569,,Point,Homestead,100.7%,64079,Florida
+39.0839973,-77.1527578,,Point,Rockville,34.0%,64072,Maryland
+26.4614625,-80.0728201,,Point,Delray Beach,6.1%,64072,Florida
+42.6827885,-89.0187222,,Point,Janesville,5.6%,63820,Wisconsin
+35.0886963,-92.4421011,,Point,Conway,46.1%,63816,Arkansas
+33.9830688,-118.096735,,Point,Pico Rivera,0.4%,63771,California
+41.452819,-82.1823746,,Point,Lorain,-7.2%,63710,Ohio
+34.0165053,-118.1137535,,Point,Montebello,2.0%,63495,California
+38.1341477,-121.2722194,,Point,Lodi,10.1%,63338,California
+29.7030024,-98.1244531,,Point,New Braunfels,64.0%,63279,Texas
+48.0517637,-122.1770818,,Point,Marysville,115.7%,63269,Washington
+26.2128609,-80.2497707,,Point,Tamarac,12.9%,63155,Florida
+36.9613356,-120.0607176,,Point,Madera,44.4%,63105,California
+30.3118769,-95.45605119999999,,Point,Conroe,61.9%,63032,Texas
+36.9741171,-122.0307963,,Point,Santa Cruz,12.5%,62864,California
+44.8546856,-93.47078599999999,,Point,Eden Prairie,13.3%,62603,Minnesota
+41.1399814,-104.8202462,,Point,Cheyenne,16.9%,62448,Wyoming
+29.2108147,-81.0228331,,Point,Daytona Beach,-2.3%,62316,Florida
+34.0753762,-84.2940899,,Point,Alpharetta,33.6%,62298,Georgia
+39.3995008,-84.5613355,,Point,Hamilton,2.7%,62258,Ohio
+42.3764852,-71.2356113,,Point,Waltham,5.0%,62227,Massachusetts
+45.1732394,-93.30300629999999,,Point,Coon Rapids,0.6%,62103,Minnesota
+42.7762015,-71.0772796,,Point,Haverhill,5.0%,62088,Massachusetts
+41.2619444,-95.8608333,,Point,Council Bluffs,6.2%,61969,Iowa
+42.240872,-83.2696509,,Point,Taylor,-6.3%,61817,Michigan
+43.100903,-75.232664,,Point,Utica,2.2%,61808,New York
+42.034722,-93.61999999999999,,Point,Ames,21.3%,61792,Iowa
+33.9319578,-117.9461734,,Point,La Habra,3.6%,61653,California
+33.0369867,-117.2919818,,Point,Encinitas,5.8%,61588,California
+36.9685219,-86.4808043,,Point,Bowling Green,24.1%,61488,Kentucky
+44.7677424,-93.27772259999999,,Point,Burnsville,1.9%,61434,Minnesota
+34.85261759999999,-82.3940104,,Point,Greenville,8.2%,61397,South Carolina
+41.5772115,-93.711332,,Point,West Des Moines,29.8%,61255,Iowa
+30.505198,-97.8202888,,Point,Cedar Park,134.3%,61238,Texas
+36.2077288,-119.3473379,,Point,Tulare,33.3%,61170,California
+34.0625106,-118.1228476,,Point,Monterey Park,1.5%,61085,California
+39.4863773,-75.02596369999999,,Point,Vineland,9.3%,61050,New Jersey
+39.4667034,-87.41390919999999,,Point,Terre Haute,2.5%,61025,Indiana
+25.8900949,-80.1867138,,Point,North Miami,2.0%,61007,Florida
+32.5631924,-97.1416768,,Point,Mansfield,114.2%,60872,Texas
+43.0166806,-88.0070315,,Point,West Allis,-0.6%,60697,Wisconsin
+41.67176480000001,-72.9492703,,Point,Bristol,0.4%,60568,Connecticut
+40.66772479999999,-111.9388258,,Point,Taylorsville,2.9%,60519,Utah
+42.4250964,-71.066163,,Point,Malden,7.4%,60509,Massachusetts
+41.5381535,-72.80704349999999,,Point,Meriden,3.7%,60456,Connecticut
+45.1607987,-93.23494889999999,,Point,Blaine,32.8%,60407,Minnesota
+26.6617635,-80.2683571,,Point,Wellington,55.0%,60202,Florida
+37.3229978,-122.0321823,,Point,Cupertino,14.3%,60189,California
+44.0462362,-123.0220289,,Point,Springfield,12.4%,60177,Oregon
+36.3320196,-94.1185366,,Point,Rogers,50.6%,60112,Arkansas
+42.4974085,-82.89636039999999,,Point,St. Clair Shores,-4.6%,60070,Michigan
+33.8883487,-118.3089624,,Point,Gardena,3.4%,59957,California
+42.6389216,-83.29104679999999,,Point,Pontiac,-11.4%,59887,Michigan
+32.6781085,-117.0991967,,Point,National City,10.1%,59834,California
+39.0638705,-108.5506486,,Point,Grand Junction,30.9%,59778,Colorado
+38.7907339,-121.2357828,,Point,Rocklin,60.3%,59738,California
+35.9131996,-79.0558445,,Point,Chapel Hill,24.1%,59635,North Carolina
+42.866632,-106.313081,,Point,Casper,19.9%,59628,Wyoming
+39.9205411,-105.0866504,,Point,Broomfield,50.3%,59471,Colorado
+38.232417,-122.6366524,,Point,Petaluma,8.4%,59440,California
+40.5621704,-111.929658,,Point,South Jordan,100.1%,59366,Utah
+39.9242266,-83.8088171,,Point,Springfield,-9.8%,59357,Ohio
+47.4941836,-111.2833449,,Point,Great Falls,3.9%,59351,Montana
+40.0378755,-76.3055144,,Point,Lancaster,4.5%,59325,Pennsylvania
+27.044224,-82.2359254,,Point,North Port,154.6%,59212,Florida
+47.1717649,-122.518458,,Point,Lakewood,1.1%,59097,Washington
+33.95260200000001,-84.5499327,,Point,Marietta,-3.8%,59089,Georgia
+37.9735346,-122.5310874,,Point,San Rafael,5.0%,58994,California
+42.4894801,-83.1446485,,Point,Royal Oak,-1.7%,58946,Michigan
+42.0333623,-87.88339909999999,,Point,Des Plaines,3.2%,58918,Illinois
+33.9816812,-118.2250725,,Point,Huntington Park,-4.1%,58879,California
+32.7678287,-117.0230839,,Point,La Mesa,6.9%,58642,California
+41.6303103,-87.85394250000002,,Point,Orland Park,13.9%,58590,Illinois
+32.6098566,-85.48078249999999,,Point,Auburn,26.4%,58582,Alabama
+44.6496868,-93.24271999999999,,Point,Lakeville,34.3%,58562,Minnesota
+37.7719074,-87.1111676,,Point,Owensboro,7.7%,58416,Kentucky
+35.3395079,-97.48670279999999,,Point,Moore,41.5%,58414,Oklahoma
+26.9342246,-80.0942087,,Point,Jupiter,46.2%,58298,Florida
+43.49165139999999,-112.0339645,,Point,Idaho Falls,14.0%,58292,Idaho
+42.5005583,-90.66457179999999,,Point,Dubuque,0.9%,58253,Iowa
+35.2045328,-89.8739753,,Point,Bartlett,31.7%,58226,Tennessee
+32.9029017,-96.56388,,Point,Rowlett,28.6%,58043,Texas
+42.48059,-83.4754913,,Point,Novi,22.0%,57960,Michigan
+41.03398620000001,-73.7629097,,Point,White Plains,8.5%,57866,New York
+34.1397292,-118.0353449,,Point,Arcadia,8.3%,57639,California
+47.6739881,-122.121512,,Point,Redmond,26.0%,57530,Washington
+33.6680772,-117.3272615,,Point,Lake Elsinore,96.5%,57525,California
+29.1871986,-82.14009229999999,,Point,Ocala,20.8%,57468,Florida
+41.5731442,-87.7932939,,Point,Tinley Park,16.3%,57282,Illinois
+29.1383165,-80.9956105,,Point,Port Orange,22.8%,57203,Florida
+42.4184296,-71.1061639,,Point,Medford,2.7%,57170,Massachusetts
+41.719978,-87.7479528,,Point,Oak Lawn,3.3%,57073,Illinois
+35.9382103,-77.7905339,,Point,Rocky Mount,-3.1%,56954,North Carolina
+40.486427,-86.13360329999999,,Point,Kokomo,21.3%,56895,Indiana
+26.2517482,-80.17893509999999,,Point,Coconut Creek,28.4%,56792,Florida
+39.0067768,-76.77913649999999,,Point,Bowie,8.6%,56759,Maryland
+41.85058739999999,-87.7936685,,Point,Berwyn,5.1%,56758,Illinois
+35.4495065,-97.3967019,,Point,Midwest City,4.5%,56756,Oklahoma
+33.7091847,-117.9536697,,Point,Fountain Valley,3.0%,56707,California
+33.3703197,-112.5837766,,Point,Buckeye,480.9%,56683,Arizona
+42.3369816,-83.27326269999999,,Point,Dearborn Heights,-3.0%,56620,Michigan
+38.67851570000001,-121.7732971,,Point,Woodland,13.8%,56590,California
+40.0455917,-86.0085955,,Point,Noblesville,88.1%,56540,Indiana
+30.8327022,-83.2784851,,Point,Valdosta,22.3%,56481,Georgia
+34.0286226,-117.8103367,,Point,Diamond Bar,0.1%,56449,California
+39.18360819999999,-96.57166939999999,,Point,Manhattan,22.8%,56143,Kansas
+32.8383828,-116.9739167,,Point,Santee,5.7%,56105,California
+41.900101,-71.0897674,,Point,Taunton,0.0%,56069,Massachusetts
+28.8028612,-81.269453,,Point,Sanford,42.8%,56002,Florida
+39.68950359999999,-84.1688274,,Point,Kettering,-3.1%,55870,Ohio
+40.4862157,-74.4518188,,Point,New Brunswick,15.5%,55831,New Jersey
+34.6059253,-86.9833417,,Point,Decatur,3.1%,55816,Alabama
+42.1487043,-72.6078672,,Point,Chicopee,1.7%,55717,Massachusetts
+40.1053196,-85.6802541,,Point,Anderson,-6.6%,55670,Indiana
+26.2445263,-80.206436,,Point,Margate,2.7%,55456,Florida
+42.2180724,-70.94103559999999,,Point,Weymouth Town,,55419,Massachusetts
+40.7062128,-73.6187397,,Point,Hempstead,4.0%,55361,New York
+44.5645659,-123.2620435,,Point,Corvallis,11.8%,55298,Oregon
+33.952463,-117.5848025,,Point,Eastvale,,55191,California
+36.06523,-119.0167679,,Point,Porterville,20.1%,55174,California
+41.2705484,-72.9469711,,Point,West Haven,5.1%,55046,Connecticut
+37.931868,-121.6957863,,Point,Brentwood,122.3%,55000,California
+33.8894598,-118.1597911,,Point,Paramount,-0.7%,54980,California
+47.9252568,-97.0328547,,Point,Grand Forks,11.5%,54932,North Dakota
+30.6332618,-97.6779842,,Point,Georgetown,91.9%,54898,Texas
+38.7874699,-90.6298922,,Point,St. Peters,6.5%,54842,Missouri
+47.7556531,-122.3415178,,Point,Shoreline,2.9%,54790,Washington
+42.0664167,-87.9372908,,Point,Mount Prospect,-2.5%,54771,Illinois
+36.3274502,-119.6456844,,Point,Hanford,30.3%,54686,California
+40.5142026,-88.9906312,,Point,Normal,19.7%,54664,Illinois
+34.0805651,-118.072846,,Point,Rosemead,1.7%,54561,California
+40.3916172,-111.8507662,,Point,Lehi,176.3%,54382,Utah
+42.8713032,-112.4455344,,Point,Pocatello,5.4%,54350,Idaho
+34.1283442,-117.2086513,,Point,Highland,21.0%,54291,California
+38.1074198,-122.5697032,,Point,Novato,13.3%,54194,California
+29.8849504,-93.93994699999999,,Point,Port Arthur,-6.0%,54135,Texas
+39.1637984,-119.7674034,,Point,Carson City,2.9%,54080,Nevada
+29.8832749,-97.9413941,,Point,San Marcos,48.5%,54076,Texas
+36.3047735,-86.6199957,,Point,Hendersonville,31.7%,54068,Tennessee
+41.3683798,-82.10764859999999,,Point,Elyria,-3.7%,53956,Ohio
+42.4084302,-71.0119948,,Point,Revere,13.4%,53756,Massachusetts
+30.4393696,-97.62000429999999,,Point,Pflugerville,123.4%,53752,Texas
+39.6136578,-86.10665259999999,,Point,Greenwood,46.0%,53665,Indiana
+41.1543623,-95.9145568,,Point,Bellevue,20.5%,53663,Nebraska
+41.8661403,-88.1070127,,Point,Wheaton,-3.4%,53648,Illinois
+33.8839926,-84.51437609999999,,Point,Smyrna,20.0%,53438,Georgia
+27.3364347,-82.53065269999999,,Point,Sarasota,1.4%,53326,Florida
+39.0169509,-94.2816148,,Point,Blue Springs,9.9%,53294,Missouri
+34.0739016,-117.3136547,,Point,Colton,10.8%,53243,California
+32.8370727,-97.08195409999999,,Point,Euless,15.1%,53224,Texas
+39.3722121,-104.8560902,,Point,Castle Rock,153.5%,53063,Colorado
+33.7805388,-116.4668036,,Point,Cathedral City,23.2%,52977,California
+36.548434,-82.5618186,,Point,Kingsport,16.7%,52962,Tennessee
+34.483901,-114.3224548,,Point,Lake Havasu City,24.6%,52844,Arizona
+30.42130899999999,-87.2169149,,Point,Pensacola,-6.0%,52703,Florida
+40.7439905,-74.0323626,,Point,Hoboken,35.8%,52575,New Jersey
+34.033625,-117.0430865,,Point,Yucaipa,26.8%,52536,California
+36.910231,-121.7568946,,Point,Watsonville,12.7%,52477,California
+46.2856907,-119.2844621,,Point,Richland,34.6%,52413,Washington
+35.7688425,-119.2470536,,Point,Delano,31.8%,52403,California
+42.0629915,-88.12271989999999,,Point,Hoffman Estates,5.4%,52398,Illinois
+38.789217,-90.322614,,Point,Florissant,-2.8%,52363,Missouri
+33.8722371,-117.8703363,,Point,Placentia,11.8%,52206,California
+40.7878788,-74.0143064,,Point,West New York,13.3%,52122,New Jersey
+37.7021521,-121.9357918,,Point,Dublin,70.0%,52105,California
+41.8850317,-87.7845025,,Point,Oak Park,-0.8%,52066,Illinois
+42.5278731,-70.9286609,,Point,Peabody,7.5%,52044,Massachusetts
+40.5067723,-74.2654234,,Point,Perth Amboy,9.7%,51982,New Jersey
+42.3211522,-85.17971419999999,,Point,Battle Creek,-2.8%,51848,Michigan
+27.4989278,-82.5748194,,Point,Bradenton,3.4%,51763,Florida
+37.0057816,-121.5682751,,Point,Gilroy,23.9%,51701,California
+41.2306979,-73.064036,,Point,Milford,1.8%,51644,Connecticut
+44.6365107,-123.1059282,,Point,Albany,25.5%,51583,Oregon
+41.7317884,-93.6001278,,Point,Ankeny,86.9%,51567,Iowa
+43.8013556,-91.23958069999999,,Point,La Crosse,-0.8%,51522,Wisconsin
+36.0956918,-79.43779909999999,,Point,Burlington,12.1%,51510,North Carolina
+32.5896998,-96.8570738,,Point,DeSoto,36.0%,51483,Texas
+38.4495688,-78.8689155,,Point,Harrisonburg,27.1%,51395,Virginia
+44.9211836,-93.4687489,,Point,Minnetonka,0.4%,51368,Minnesota
+41.6819935,-85.9766671,,Point,Elkhart,-2.5%,51265,Indiana
+41.4819932,-81.7981908,,Point,Lakewood,-9.4%,51143,Ohio
+34.1361187,-117.865339,,Point,Glendora,3.1%,51074,California
+34.9889818,-90.0125913,,Point,Southaven,72.8%,50997,Mississippi
+38.3498195,-81.6326234,,Point,Charleston,-4.7%,50821,West Virginia
+37.08422710000001,-94.51328099999999,,Point,Joplin,11.2%,50789,Missouri
+36.3955891,-97.8783911,,Point,Enid,8.1%,50725,Oklahoma
+26.8233946,-80.13865469999999,,Point,Palm Beach Gardens,39.6%,50699,Florida
+33.8651033,-84.3365917,,Point,Brookhaven,,50603,Georgia
+40.6337136,-74.4073736,,Point,Plainfield,5.7%,50588,New Jersey
+40.9263957,-98.3420118,,Point,Grand Island,16.0%,50550,Nebraska
+33.7222445,-116.3744556,,Point,Palm Desert,13.2%,50508,California
+35.410694,-80.84285040000002,,Point,Huntersville,92.9%,50458,North Carolina
+45.4312294,-122.7714861,,Point,Tigard,17.8%,50444,Oregon
+38.9536174,-94.73357089999999,,Point,Lenexa,24.6%,50344,Kansas
+43.4194699,-83.9508068,,Point,Saginaw,-18.2%,50303,Michigan
+42.8694731,-85.64474919999999,,Point,Kentwood,10.5%,50233,Michigan
+25.8195424,-80.3553302,,Point,Doral,137.6%,50213,Florida
+44.7319094,-93.21772000000001,,Point,Apple Valley,9.2%,50201,Minnesota
+32.9342919,-97.0780654,,Point,Grapevine,17.6%,50195,Texas
+33.5676842,-117.7256083,,Point,Aliso Viejo,25.4%,50175,California
+47.61626829999999,-122.0355736,,Point,Sammamish,44.1%,50169,Washington
+32.8795022,-111.7573521,,Point,Casa Grande,86.0%,50111,Arizona
+27.8428025,-82.6995443,,Point,Pinellas Park,5.9%,49998,Florida
+42.7284117,-73.69178509999999,,Point,Troy,1.5%,49974,New York
+38.5804609,-121.530234,,Point,West Sacramento,55.6%,49891,California
+47.4703767,-122.3467918,,Point,Burien,56.7%,49858,Washington
+39.8083196,-104.9338675,,Point,Commerce City,135.4%,49799,Colorado
+32.5093109,-92.1193012,,Point,Monroe,-6.1%,49761,Louisiana
+33.8583483,-118.0647871,,Point,Cerritos,-3.6%,49707,California
+41.8089191,-88.01117459999999,,Point,Downers Grove,0.0%,49670,Illinois
+25.72149,-80.2683838,,Point,Coral Gables,16.1%,49631,Florida
+35.7212689,-77.9155395,,Point,Wilson,10.1%,49628,North Carolina
+43.0962143,-79.0377388,,Point,Niagara Falls,-10.8%,49468,New York
+32.9628232,-117.0358646,,Point,Poway,2.4%,49417,California
+44.8896866,-93.3499489,,Point,Edina,4.1%,49376,Minnesota
+41.1339449,-81.48455849999999,,Point,Cuyahoga Falls,-0.2%,49267,Ohio
+33.640855,-117.603104,,Point,Rancho Santa Margarita,4.6%,49228,California
+40.2731911,-76.8867008,,Point,Harrisburg,0.6%,49188,Pennsylvania
+38.4192496,-82.44515400000002,,Point,Huntington,-5.0%,49177,West Virginia
+33.9172357,-118.0120086,,Point,La Mirada,4.6%,49133,California
+33.8169599,-118.0372852,,Point,Cypress,5.3%,49087,California
+43.66293839999999,-116.6873596,,Point,Caldwell,77.1%,48957,Idaho
+41.7369803,-111.8338359,,Point,Logan,14.5%,48913,Utah
+29.3013479,-94.7976958,,Point,Galveston,-15.2%,48733,Texas
+43.7508284,-87.71453,,Point,Sheboygan,-3.9%,48725,Wisconsin
+39.5150576,-84.39827629999999,,Point,Middletown,-5.7%,48630,Ohio
+40.6668916,-111.8879909,,Point,Murray,6.6%,48612,Utah
+33.3942655,-104.5230242,,Point,Roswell,7.5%,48611,New Mexico
+39.5186002,-104.7613633,,Point,Parker,96.4%,48608,Colorado
+32.844017,-97.1430671,,Point,Bedford,2.9%,48592,Texas
+42.7369792,-84.48386540000001,,Point,East Lansing,4.2%,48554,Michigan
+42.7262016,-71.1908924,,Point,Methuen,10.3%,48514,Massachusetts
+34.0900091,-117.8903397,,Point,Covina,3.3%,48508,California
+31.3112936,-92.4451371,,Point,Alexandria,4.1%,48426,Louisiana
+47.0378741,-122.9006951,,Point,Olympia,12.1%,48338,Washington
+41.5931049,-81.5267873,,Point,Euclid,-8.4%,48139,Ohio
+41.6619927,-86.15861559999999,,Point,Mishawaka,2.0%,47989,Indiana
+38.8402805,-97.61142369999999,,Point,Salina,4.5%,47846,Kansas
+34.1336186,-117.9075627,,Point,Azusa,6.7%,47842,California
+40.0581205,-82.4012642,,Point,Newark,3.1%,47777,Ohio
+38.6631083,-90.5770675,,Point,Chesterfield,1.9%,47749,Missouri
+39.1156615,-77.56360149999999,,Point,Leesburg,66.0%,47673,Virginia
+33.9462125,-84.3346473,,Point,Dunwoody,,47591,Georgia
+31.3271189,-89.29033919999999,,Point,Hattiesburg,3.1%,47556,Mississippi
+42.4972583,-82.9371409,,Point,Roseville,-1.0%,47555,Michigan
+26.339806,-81.7786972,,Point,Bonita Springs,43.8%,47547,Florida
+42.2011538,-85.5800022,,Point,Portage,5.7%,47523,Michigan
+44.9597376,-93.3702186,,Point,St. Louis Park,7.3%,47411,Minnesota
+35.042036,-89.6645266,,Point,Collierville,43.4%,47333,Tennessee
+41.5623209,-72.6506488,,Point,Middletown,3.6%,47333,Connecticut
+36.1156071,-97.0583681,,Point,Stillwater,20.1%,47186,Oklahoma
+41.8137116,-71.3700545,,Point,East Providence,-3.3%,47149,Rhode Island
+39.8386516,-86.0252612,,Point,Lawrence,20.5%,47135,Indiana
+43.0494572,-88.0075875,,Point,Wauwatosa,0.0%,47134,Wisconsin
+41.6661573,-81.339552,,Point,Mentor,-6.6%,46979,Ohio
+37.5949316,-120.9577098,,Point,Ceres,34.0%,46714,California
+32.5884689,-96.9561152,,Point,Cedar Hill,42.4%,46663,Texas
+40.75839,-82.5154471,,Point,Mansfield,-10.1%,46454,Ohio
+42.09868669999999,-75.91797380000001,,Point,Binghamton,-1.7%,46444,New York
+47.6776832,-116.7804664,,Point,Coeur d'Alene,32.8%,46402,Idaho
+35.2827524,-120.6596156,,Point,San Luis Obispo,4.4%,46377,California
+48.2329668,-101.2922906,,Point,Minot,26.6%,46321,North Dakota
+33.8302961,-116.5452921,,Point,Palm Springs,7.7%,46281,California
+34.2284312,-92.00319549999999,,Point,Pine Bluff,-16.2%,46094,Arkansas
+29.383845,-94.9027002,,Point,Texas City,10.3%,46081,Texas
+33.0185039,-80.17564809999999,,Point,Summerville,62.9%,46074,South Carolina
+42.5629668,-114.4608711,,Point,Twin Falls,31.5%,45981,Idaho
+38.2775702,-85.7371847,,Point,Jeffersonville,53.3%,45929,Indiana
+33.7839084,-116.958635,,Point,San Jacinto,91.8%,45851,California
+34.6992579,-86.74833180000002,,Point,Madison,53.7%,45799,Alabama
+40.5186809,-78.3947359,,Point,Altoona,-7.3%,45796,Pennsylvania
+39.2014404,-85.9213796,,Point,Columbus,16.4%,45775,Indiana
+39.7092262,-84.06326849999999,,Point,Beavercreek,19.0%,45712,Ohio
+28.6934076,-81.5322149,,Point,Apopka,63.9%,45587,Florida
+41.8994744,-87.9403418,,Point,Elmhurst,5.7%,45556,Illinois
+33.0581063,-112.0476423,,Point,Maricopa,2503.4%,45508,Arizona
+36.72805830000001,-108.2186856,,Point,Farmington,18.1%,45426,New Mexico
+42.0697509,-87.7878408,,Point,Glenview,5.2%,45417,Illinois
+41.5200518,-81.556235,,Point,Cleveland Heights,-10.3%,45394,Ohio
+40.5246711,-111.8638226,,Point,Draper,77.4%,45285,Utah
+38.891565,-121.2930079,,Point,Lincoln,285.2%,45237,California
+31.5455001,-110.2772856,,Point,Sierra Vista,19.3%,45129,Arizona
+47.03426289999999,-122.8231915,,Point,Lacey,41.7%,44919,Washington
+30.3960318,-88.88530779999999,,Point,Biloxi,-11.5%,44820,Mississippi
+41.3144966,-81.83569,,Point,Strongsville,1.9%,44730,Ohio
+41.7003208,-70.3002024,,Point,Barnstable Town,-7.1%,44641,Massachusetts
+33.0151201,-96.5388789,,Point,Wylie,185.2%,44575,Texas
+40.45940210000001,-74.360846,,Point,Sayreville,9.6%,44412,New Jersey
+35.4873613,-80.6217341,,Point,Kannapolis,18.6%,44359,North Carolina
+38.0293059,-78.47667810000002,,Point,Charlottesville,10.5%,44349,Virginia
+39.613321,-105.0166498,,Point,Littleton,9.4%,44275,Colorado
+28.6122187,-80.8075537,,Point,Titusville,7.8%,44206,Florida
+40.8859325,-74.0434736,,Point,Hackensack,2.9%,44113,New Jersey
+37.5296593,-122.0402399,,Point,Newark,3.3%,44096,California
+42.4500845,-73.2453824,,Point,Pittsfield,-3.6%,44057,Massachusetts
+39.9625984,-76.727745,,Point,York,6.4%,43935,Pennsylvania
+41.8800296,-88.00784349999999,,Point,Lombard,2.9%,43907,Illinois
+41.94454409999999,-71.2856082,,Point,Attleboro,4.6%,43886,Massachusetts
+41.9294736,-88.75036469999999,,Point,DeKalb,11.8%,43849,Illinois
+37.2295733,-80.4139393,,Point,Blacksburg,9.4%,43609,Virginia
+40.0992294,-83.1140771,,Point,Dublin,37.6%,43607,Ohio
+32.7995738,-97.26918169999999,,Point,Haltom City,11.4%,43580,Texas
+34.6391501,-120.4579409,,Point,Lompoc,5.5%,43509,California
+32.792,-115.5630514,,Point,El Centro,13.7%,43363,California
+37.8215929,-121.9999606,,Point,Danville,3.7%,43341,California
+38.57670170000001,-92.1735164,,Point,Jefferson City,6.7%,43330,Missouri
+25.5808323,-80.34685929999999,,Point,Cutler Bay,42.9%,43328,Florida
+26.1723065,-80.1319893,,Point,Oakland Park,2.7%,43286,Florida
+25.9331488,-80.1625463,,Point,North Miami Beach,3.6%,43250,Florida
+40.6576022,-73.58318349999999,,Point,Freeport,-1.4%,43167,New York
+41.5067003,-90.51513419999999,,Point,Moline,-1.9%,43116,Illinois
+33.6803003,-116.173894,,Point,Coachella,88.4%,43092,California
+27.4467056,-80.3256056,,Point,Fort Pierce,6.9%,43074,Florida
+35.9828412,-86.5186045,,Point,Smyrna,54.9%,43060,Tennessee
+40.8893895,-111.880771,,Point,Bountiful,3.9%,43023,Utah
+43.7730448,-88.4470508,,Point,Fond du Lac,1.7%,42970,Wisconsin
+42.40843,-71.0536625,,Point,Everett,12.1%,42935,Massachusetts
+36.5859718,-79.39502279999999,,Point,Danville,-11.0%,42907,Virginia
+32.9341893,-97.229298,,Point,Keller,53.3%,42907,Texas
+38.5200504,-89.9839935,,Point,Belleville,1.2%,42895,Illinois
+33.9652918,-118.1514588,,Point,Bell Gardens,-2.7%,42889,California
+35.1595182,-84.8766115,,Point,Cleveland,14.1%,42774,Tennessee
+26.217305,-80.2258811,,Point,North Lauderdale,10.8%,42757,Florida
+39.3454673,-84.5603187,,Point,Fairfield,1.2%,42635,Ohio
+42.51954,-70.8967155,,Point,Salem,5.1%,42544,Massachusetts
+33.7444613,-118.3870173,,Point,Rancho Palos Verdes,2.9%,42448,California
+37.6304904,-122.4110835,,Point,San Bruno,5.6%,42443,California
+43.2081366,-71.5375718,,Point,Concord,4.1%,42419,New Hampshire
+44.4758825,-73.21207199999999,,Point,Burlington,6.1%,42284,Vermont
+35.732652,-78.85028559999999,,Point,Apex,98.8%,42214,North Carolina
+43.6155825,-84.2472116,,Point,Midland,0.9%,42181,Michigan
+28.6611089,-81.3656242,,Point,Altamonte Springs,2.0%,42150,Florida
+38.0608445,-97.92977429999999,,Point,Hutchinson,0.1%,41889,Kansas
+42.1662831,-87.9631308,,Point,Buffalo Grove,-3.4%,41778,Illinois
+41.6266555,-93.71216559999999,,Point,Urbandale,41.5%,41776,Iowa
+40.7933949,-77.8600012,,Point,State College,8.7%,41757,Pennsylvania
+40.1105875,-88.2072697,,Point,Urbana,10.3%,41752,Illinois
+41.632223,-88.2120315,,Point,Plainfield,203.6%,41734,Illinois
+38.7509488,-77.47526669999999,,Point,Manassas,19.5%,41705,Virginia
+41.9950276,-88.1856301,,Point,Bartlett,13.1%,41679,Illinois
+40.7684342,-74.1454214,,Point,Kearny,2.8%,41664,New Jersey
+32.3909071,-110.966488,,Point,Oro Valley,27.0%,41627,Arizona
+41.04422,-83.6499321,,Point,Findlay,5.8%,41512,Ohio
+38.3396367,-122.7010984,,Point,Rohnert Park,0.0%,41398,California
+42.1250929,-72.749538,,Point,Westfield,3.0%,41301,Massachusetts
+40.6220478,-74.24459019999999,,Point,Linden,4.7%,41301,New Jersey
+33.9204354,-80.3414693,,Point,Sumter,1.3%,41190,South Carolina
+41.2459149,-75.88130749999999,,Point,Wilkes-Barre,-4.3%,41108,Pennsylvania
+42.00287609999999,-71.51478390000001,,Point,Woonsocket,-5.2%,41026,Rhode Island
+42.5250906,-71.759794,,Point,Leominster,-1.1%,41002,Massachusetts
+41.3164856,-73.0931641,,Point,Shelton,7.3%,40999,Connecticut
+33.9166805,-117.9000604,,Point,Brea,15.2%,40963,California
+39.0836712,-84.5085536,,Point,Covington,-4.7%,40956,Kentucky
+32.93123360000001,-96.4597089,,Point,Rockwall,117.2%,40922,Texas
+32.3643098,-88.703656,,Point,Meridian,-0.9%,40921,Mississippi
+40.521893,-111.9391023,,Point,Riverton,61.6%,40921,Utah
+28.2489016,-81.2811801,,Point,St. Cloud,86.2%,40918,Florida
+39.9356016,-91.4098726,,Point,Quincy,0.5%,40915,Illinois
+37.1305012,-121.6543901,,Point,Morgan Hill,19.5%,40836,California
+41.2375569,-80.81841659999999,,Point,Warren,-15.2%,40768,Ohio
+47.8106521,-122.3773552,,Point,Edmonds,2.9%,40727,Washington
+32.5420821,-97.3208492,,Point,Burleson,85.3%,40714,Texas
+42.5584283,-70.880049,,Point,Beverly,2.0%,40664,Massachusetts
+44.1635775,-93.99939959999999,,Point,Mankato,24.7%,40641,Minnesota
+39.6417629,-77.71999319999999,,Point,Hagerstown,10.4%,40612,Maryland
+34.5400242,-112.4685025,,Point,Prescott,18.1%,40590,Arizona
+37.2871651,-121.9499568,,Point,Campbell,4.2%,40584,California
+42.5348993,-92.4453161,,Point,Cedar Falls,12.0%,40566,Iowa
+33.9294606,-116.977248,,Point,Beaumont,254.5%,40481,California
+34.0200114,-117.9495083,,Point,La Puente,-1.6%,40435,California
+42.2411344,-88.31619649999999,,Point,Crystal Lake,5.3%,40388,Illinois
+42.5834228,-71.8022955,,Point,Fitchburg,3.5%,40383,Massachusetts
+41.91252859999999,-88.13479269999999,,Point,Carol Stream,-0.2%,40379,Illinois
+35.7344538,-81.3444573,,Point,Hickory,7.0%,40361,North Carolina
+42.0255827,-88.17840849999999,,Point,Streamwood,10.1%,40351,Illinois
+41.5242649,-72.07591049999999,,Point,Norwich,11.6%,40347,Connecticut
+32.9545687,-97.01500779999999,,Point,Coppell,10.3%,40342,Texas
+34.09611110000001,-118.1058333,,Point,San Gabriel,0.9%,40275,California
+42.2042586,-72.6162009,,Point,Holyoke,0.9%,40249,Massachusetts
+36.3728538,-94.2088172,,Point,Bentonville,97.7%,40167,Arkansas
+34.79981,-87.677251,,Point,Florence,10.2%,40059,Alabama
+33.9698929,-84.2214551,,Point,Peachtree Corners,,40059,Georgia
+36.0331164,-86.78277720000001,,Point,Brentwood,51.9%,40021,Tennessee
+45.6769979,-111.0429339,,Point,Bozeman,41.9%,39860,Montana
+42.9764027,-88.1084224,,Point,New Berlin,3.6%,39834,Wisconsin
+32.9810059,-80.03258670000001,,Point,Goose Creek,26.1%,39823,South Carolina
+30.7235263,-95.55077709999999,,Point,Huntsville,13.2%,39795,Texas
+34.6100243,-112.315721,,Point,Prescott Valley,62.9%,39791,Arizona
+44.9530215,-92.9952153,,Point,Maplewood,12.3%,39765,Minnesota
+41.6475306,-88.0895061,,Point,Romeoville,79.5%,39650,Illinois
+32.6518004,-96.9083366,,Point,Duncanville,9.7%,39605,Texas
+39.3642834,-74.4229266,,Point,Atlantic City,-2.2%,39551,New Jersey
+34.4047987,-103.2052272,,Point,Clovis,21.3%,39508,New Mexico
+33.0806083,-96.89283089999999,,Point,The Colony,45.7%,39458,Texas
+34.0211224,-118.3964665,,Point,Culver City,1.3%,39428,California
+42.3459271,-71.5522874,,Point,Marlborough,7.6%,39414,Massachusetts
+32.216316,-80.752608,,Point,Hilton Head Island,16.0%,39412,South Carolina
+46.8737648,-96.76780389999999,,Point,Moorhead,21.3%,39398,Minnesota
+32.6789476,-115.4988834,,Point,Calexico,44.0%,39389,California
+35.1359386,-114.5285981,,Point,Bullhead City,15.9%,39383,Arizona
+35.0867577,-89.8100858,,Point,Germantown,4.1%,39375,Tennessee
+33.6633573,-116.3100095,,Point,La Quinta,59.9%,39331,California
+39.7136754,-82.5993294,,Point,Lancaster,10.7%,39325,Ohio
+44.9591352,-89.6301221,,Point,Wausau,1.7%,39309,Wisconsin
+33.6356618,-96.6088805,,Point,Sherman,11.6%,39296,Texas
+28.5691677,-81.5439619,,Point,Ocoee,57.9%,39172,Florida
+44.7973962,-93.5272861,,Point,Shakopee,85.7%,39167,Minnesota
+42.4792618,-71.1522765,,Point,Woburn,4.4%,39083,Massachusetts
+47.5673202,-122.6329356,,Point,Bremerton,4.9%,39056,Washington
+41.5094771,-90.5787476,,Point,Rock Island,-1.9%,38877,Illinois
+35.7478769,-95.3696909,,Point,Muskogee,-0.7%,38863,Oklahoma
+37.3058839,-89.51814759999999,,Point,Cape Girardeau,9.4%,38816,Missouri
+38.9784453,-76.4921829,,Point,Annapolis,7.6%,38722,Maryland
+26.6276276,-80.1353896,,Point,Greenacres,35.5%,38696,Florida
+29.2858129,-81.0558894,,Point,Ormond Beach,5.8%,38661,Florida
+25.9812024,-80.14837899999999,,Point,Hallandale Beach,12.4%,38632,Florida
+33.8025155,-117.9931165,,Point,Stanton,2.8%,38623,California
+47.1853785,-122.2928974,,Point,Puyallup,11.8%,38609,Washington
+37.6138253,-122.4869194,,Point,Pacifica,0.5%,38606,California
+41.9994722,-88.1450735,,Point,Hanover Park,0.6%,38510,Illinois
+32.8234621,-97.1705678,,Point,Hurst,5.8%,38448,Texas
+40.742551,-84.1052256,,Point,Lima,-8.1%,38355,Ohio
+32.436381,-111.2224422,,Point,Marana,166.2%,38290,Arizona
+42.1211364,-88.2578582,,Point,Carpentersville,22.8%,38241,Illinois
+37.9974219,-121.7124536,,Point,Oakley,47.7%,38194,California
+39.843947,-84.12466080000002,,Point,Huber Heights,-0.2%,38142,Ohio
+32.5920798,-96.7561082,,Point,Lancaster,46.4%,38071,Texas
+34.0775104,-117.6897776,,Point,Montclair,12.1%,38027,California
+42.1391927,-87.9289591,,Point,Wheeling,4.8%,38015,Illinois
+43.0605671,-88.1064787,,Point,Brookfield,-1.9%,37999,Wisconsin
+42.0111412,-87.84061919999999,,Point,Park Ridge,0.1%,37839,Illinois
+34.1954331,-79.7625625,,Point,Florence,19.8%,37792,South Carolina
+41.1616108,-112.0263313,,Point,Roy,13.3%,37733,Utah
+28.5652787,-81.58618469999999,,Point,Winter Garden,142.5%,37711,Florida
+42.3917638,-71.0328284,,Point,Chelsea,7.3%,37670,Massachusetts
+40.6642699,-73.70846449999999,,Point,Valley Stream,3.6%,37659,New York
+34.9495672,-81.9320482,,Point,Spartanburg,-6.2%,37647,South Carolina
+45.42067489999999,-122.6706498,,Point,Lake Oswego,5.3%,37610,Oregon
+29.5293998,-95.2010447,,Point,Friendswood,28.6%,37587,Texas
+40.1261743,-82.92906959999999,,Point,Westerville,5.7%,37530,Ohio
+39.8961821,-104.9811468,,Point,Northglenn,15.5%,37499,Colorado
+32.4709761,-85.0007653,,Point,Phenix City,31.9%,37498,Alabama
+39.88145189999999,-83.0929644,,Point,Grove City,35.6%,37490,Ohio
+33.425125,-94.04768820000001,,Point,Texarkana,7.4%,37442,Texas
+41.931696,-87.9889556,,Point,Addison,2.6%,37385,Illinois
+39.158168,-75.5243682,,Point,Dover,16.0%,37366,Delaware
+42.2505943,-83.1785361,,Point,Lincoln Park,-6.7%,37313,Michigan
+41.6155909,-87.5294871,,Point,Calumet City,-4.5%,37240,Illinois
+43.2341813,-86.24839209999999,,Point,Muskegon,-7.1%,37213,Michigan
+25.9564812,-80.1392121,,Point,Aventura,47.2%,37199,Florida
+38.0193657,-122.1341321,,Point,Martinez,3.4%,37165,California
+42.9614039,-88.0125865,,Point,Greenfield,4.8%,37159,Wisconsin
+33.4150485,-111.5495777,,Point,Apache Junction,15.7%,37130,Arizona
+34.1442616,-118.0019482,,Point,Monrovia,0.2%,37101,California
+26.1595194,-97.9908366,,Point,Weslaco,28.8%,37093,Texas
+44.9901194,-123.0262077,,Point,Keizer,14.4%,37064,Oregon
+40.114955,-111.654923,,Point,Spanish Fork,78.1%,36956,Utah
+42.5083482,-89.03177649999999,,Point,Beloit,2.9%,36888,Wisconsin
+30.1588129,-85.6602058,,Point,Panama City,0.1%,36877,Florida
