@@ -1,4 +1,4 @@
-from flask import Flask, render_template, redirect, url_for, jsonify
+from flask import Flask, render_template, redirect, url_for, jsonify, Response
 from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy.sql import func
 import models
@@ -6,9 +6,11 @@ import forms
 import censusgeocode as cg
 from geopy.geocoders import Nominatim
 from geopy.distance import vincenty
+import json
 
-
-
+class mydict(dict):
+        def __str__(self):
+            return json.dumps(self)
 
 app = Flask(__name__)
 app.secret_key = 's3cr3t'
@@ -292,9 +294,11 @@ def get_data(distance, latitude, longitude):
         data.get('geographic_mobility')['diff_house_other']+=row.diff_house_other
 
 
-    data.get('perCapIncome')['per_capita_income_past_year'] = totalIncome/len(idList)
+    data.get('perCapIncome')['per_capita_income_past_year'] = int(totalIncome/len(idList))
 
-    return jsonify(data)
+   # dataString = Response(json.dumps(data))+'"'#, mimetype='application/json'))
+    data2 = mydict(data)
+    return 'apiCallback('+str(data2)+');'
 
 @app.route('/race/<state>/<county>')
 def get_race_info(state, county):
