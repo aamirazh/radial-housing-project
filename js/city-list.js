@@ -1003,18 +1003,53 @@ Panama City,Florida
 
 var data = $.csv.toArrays(csv);
 
-function display() {
-    var state = '';
-    ul = document.getElementById("myUL");
-    li = ul.getElementsByTagName('li');
-    for (var i = 0; i < data.length; i++) {
+function makeUL() {
+    // Create the list element:
+    // var list = document.createElement('ul id="myUL"');
+    var ul = document.getElementById("myUL");
+    // var list = document.createElement('ul');
+    for(var i = 0; i < data.length; i++) {
+        // Create the list item:
+        var item = document.createElement('li');
+        var a = document.createElement('a');
+
+
         var content = '';
         content += data[i][0] + "&nbsp ";
-        a = li[i].getElementsByTagName("a")[0];
         a.innerHTML = content;
+
+        item.appendChild(a);
+
+        // item.onclick = zoomOnClick();
+
+        // Set its contents:
+        ul.appendChild(item);
+
     }
 
-
-    console.log(data);
-
 }
+
+function zoomOnClick() {
+    this.parentElement.removeChild(this);
+};
+
+
+// Add the contents of options[0] to #foo:
+// document.getElementById('myUL').appendChild(makeUL(data));
+
+//
+// function display() {
+//     var state = '';
+//     ul = document.getElementById("myUL");
+//     li = ul.getElementsByTagName('li');
+//     for (var i = 0; i < data.length; i++) {
+//         var content = '';
+//         content += data[i][0] + "&nbsp ";
+//         a = li[i].getElementsByTagName("a")[0];
+//         a.innerHTML = content;
+//     }
+//
+//
+//     console.log(data);
+//
+// }
