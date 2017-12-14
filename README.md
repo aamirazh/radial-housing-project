@@ -1,6 +1,6 @@
 # Mapping Inequality
 
-![overview](/images/overview.jpg)
+![overview](./images/overview.jpg)
 
 ![charts](../blob/master/images/charts.JPG)
 
