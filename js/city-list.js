@@ -1062,6 +1062,7 @@ function makeUL() {
                     lat += Number(data[i][2]);
                     long += Number(data[i][3]);
                     mymap.setView([lat, long], 20.5);
+                    parseData(lat, long);
                     break;
                 }
             }
