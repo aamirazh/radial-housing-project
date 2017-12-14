@@ -178,7 +178,7 @@ def get_data(distance, latitude, longitude):
         row= db.session.query(func.avg(models.PerCapitaIncome2010Dollars.per_capita_income_past_year).label('per_capita_income_past_year'))\
         .filter(models.PerCapitaIncome2010Dollars.gis_id==gis_id).first()
 
-        if type(row.per_capita_income_past_year)!=None:
+        if row.per_capita_income_past_year is not None:
             totalIncome += row.per_capita_income_past_year
 
         #poverty level
