@@ -1,6 +1,6 @@
 # Mapping Inequality
 
-![overview](./images/overview.jpg)
+![overview](https://github.com/kupoko/radial-housing-project/blob/master/images/overview.JPG)
 
 ![charts](../blob/master/images/charts.JPG)
 
