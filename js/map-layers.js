@@ -56,13 +56,12 @@ function zoomToFeature(e) {
 }
 
 function zoomToCity(e) {
-    mymap.setView(e.latlng, 13);
+    mymap.setView(e.latlng, 10);
 }
 
 function zoomToFeature(e) {
     mymap.setView(e.latlng, 13);
 }
-
 
 
 var geojsonMarkerOptions = {
@@ -74,12 +73,15 @@ var geojsonMarkerOptions = {
     fillOpacity: 0.8
 };
 
-
 function onEachFeature(feature, layer) {
+    layer.on('click', function(e){
+        var ourPopup = e.target.feature.properties.name;
+        layer.bindPopup(ourPopup).openPopup(e.latlng);
+    });
     layer.on({
         mouseover: highlightFeature,
         mouseout: resetHighlight,
-        click: zoomToFeature
+       // click: zoomToFeature, 
     });
 }
 
@@ -97,10 +99,10 @@ var n = L.geoJson(cityData, {
     onEachFeature: onEachPoint,
     pointToLayer: function (feature, latlng) {
         var name = feature.properties.city;
-        var marker = L.circleMarker(latlng, geojsonMarkerOptions);
-        marker.bindPopup(name);
+        var marker = L.circleMarker(latlng, geojsonMarkerOptions).bindPopup(name);
         return marker;
     }
 }).addTo(mymap);
+
 
 
