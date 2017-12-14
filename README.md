@@ -8,10 +8,10 @@ Our project allows for the interactive exploration and visualization of demograp
 
 ![raw_data](https://github.com/kupoko/radial-housing-project/blob/master/images/rawdata.JPG)
 
-To set up the database in PostgreSQL:
-Make sure the 13 CSV files are in the same directory as create.sql, load.sql, and setup.sh. In the VM, run setup.sh. 
+## To set up the database in PostgreSQL:
+Make sure the 13 CSV files from census_data_files.zip in the  are in the same directory as create.sql, load.sql, and setup.sh in housingdb. In the VM, run setup.sh. 
 
-Site/API:
+## Site/API:
 Install Flask and SQLAlchemy as described on the course site. Then, install CensusGeocode (https://pypi.python.org/pypi/censusgeocode) and geopy (https://pypi.python.org/pypi/geopy). 
 
 From the FlaskAPI directory, run app.py. 
