@@ -3,7 +3,7 @@ After the last milestone (Milestone 2), we each contributed the following to our
 
 Aamir Azhar: Created endpoint from front-end to API, made project design decisions. Found way to parse JSON into JSONP in order to connect API, and did work setting up both the front and back ends. 
 
-Dania Estrada:
+Dania Estrada: Used Leaflet/html/css to create/display map, created map State and City layers using GeoJson objects, added hihglight/zoom features for states and cities, populated marker popups with city/state names, edited final report. 
 
 Stephanie Ding: Built search functionality (html/css/js) and connected it to the data parser/d3 pie display and map zoom feature. Used bootstrap and jquery to build front-end layout including hide/show feature of the search bar and the pie charts.
 
