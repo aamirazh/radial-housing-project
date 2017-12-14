@@ -82,6 +82,7 @@ function parseData(lat, long){
                         console.log(key +": "+ json["geographic_mobility"][key]);
                         geographic_mobility[key]=json["geographic_mobility"][key];
                     }
+                    $('#pieChart').empty();
                     var racePie = new d3pie("pieChart", {
                         "header": {
                             "title": {
