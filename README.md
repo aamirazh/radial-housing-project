@@ -2,9 +2,9 @@
 
 ![overview](https://github.com/kupoko/radial-housing-project/blob/master/images/overview.JPG)
 
-![charts](../blob/master/images/charts.JPG)
+![charts](https://github.com/kupoko/radial-housing-project/blob/master/images/charts.JPG)
 
-![raw_data](../blob/master/images/rawdata.jpg)
+![raw_data](https://github.com/kupoko/radial-housing-project/blob/master/images/rawdata.JPG)
 
 To set up the database in PostgreSQL:
 Make sure the 13 CSV files are in the same directory as create.sql, load.sql, and setup.sh. In the VM, run setup.sh. 
