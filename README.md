@@ -1,10 +1,10 @@
 # Mapping Inequality
 
-![overview](radial-housing=project/images/overview.jpg)
+![overview](/images/overview.jpg)
 
-![charts](radial-housing-project/images/charts.jpg)
+![charts](../images/charts.jpg)
 
-![raw_data](radial-housing-project/images/rawdata.jpg)
+![raw_data](../images/rawdata.jpg)
 
 To set up the database in PostgreSQL:
 Make sure the 13 CSV files are in the same directory as create.sql, load.sql, and setup.sh. In the VM, run setup.sh. 
