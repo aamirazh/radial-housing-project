@@ -47,22 +47,26 @@ function resetHighlight(e) {
     geojson.resetStyle(e.target);
 }
 
+function resetHighlight(e) {
+    geojson.resetStyle(e.target);
+}
+
 function zoomToFeature(e) {
     mymap.flyToBounds(e.target.getBounds());
 }
 
+function zoomToCity(e) {
+    mymap.setView(e.latlng, 13);
+}
 
-var pt2= {
-    radius: 2,
-    fillColor: "red",
-    color: "#000",
-    weight: 1,
-    opacity: 1,
-    fillOpacity: 1
-};
+function zoomToFeature(e) {
+    mymap.setView(e.latlng, 13);
+}
+
+
 
 var geojsonMarkerOptions = {
-    radius: 6,
+    radius: 4.5,
     fillColor: "white",
     color: "#000",
     weight: 1,
@@ -79,9 +83,20 @@ function onEachFeature(feature, layer) {
     });
 }
 
-geojson = L.geoJson(statesData, {style: style, onEachFeature: onEachFeature}).addTo(mymap);
+function onEachPoint(feature, layer) {
+    layer.on({
+        mouseover: highlightFeature,
+        mouseout: resetHighlight,
+        click: zoomToCity
+    });
+}
+
+var geojson = L.geoJson(statesData, {style: style, onEachFeature: onEachFeature}).addTo(mymap);
+
+
 
 var n = L.geoJson(cityData, {
+    onEachFeature: onEachPoint,
     pointToLayer: function (feature, latlng) {
         var name = feature.properties.city;
         var marker = L.circleMarker(latlng, geojsonMarkerOptions);
@@ -90,8 +105,4 @@ var n = L.geoJson(cityData, {
     }
 }).addTo(mymap);
 
-var n = L.geoJson(cityData, {
-    pointToLayer: function (feature, latlng) {
-        return L.circleMarker(latlng, pt2);
-    }
-}).addTo(mymap);
+
