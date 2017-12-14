@@ -1,0 +1,13 @@
+All members conducted research and compiled relevant data/resources throughout the semester.
+
+Aamir Azhar: 
+
+Dania Estrada:
+
+Stephanie Ding:
+
+Alex Yang: Compiled data CSV files and set up Postgres database. Set up Flask API and handled database queries, and helped connect API to front end and parsing of JSON. Used geopy to determine latitude and longitude of individual block groups, helped with JS work.
+
+Haozhang Jiang: Discovered and parsed data from censusgeocode to match tract results to individual blockgroups. Assisted with API setup and writing final report.
+
+Rayan Tofique: Wrote final report and contributed to API setup.
