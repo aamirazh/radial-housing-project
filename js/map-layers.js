@@ -57,6 +57,8 @@ function zoomToFeature(e) {
 
 function zoomToCity(e) {
     mymap.setView(e.latlng, 10);
+    console.log(e.latlng);
+    parseData(e.latlng["lat"],e.latlng["lng"]);
     hideList();
 }
 
