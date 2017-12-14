@@ -1,10 +1,10 @@
 # Mapping Inequality
 
-![overview](/tree/master/images/overview.jpg)
+![overview](/blob/master/images/overview.jpg)
 
-![charts](../tree/master/images/charts.jpg)
+![charts](../blob/master/images/charts.JPG)
 
-![raw_data](../tree/master/images/rawdata.jpg)
+![raw_data](../blob/master/images/rawdata.jpg)
 
 To set up the database in PostgreSQL:
 Make sure the 13 CSV files are in the same directory as create.sql, load.sql, and setup.sh. In the VM, run setup.sh. 
