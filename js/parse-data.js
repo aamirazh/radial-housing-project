@@ -402,12 +402,12 @@ function parseData(lat, long){
                             "content": [
                                 {
                                     "label": "Native ",
-                                    "value": 123771,
+                                    "value": citizenship["native_total"],
                                     "color": "#2383c1"
                                 },
                                 {
                                     "label": "Non-Native",
-                                    "value": 24682,
+                                    "value": citizenship["foreign_born_total"],
                                     "color": "#64a61f"
                                 }
                             ]
@@ -483,47 +483,47 @@ function parseData(lat, long){
                             "content": [
                                 {
                                     "label": "Under 10 Minutes",
-                                    "value": 7796,
+                                    "value": transpoTime["under10"],
                                     "color": "#2383c1"
                                 },
                                 {
                                     "label": "10-14 Minutes",
-                                    "value": 9977,
+                                    "value": transpoTime["_10to14"],
                                     "color": "#64a61f"
                                 },
                                 {
                                     "label": "15-19 Minutes",
-                                    "value": 13699,
+                                    "value": transpoTime["_15to19"],
                                     "color": "#7b6788"
                                 },
                                 {
                                     "label": "20-24 Minutes",
-                                    "value": 12571,
+                                    "value": transpoTime["_20to24"],
                                     "color": "#a05c56"
                                 },
                                 {
                                     "label": "25-29 Minutes",
-                                    "value": 4999,
+                                    "value": transpoTime["_25to29"],
                                     "color": "#961919"
                                 },
                                 {
                                     "label": "30-34 Minutes",
-                                    "value": 10486,
+                                    "value": transpoTime["_30to34"],
                                     "color": "#d8d239"
                                 },
                                 {
                                     "label": "35-44 Minutes",
-                                    "value": 3648,
+                                    "value": transpoTime["_35to44"],
                                     "color": "#e98125"
                                 },
                                 {
                                     "label": "45-59 Minutes",
-                                    "value": 3318,
+                                    "value": transpoTime["_45to49"],
                                     "color": "#d0743c"
                                 },
                                 {
                                     "label": "60+ Minutes",
-                                    "value": 9977,
+                                    "value": transpoTime["_60plus"],
                                     "color": "#635122"
                                 }
                             ]
@@ -600,12 +600,12 @@ function parseData(lat, long){
                             "content": [
                                 {
                                     "label": "Male",
-                                    "value": 74516,
+                                    "value": sex["male"],
                                     "color": "#2383c1"
                                 },
                                 {
                                     "label": "Female",
-                                    "value": 82311,
+                                    "value": sex["female"],
                                     "color": "#64a61f"
                                 }
                             ]
@@ -682,17 +682,17 @@ function parseData(lat, long){
                             "content": [
                                 {
                                     "label": "Family Household",
-                                    "value": 36670,
+                                    "value": household_type["family_households"],
                                     "color": "#2383c1"
                                 },
                                 {
                                     "label": "Alone",
-                                    "value": 18500,
+                                    "value": household_type["nonfamily_alone"],
                                     "color": "#64a61f"
                                 },
                                 {
                                     "label": "Roommate",
-                                    "value": 4826,
+                                    "value": household_type["nonfamily_roommate"],
                                     "color": "#7b6788"
                                 }
                             ]
@@ -769,27 +769,27 @@ function parseData(lat, long){
                             "content": [
                                 {
                                     "label": "Same House",
-                                    "value": 113059,
+                                    "value": geographic_mobility["same_house"],
                                     "color": "#2383c1"
                                 },
                                 {
                                     "label": "Same Metro Area",
-                                    "value": 21626,
+                                    "value": geographic_mobility["diff_house_same_metro"],
                                     "color": "#64a61f"
                                 },
                                 {
                                     "label": "Different Metro Area",
-                                    "value": 8676,
+                                    "value": geographic_mobility["diff_house_diff_metro"],
                                     "color": "#7b6788"
                                 },
                                 {
                                     "label": "Different Micro Area",
-                                    "value": 1110,
+                                    "value": geographic_mobility["diff_house_micropolitan_area"],
                                     "color": "#a05c56"
                                 },
                                 {
                                     "label": "Other Area",
-                                    "value": 420,
+                                    "value": geographic_mobility["diff_house_other"],
                                     "color": "#961919"
                                 }
                             ]
