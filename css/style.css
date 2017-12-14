@@ -44,6 +44,11 @@
     overflow: auto;
 }
 
+#pieChart {
+    height: 500px;
+    overflow: auto;
+}
+
 #myUL li a {
     border: 1px solid #ddd; /* Add a border to all links */
 
