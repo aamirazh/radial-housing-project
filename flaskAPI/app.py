@@ -297,7 +297,7 @@ def get_data(distance, latitude, longitude):
         data.get('geographic_mobility')['diff_house_micropolitan_area']+=row.diff_house_micropolitan_area
         data.get('geographic_mobility')['diff_house_other']+=row.diff_house_other
 
-    if len(idList!=0):
+    if len(idList)!=0:
         data.get('perCapIncome')['per_capita_income_past_year'] = int(totalIncome/len(idList))
 
    # dataString = Response(json.dumps(data))+'"'#, mimetype='application/json'))
