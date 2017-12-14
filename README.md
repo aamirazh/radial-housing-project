@@ -1,5 +1,7 @@
 # Mapping Inequality
 
+Our project allows for the interactive exploration and visualization of demographic data of American cities. Select a city of interest to reveal its statistical makeup. 
+
 ![overview](https://github.com/kupoko/radial-housing-project/blob/master/images/overview.JPG)
 
 ![charts](https://github.com/kupoko/radial-housing-project/blob/master/images/charts.JPG)
