@@ -57,6 +57,7 @@ function zoomToFeature(e) {
 
 function zoomToCity(e) {
     mymap.setView(e.latlng, 10);
+    hideList();
 }
 
 function zoomToFeature(e) {
@@ -81,7 +82,7 @@ function onEachFeature(feature, layer) {
     layer.on({
         mouseover: highlightFeature,
         mouseout: resetHighlight,
-       // click: zoomToFeature, 
+       // click: zoomToFeature,
     });
 }
 
@@ -93,8 +94,6 @@ function onEachPoint(feature, layer) {
 
 var geojson = L.geoJson(statesData, {style: style, onEachFeature: onEachFeature}).addTo(mymap);
 
-
-
 var n = L.geoJson(cityData, {
     onEachFeature: onEachPoint,
     pointToLayer: function (feature, latlng) {
@@ -105,4 +104,18 @@ var n = L.geoJson(cityData, {
 }).addTo(mymap);
 
 
+function hideList() {
+    var list = document.getElementById("myUL");
+    var x = 1;
+    // if(obj.style.display == "block") {
+    //     obj.style.display = "none";
+    //     var x = 0;
+    // }
+    list.style.display = "none";
 
+    var data = document.getElementById("data");
+    data.style.display = "block";
+
+    // else
+    //     obj.style.display = "block";
+};

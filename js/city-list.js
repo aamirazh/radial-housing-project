@@ -1005,6 +1005,7 @@ data.sort();
 function makeUL() {
     // Create the list element:
     // var list = document.createElement('ul id="myUL"');
+
     var ul = document.getElementById("myUL");
     // var list = document.createElement('ul');
     for(var i = 0; i < data.length; i++) {
@@ -1018,20 +1019,27 @@ function makeUL() {
         a.innerHTML = content;
 
         item.appendChild(a);
-
         // item.onclick = zoomOnClick();
-
         // Set its contents:
         ul.appendChild(item);
+        // item.onclick = hideList();
 
     }
-
+    // var li = document.getElementsByTagName("li");
 }
+
 
 function zoomOnClick() {
     this.parentElement.removeChild(this);
 };
 
+// function ShowList(){
+//     var obj = document.getElementById("myUL");
+//     if(obj.style.display == "block")
+//             obj.style.display = "none";
+//     else
+//             obj.style.display = "block";
+// };
 
 // Add the contents of options[0] to #foo:
 // document.getElementById('myUL').appendChild(makeUL(data));
