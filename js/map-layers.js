@@ -68,7 +68,7 @@ function zoomToFeature(e) {
 var geojsonMarkerOptions = {
     radius: 4.5,
     fillColor: "white",
-    color: "#000",
+    color: "red",
     weight: 1,
     opacity: 1,
     fillOpacity: 0.8
@@ -85,8 +85,6 @@ function onEachFeature(feature, layer) {
 
 function onEachPoint(feature, layer) {
     layer.on({
-        mouseover: highlightFeature,
-        mouseout: resetHighlight,
         click: zoomToCity
     });
 }
