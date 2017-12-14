@@ -70,6 +70,7 @@ def get_blkgrps(latitude, longitude):
 #the data dictionary which holds aggregated results from the db
 def intialize_data():
     data = {
+    'empty': False,
     'race':{
     'total':0,
     'white':0,
@@ -153,6 +154,8 @@ def get_data(distance, latitude, longitude):
     data = intialize_data()
     totalIncome = 0
     idList = distances.get(distance)
+    if len(idList)==0:
+        data['empty'] = True
     for gis_id in idList:
         #race
         row = db.session.query(func.sum(models.race.total).label('total'), func.sum(models.race.white_alone).label('white'),\
