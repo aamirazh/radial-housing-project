@@ -64,7 +64,7 @@ def get_blkgrps(latitude, longitude):
             for listElem in tract_coord.get(entry).get('gis_id'):
                 distances['overTwenty'].append(listElem)
             #distances['overTwenty'].append(tract_coord.get(entry).get('gis_id'))
-    
+
     return distances
 
 #the data dictionary which holds aggregated results from the db
@@ -90,7 +90,7 @@ def intialize_data():
     'onepoint85toonepoint99':0,
     'over2':0
     },
-   
+
     'publicAssistanceHouseholds':{
     'total':0,
     'with_assistance':0,
@@ -186,7 +186,7 @@ def get_data(distance, latitude, longitude):
         func.sum(models.income_povertylvl_ratio._1point5_to_1point84).label('onepoint5to1point84'),\
         func.sum(models.income_povertylvl_ratio._1point85_to_1point99).label('onepoint85toonepoint99'),\
         func.sum(models.income_povertylvl_ratio._2andover).label('over2'))\
-        .filter(models.income_povertylvl_ratio.gis_id==gis_id).first()        
+        .filter(models.income_povertylvl_ratio.gis_id==gis_id).first()
 
         data.get('povertyLvl')['total']+=row.total
         data.get('povertyLvl')['under0point5']+=row.under0point5
@@ -197,7 +197,7 @@ def get_data(distance, latitude, longitude):
         data.get('povertyLvl')['onepoint85toonepoint99']+=row.onepoint85toonepoint99
         data.get('povertyLvl')['over2']+=row.over2
 
-      
+
 
         #public assistance households
         row = db.session.query(func.sum(models.PublicAssistanceIncomeHouseholds.total).label('total'),\
@@ -273,7 +273,7 @@ def get_data(distance, latitude, longitude):
         data.get('household_type')['family_households']+=row.family_households
         data.get('household_type')['nonfamily_household_total']+=row.nonfamily_household_total
         data.get('household_type')['nonfamily_alone']+=row.nonfamily_alone
-        data.get('household_type')['nonfamily_roommate']+=row.nonfamily_roommate        
+        data.get('household_type')['nonfamily_roommate']+=row.nonfamily_roommate
 
         #geographic mobility in last year
         row = db.session.query(models.geographical_mobility_in_last_year.total.label('total'),\
@@ -353,10 +353,10 @@ def get_poverty_info(state, county):
 def get_avgincome(state, county):
     row= db.session.query(func.avg(models.PerCapitaIncome2010Dollars.per_capita_income_past_year).label('per_capita_income_past_year'))\
     .filter(models.PerCapitaIncome2010Dollars.state==state, models.PerCapitaIncome2010Dollars.county==county).first()
-    
+
     #row = db.session.query(models.race).first()
     ids={
-        
+
         'per_capita_income_past_year' : float(row.per_capita_income_past_year)
     }
     return jsonify(ids)
@@ -369,10 +369,10 @@ def get_ids(latitude, longitude):
     row= db.session.query(func.sum(models.race.total).label('total'), func.sum(models.race.white_alone).label('white'),\
         func.sum(models.race.black_africanamerican_alone).label('black'))\
     .filter(models.race.state==state, models.race.county==county).first()
- 
+
     #row = db.session.query(models.race).first()
     ids={
-        
+
         'total' : row.total,
         'white' : row.white,
         'black' : row.black

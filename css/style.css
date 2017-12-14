@@ -1,9 +1,10 @@
 .container {
-  margin: 20px;
+    margin-top: 30px;
+
 }
 
 #mapid{
-    height: 500px
+    height: 500px;
 }
 
 #myInput {
@@ -14,20 +15,25 @@
     font-size: 16px; /* Increase font-size */
     padding: 12px 20px 12px 40px; /* Add some padding */
     border: 1px solid #ddd; /* Add a grey border */
+    border-radius: 5px;
     margin-bottom: 12px; /* Add some space below the input */
 }
 
 #myUL {
     /* Remove default list styling */
     list-style-type: none;
+    border-radius: 5px;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
     padding: 0;
-    margin: 0;
+    margin: 0px;
     height: 500px;
     overflow: auto;
 }
 
 #myUL li a {
     border: 1px solid #ddd; /* Add a border to all links */
+
     margin-top: -1px; /* Prevent double borders */
     background-color: #f6f6f6; /* Grey background color */
     padding: 12px; /* Add some padding */

@@ -31,7 +31,6 @@
 
 
 <body>
-
     <script type="text/javascript">
         console.log("Going to call getJSON");
             $.ajax({
@@ -49,19 +48,17 @@
                     console.log(e);
                 }
         })
-            // $.getJSON("http://127.0.0.1:5000/underFive/35.8032/-78.5661", function(data) {
-            //     console.log("dgdsgs");
-            //     console.log(data);
-            //     console.log("haaaoaeoeo");
-            // });
         console.log("Successfully called.");
     </script>
 
     <div class="container">
         <div class="row">
-            <div class="col-md-8">HELLO</div>
+            <div class="col-md-8">
+                <p>
+                </p>
+            </div>
             <div class="col-md-4">
-                <input type="text" id="myInput" onkeyup="search()" placeholder="Search for names..">
+                <input type="text" id="myInput" onkeyup="search()" placeholder="Search for cities..">
             </div>
         </div>
 

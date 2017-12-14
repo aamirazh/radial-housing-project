@@ -1001,7 +1001,7 @@ Panama City,Florida
 `;
 
 var data = $.csv.toArrays(csv);
-
+data.sort();
 function makeUL() {
     // Create the list element:
     // var list = document.createElement('ul id="myUL"');
@@ -1014,7 +1014,7 @@ function makeUL() {
 
 
         var content = '';
-        content += data[i][0] + "&nbsp ";
+        content += data[i][0] + ", " + data[i][1] + "&nbsp ";
         a.innerHTML = content;
 
         item.appendChild(a);
