@@ -192,7 +192,7 @@ function parseData(lat, long){
                                 "font": "open sans"
                             },
                             "subtitle": {
-                                "text": "The distribution of the population in relation to how close they are to the poverty level",
+                                "text": "The ratio of income to poverty level",
                                 "color": "#999999",
                                 "fontSize": 12,
                                 "font": "open sans"
