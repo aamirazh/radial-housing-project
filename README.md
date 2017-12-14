@@ -17,4 +17,4 @@ Make sure the 13 CSV files from census_data_files.zip in the  are in the same di
 Install Flask and SQLAlchemy as described on the [course site](https://sites.duke.edu/compsci316_01_f2017/help/flask/) . Then, install [CensusGeocode](https://pypi.python.org/pypi/censusgeocode) and [geopy](https://pypi.python.org/pypi/geopy).
 
 From the FlaskAPI directory, run app.py.  
-To launch the webpage, open index.html (from the "html" folder) in a browser.
+To launch the webpage, open index.html (from the "html" folder) in a browser. Make sure that your CSS, html, and js folders are all in in the same folder.
