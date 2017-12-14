@@ -16,14 +16,4 @@ function search() {
         }
     }
 
-    showList();
-
-}
-
-function showList() {
-    var list = document.getElementById("myUL");
-    list.style.display = "block";
-
-    var data = document.getElementById("data");
-    data.style.display = "none";
 }

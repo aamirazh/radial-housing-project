@@ -103,6 +103,13 @@ var n = L.geoJson(cityData, {
     }
 }).addTo(mymap);
 
+function showList() {
+    var list = document.getElementById("myUL");
+    list.style.display = "block";
+
+    var data = document.getElementById("data");
+    data.style.display = "none";
+}
 
 function hideList() {
     var list = document.getElementById("myUL");

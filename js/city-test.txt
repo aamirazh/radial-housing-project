@@ -1,3 +1,0 @@
-city,state
-alabama,no
-new york,no

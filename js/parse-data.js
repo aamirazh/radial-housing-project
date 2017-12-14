@@ -1,4 +1,3 @@
-<script type="text/javascript">
     console.log("Going to call getJSON");
     //var dataJson;
         $.ajax({
@@ -82,5 +81,3 @@
     )
     //console.log(dataJson);
     console.log("Successfully called.");
-
-</script>
