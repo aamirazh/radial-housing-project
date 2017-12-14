@@ -11,7 +11,7 @@ Our project allows for the interactive exploration and visualization of demograp
 ## To set up the database in PostgreSQL:
 Our leafletJS front-end passes location coordinates to the Flask/SQLAlchemy API, which queries our database.
 
-Make sure the 13 CSV files from census_data_files.zip in the  are in the same directory as create.sql, load.sql, and setup.sh in housingdb. In the VM, run setup.sh.
+Make sure the 13 CSV files from census_data_files.zip in the are in the same directory as create.sql, load.sql, and setup.sh in housingdb. In the VM, run setup.sh.
 
 ## Site/API:
 Install Flask and SQLAlchemy as described on the [course site](https://sites.duke.edu/compsci316_01_f2017/help/flask/) . Then, install [CensusGeocode](https://pypi.python.org/pypi/censusgeocode) and [geopy](https://pypi.python.org/pypi/geopy).

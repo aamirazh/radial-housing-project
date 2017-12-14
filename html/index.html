@@ -45,8 +45,13 @@ function apiCallback(apiCall){
     <div class="container">
         <div class="row">
             <div class="col-md-8">
-                <p>
-                </p>
+                <div id="title">
+                    <center>
+                        <p>
+                            MAPPING INEQUALITY
+                        </p>
+                    </center>
+                </div>
             </div>
             <div class="col-md-4">
                 <input type="text" id="myInput" onkeyup="search()" onclick="showList()" placeholder="Search for cities..">
@@ -67,33 +72,13 @@ function apiCallback(apiCall){
                         makeUL();
                     </script>
                 </ul>
-                <!-- AAMIR AND ALEX PUT UR STUFF IN THIS DIV HERE! > -->
 
                 <div id="data" style="display: none;">
                     <div id="pieChart">
                         <script src="../js/parse-data.js"></script>
-
                     </div>
-
                 </div>
-
-                <!--  woohoo  -->
-
             </div>
-            <!-- <div class="col-md-4" >
-                <!-- <button onclick="hideList()"></button> -->
-                <!-- <script type="" src="../js/city-list.js"></script>
-                <ul id="myUL">
-                    <script type="text/javascript">
-                        makeUL();
-                    </script>
-                </ul>
-            </div>  -->
-        </div>
-        <div class="row">
-            <!-- <p id="demo"></p> -->
-
-
         </div>
      </div>
 </body>

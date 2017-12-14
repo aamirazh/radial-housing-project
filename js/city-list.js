@@ -1053,11 +1053,12 @@ function makeUL() {
         $(document).click(function(event) {
             text = $(event.target).text();
             city = text.split(",")[0];
-            console.log(city);
+            state = text.split(" ")[1];
+            console.log(state);
             var lat = 0;
             var long = 0;
             for (var i = 0; i < data.length; i++) {
-                if (city == data[i][0]){
+                if (city == data[i][0] && state == data[i][1]){
                     console.log(data[i][0]);
                     lat += Number(data[i][2]);
                     long += Number(data[i][3]);
