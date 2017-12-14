@@ -1,13 +1,13 @@
 All members conducted research and compiled relevant data/resources throughout the semester.
 After the last milestone (Milestone 2), we each contributed the following to our project:
 
-Aamir Azhar: Created endpoint from front-end to API, helped
+Aamir Azhar: Created endpoint from front-end to API, made project design decisions. Found way to parse JSON into JSONP in order to connect API, and did work setting up both the front and back ends. 
 
 Dania Estrada:
 
 Stephanie Ding: Built search functionality (html/css/js) and connected it to the data parser/d3 pie display and map zoom feature. Used bootstrap and jquery to build front-end layout including hide/show feature of the search bar and the pie charts.
 
-Alex Yang: Compiled data CSV files and set up Postgres database. Set up Flask API and handled database queries, and helped connect API to front end and parsing of JSON. Used geopy to determine latitude and longitude of individual block groups, helped with JS work.
+Alex Yang: Compiled data CSV files and set up Postgres database. Set up Flask API and handled database queries, and helped connect API to front end and parsing of JSON. Used geopy to determine latitude and longitude of individual block groups, helped with JS work, especially creation of the pie charts. 
 
 Haozhang Jiang: Discovered and parsed data from censusgeocode to match tract results to individual blockgroups. Assisted with API setup and writing final report.
 
