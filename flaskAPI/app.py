@@ -178,7 +178,8 @@ def get_data(distance, latitude, longitude):
         row= db.session.query(func.avg(models.PerCapitaIncome2010Dollars.per_capita_income_past_year).label('per_capita_income_past_year'))\
         .filter(models.PerCapitaIncome2010Dollars.gis_id==gis_id).first()
 
-        totalIncome += row.per_capita_income_past_year
+        if type(row.per_capita_income_past_year)!=None:
+            totalIncome += row.per_capita_income_past_year
 
         #poverty level
         row= db.session.query(func.sum(models.income_povertylvl_ratio.total).label('total'),\
@@ -296,8 +297,8 @@ def get_data(distance, latitude, longitude):
         data.get('geographic_mobility')['diff_house_micropolitan_area']+=row.diff_house_micropolitan_area
         data.get('geographic_mobility')['diff_house_other']+=row.diff_house_other
 
-
-    data.get('perCapIncome')['per_capita_income_past_year'] = int(totalIncome/len(idList))
+    if len(idList!=0):
+        data.get('perCapIncome')['per_capita_income_past_year'] = int(totalIncome/len(idList))
 
    # dataString = Response(json.dumps(data))+'"'#, mimetype='application/json'))
     data2 = mydict(data)
