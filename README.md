@@ -4,6 +4,8 @@ Our project allows for the interactive exploration and visualization of demograp
 
 ![overview](https://github.com/kupoko/radial-housing-project/blob/master/images/overview.JPG)
 
+![radii](https://github.com/kupoko/radial-housing-project/blob/master/images/radii.png)
+
 ![charts](https://github.com/kupoko/radial-housing-project/blob/master/images/charts.JPG)
 
 ![raw_data](https://github.com/kupoko/radial-housing-project/blob/master/images/rawdata.JPG)
